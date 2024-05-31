@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Grabby_Two.Custom_Render" 
+             xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Grabby_Two.View.TabbedPages.HomePage">
+    <ContentPage.Content>
+       
+            <Grid   Grid.RowDefinitions="Auto, Auto">
+
+
+                <Grid  Grid.Row="0"
+            BackgroundColor="{DynamicResource PrimaryBrandColor}">
+                    <StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Welcome Back" Style="{DynamicResource label1a}"/>
+                            <ImageButton Margin="0, 20, 20, 0" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Source="Notification.png"/>
+
+                        </StackLayout>
+                        <Label Text="Joan" FontAttributes="Bold" Margin="20, 0" Style="{DynamicResource label1a}"/>
+
+                    </StackLayout>
+                </Grid>
+                <StackLayout Margin="5,70,0,20" Grid.Row="0">
+                    <StackLayout Margin="10, 10, 0, 0" Orientation="Horizontal" >
+                        <StackLayout>
+                            <ImageButton x:Name="fashion" Style="{DynamicResource imageclicks}" Clicked="fashion_Clicked"
+                                         Source="fashion.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Fashion"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="food.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Food"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="babyproducts.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Baby Products"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="electronic.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Electronics"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="beauty.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Beauty"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                    <StackLayout Margin="10, 10, 0, 0"  Orientation="Horizontal" >
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="phone_assesories.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Phones and Accessories"/>
+                        </StackLayout>
+
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="gaming.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Gaming"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="furniture.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Furniture"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="computers.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Computers"/>
+                        </StackLayout>
+                        <StackLayout>
+                            <ImageButton Style="{DynamicResource imageclicks}" Source="beauty.png"/>
+                            <Label Style="{DynamicResource label1b}"  Text="More"/>
+                        </StackLayout>
+                    </StackLayout>
+
+                </StackLayout>
+            <ScrollView Grid.Row="1" Orientation="Vertical">
+                <StackLayout Grid.Row="1" Margin="15,10,15,0">
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Top Brands" HorizontalOptions="Start" FontSize="16" Style="{DynamicResource headlabel3}"/>
+                        <Label HorizontalOptions="EndAndExpand" TextColor="{DynamicResource PrimaryBrandColor}"
+    Text="See all"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Row="1" Margin="0, 10" Orientation="Horizontal">
+                        <local:DesignerCard IconSource="Adidas.png" Text="Adidas"/>
+                        <local:DesignerCard IconSource="Nike.png" Text="Nike"/>
+                        <local:DesignerCard IconSource="fendi.png" Text="Fendi"/>
+                    </StackLayout>
+                    <Label FontSize="18" Margin="5,5" FontAttributes="Bold" Text="Recommended For You"/>
+                    <StackLayout Margin="0,10,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                        <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
+                    </StackLayout>
+
+                    <StackLayout  Margin="0,10,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                        <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
+                    </StackLayout>
+
+                    <StackLayout  Margin="0,10,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                        <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+        </Grid>
+    
+    </ContentPage.Content>
+</ContentPage>

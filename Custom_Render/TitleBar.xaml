@@ -1,0 +1,21 @@
+<!-- TitleBar.xaml -->
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.TitleBar">
+    <ContentView.Content>
+        <Grid>
+            <Image Source="backdesign.png" Aspect="AspectFill" />
+            <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal">
+                <StackLayout Margin="20,30,0,10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="StartAndExpand">
+                    <ImageButton Margin="0,3,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitearrow.png" Clicked="OnBackButtonClicked"/>
+                    <Label x:Name="titleLabel" Style="{DynamicResource label1b}" Text="{Binding Title}" FontSize="18" VerticalOptions="Start" />
+                </StackLayout>
+                <StackLayout Margin="0,30, 20, 10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="EndAndExpand">
+                    <ImageButton x:Name="searchButton" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="Cartt.png"
+                                 Clicked="OnSearchButtonClicked"/>
+                    <ImageButton x:Name="cartButton" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="Whitesearch.png" Clicked="OnCartButtonClicked"/>
+                </StackLayout>
+            </StackLayout>
+        </Grid>
+    </ContentView.Content>
+</ContentView>

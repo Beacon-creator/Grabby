@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.MerchantCard">
+    <ContentView.Content>
+        <Frame WidthRequest="300"  CornerRadius="10" Padding="0"
+              BackgroundColor="{Binding BackgroundColor}">
+            <Grid>
+                <Image x:Name="backgroundImage"
+                       Aspect="AspectFill"
+                       Source="{Binding IconSource}"
+                       VerticalOptions="FillAndExpand"
+                       HorizontalOptions="Start" />
+
+                <StackLayout VerticalOptions="Start" Margin="0,30,15,0">
+                    <Label x:Name="LabelTexts"
+                           Text="{Binding LabelText}"
+                           HorizontalOptions="End"
+                           TextColor="{Binding LabelColor}"
+                           FontSize="18" />
+                    <Button x:Name="actionButton"
+                            TextColor="{Binding ButtonTextColor}"
+                            BackgroundColor="{Binding ButtonBackgroundColor}"
+                            Text="{Binding ButtonText}"
+                            Clicked="OnActionButtonClicked"
+                            VerticalOptions="End"
+                            Margin="0,30,0,0"
+                            Padding="0"
+                            HeightRequest="35"
+                            HorizontalOptions="End" />
+                </StackLayout>
+            </Grid>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

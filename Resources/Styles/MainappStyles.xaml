@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Resources.Styles.MainappStyles">
+
+
+    <Style x:Key="baseStyle" TargetType="Label">
+        <Setter Property="HorizontalTextAlignment" Value="Center" />
+        <Setter Property="VerticalTextAlignment" Value="Center" />
+        <Setter Property="FontSize" Value="Micro" />
+        <Setter Property="FontAttributes" Value="None" />
+    </Style>
+
+    <Style x:Key="emailverifyStyle" TargetType="Label" BasedOn="{StaticResource baseStyle}">
+        <Setter Property="TextColor" Value="#F44336" />
+        <Setter Property="Text" Value="Enter a valid email" />
+    </Style>
+
+    <Style x:Key="passwordverifyStyle" TargetType="Label" BasedOn="{StaticResource baseStyle}">
+        <Setter Property="TextColor" Value="#F44336" />
+        <Setter Property="Text" Value="Password should have 1 Capital Letter, 1 Small Letter, 1 number, 1 Symbol" />
+    </Style>
+
+    <Style x:Key="confirmPasswordStyle" TargetType="Label" BasedOn="{StaticResource baseStyle}">
+        <Setter Property="TextColor" Value="#F44336" />
+        <Setter Property="Text" Value="Password and Confirm Password do not match." />
+    </Style>
+    
+
+
+    <!--Labels-->
+    
+    
+    <Style x:Key="headlabel1" TargetType="{x:Type Label}">
+        <Setter Property="TextColor" Value="{DynamicResource ProTextColor}"/>
+        <Setter Property="FontSize" Value="Title"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+        <Setter Property="Margin" Value="0,10,0,10"/>
+    </Style>
+
+
+    <Style x:Key="headlabel2" TargetType="{x:Type Label}">
+        <Setter Property="TextColor" Value="{DynamicResource PrimaryBrandColor}"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+    </Style>
+
+
+    <Style x:Key="headlabel3" TargetType="{x:Type Label}">
+        <Setter Property="TextColor" Value="{DynamicResource PrimaryBackgroundColor2}"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand" />
+    </Style>
+
+    <Style x:Key="headlabel4" TargetType="{x:Type Label}">
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryBackgroundColor2}"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="LineBreakMode" Value="WordWrap"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
+
+    </Style>
+
+    <Style x:Key="SigninupLabel" TargetType="Label">
+        <Setter Property="FontSize"
+                            Value="17" />
+        <Setter Property="FontAttributes"
+                            Value="Bold" />
+        <Setter Property="HorizontalOptions"
+                            Value="End" />
+        <Setter Property="Margin"
+                            Value="0,5,15,0" />
+    </Style>
+
+    <Style x:Key="Titlelabel" TargetType="Label">
+        <Setter Property="FontSize"
+                            Value="14" />
+        <Setter Property="VerticalOptions"
+                            Value="Center" />
+        <Setter Property="HorizontalOptions"
+                            Value="Center" />
+         
+    </Style>
+
+    <Style x:Key="fclabel" TargetType="Label">
+        <Setter Property="TextColor"
+                            Value="{DynamicResource ProTextColor}" />
+        <Setter Property="FontSize"
+                            Value="35" />
+        <Setter Property="FontAttributes"
+                            Value="Bold" />
+        <Setter Property="Margin"
+                            Value="10,15,0,0" />
+    </Style>
+
+    <Style x:Key="label1" TargetType="Label">
+        <Setter Property="TextColor"
+                            Value="{DynamicResource PrimaryBrandColor}" />
+        <Setter Property="FontSize"
+                            Value="18" />
+        <Setter Property="FontFamily"
+             Value="Lato" />
+        <Setter Property="HorizontalOptions"
+                            Value="Center" />
+        
+    </Style>
+
+    <Style x:Key="label2" TargetType="Label">
+        <Setter Property="TextColor"
+                         Value="{DynamicResource SecondaryBackgroundColor2}" />
+        <Setter Property="FontSize"
+                         Value="12" />
+        <Setter Property="FontFamily"
+                   Value="Lato" />
+        <Setter Property="HorizontalOptions"
+                         Value="Center" />
+    </Style>
+    <!--end Labels-->
+   
+
+    <!--start entry-->
+    <Style x:Key="InvalidStyle" TargetType="Entry">
+        <Setter Property="TextColor" Value="Red" />
+    </Style>
+
+
+    <Style x:Key="verifyE" TargetType="{x:Type Entry}">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+        <Setter Property="VerticalTextAlignment" Value="Start"/>
+        <Setter Property="Keyboard" Value="Numeric"/>
+        <Setter Property="MaxLength" Value="1"/>
+        <Setter Property="WidthRequest" Value="30"/>
+        <Setter Property="HeightRequest" Value="25"/>
+    </Style>
+
+
+    <!--end entry-->
+    
+    <!-- start button-->
+    <Style x:Key="InvalidClick" TargetType="Button">
+        <Setter Property="TextColor" Value="Yellow"/>
+    </Style>
+
+    <Style x:Key="entranceButtons" TargetType="Button">
+        <Setter Property="TextColor" Value="{DynamicResource MastersTextColor}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="TextTransform" Value="None"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryBrandColor}"/>
+        <Setter Property="HeightRequest" Value="52"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <Style x:Key="otherbuttons" TargetType="Button">
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryBrandColor}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+        <Setter Property="TextTransform" Value="None"/>
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontFamily" Value="Lato"/>
+        <Setter Property="BorderWidth" Value="1.5"/>
+        <Setter Property="BorderColor" Value="{DynamicResource PrimaryBrandColor}"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}"/>
+        <Setter Property="HeightRequest" Value="52"/>
+        <Setter Property="WidthRequest" Value="350"/>
+    </Style>
+
+    <!--start checkbox-->
+    <Style x:Key="InvalidCheck" TargetType="CheckBox">
+        <Setter Property="Color"
+                            Value="Red" />
+    </Style>
+
+    <Style x:Key="TandCBox" TargetType="CheckBox">
+        <Setter Property="IsEnabled"
+                            Value="True" />
+        <Setter Property="Margin"
+                            Value="15,0,0,0" />
+
+    </Style>
+
+
+    <!--end checkbox-->
+
+    <!--start image-->
+    <Style x:Key="TitleImage" TargetType="Image">
+        <Setter Property="WidthRequest"
+                            Value="100" />
+        <Setter Property="HeightRequest"
+                            Value="50" />
+        <Setter Property="HorizontalOptions"
+                            Value="Center" />
+
+    </Style>
+
+
+    <Style x:Key="logoimage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="Grabbylogo2.png"/>
+        <Setter Property="Margin" Value="0,30,0,0"/>
+        <Setter Property="WidthRequest" Value="100"/>
+        <Setter Property="HeightRequest" Value="80"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+     
+    </Style>
+
+    <Style x:Key="walimage" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="Grabbylogo2.png"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="walimagered" TargetType="{x:Type Image}">
+        <Setter Property="Source" Value="walletred.png"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="WidthRequest" Value="80"/>
+        <Setter Property="HeightRequest" Value="80"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+    </Style>
+    <!--end image-->
+
+    <Style x:Key="verifyF" TargetType="{x:Type Frame}">
+        <Setter Property="WidthRequest" Value="30"/>
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="BorderColor" Value="{DynamicResource PrimaryBackgroundColor}"/>
+    </Style>
+
+
+<!-- imagebutton -->
+    <Style x:Key="Backbutton" TargetType="{x:Type ImageButton}">
+        <Setter Property="Source" Value="backicon.png"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Start"/>
+        <Setter Property="BackgroundColor" Value="Transparent"/>
+    </Style>
+
+    <Style x:Key="eyebutton" TargetType="{x:Type ImageButton}">
+        <Setter Property="Margin" Value="0,0,15,0"/>
+        <Setter Property="HeightRequest" Value="30"/>
+        <Setter Property="HorizontalOptions" Value="End"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="fnicon" TargetType="{x:Type ImageButton}">
+        <Setter Property="Margin" Value="0,0,5,0"/>
+        <Setter Property="HeightRequest" Value="25"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}"/>
+        <Setter Property="HorizontalOptions" Value="Start"/>
+        <Setter Property="VerticalOptions" Value="Center"/>
+    </Style>
+
+    <Style x:Key="StackLay" TargetType="{x:Type StackLayout}">
+        <Setter Property="Margin" Value="0,150,0,0"/>
+        <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+        <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+        <Setter Property="Orientation" Value="Horizontal"/>
+    </Style>
+</ResourceDictionary>

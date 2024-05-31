@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Grabby_Two.View.GetStartedPage">
+   
+    <ContentPage.Content>
+        <StackLayout>
+            <AbsoluteLayout VerticalOptions="CenterAndExpand" Margin="0,50,0,0"
+                            HorizontalOptions="CenterAndExpand">
+                <Image Source="Ellipse1.png" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" />
+                <Image Source="Frame3.png" 
+                       AbsoluteLayout.LayoutBounds="-1.0,2.5,280,250" AbsoluteLayout.LayoutFlags="PositionProportional" />
+            </AbsoluteLayout>
+
+            <StackLayout Margin="0,0,0,30">
+
+                <Label Text="Order Tracking" Style="{DynamicResource headlabel2}"
+                 Margin="0,0,0,10" />
+
+                <Label Margin="30,0,30,50" Style="{DynamicResource headlabel4}"
+                Text="Grabby supports GPS tracking to keep track of your order status for delivery to the accurate address"/>
+
+            </StackLayout>
+            <Button x:Name="getStartedBut" Text="Get Started" Style="{DynamicResource entranceButtons}"
+                Clicked="getStartedBut_Clicked"
+                Margin="20,0,20,50"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

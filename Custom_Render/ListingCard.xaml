@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.ListingCard">
+    <ContentView.Content>
+        <Frame x:Name="cardFrame"
+               BackgroundColor="Transparent"
+               CornerRadius="10"
+               HasShadow="True"
+               Padding="0"
+               Margin="5"
+               WidthRequest="165"
+               HeightRequest="162">
+            <AbsoluteLayout>
+                <Image x:Name="backgroundImage"
+                       Aspect="AspectFill"
+                       AbsoluteLayout.LayoutFlags="All"
+                       AbsoluteLayout.LayoutBounds="0,0,1,1" />
+                <!-- Overlaying BoxView for shadow effect -->
+                <BoxView  Color="#80000000" 
+                    AbsoluteLayout.LayoutFlags="All"
+                         AbsoluteLayout.LayoutBounds="0,1,1,0.25"/>
+                    <StackLayout Orientation="Horizontal" Margin="0,0,0,10"
+                             HorizontalOptions="Center"
+                             AbsoluteLayout.LayoutFlags="PositionProportional"
+                             AbsoluteLayout.LayoutBounds="0.5,1,-1,-1">
+                        <Label x:Name="productName"
+                           TextColor="White"
+                           FontSize="14"
+                           HorizontalOptions="Center" />
+                        <ImageButton x:Name="imgbut" Source="star.png"
+                                 BackgroundColor="Transparent"/>
+                        <Label x:Name="ratingText"
+                           TextColor="White"
+                           FontSize="14"
+                           HorizontalOptions="Center" />
+                    </StackLayout>
+            </AbsoluteLayout>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

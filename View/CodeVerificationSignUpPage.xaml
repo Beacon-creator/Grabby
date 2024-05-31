@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Grabby_Two.View.CodeVerificationSignUpPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton Margin="20,40,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}"
+                    Source="backarrowicon"/>
+
+                <Label Text="Verification" Margin="0,40,30,0"
+                       Style="{DynamicResource headlabel3}"/>
+            </StackLayout>
+
+            <Label Text="Enter the 6-digit activation code sent to .com" Margin="20,40,30,0"
+                   Style="{DynamicResource headlabel4}"/>
+
+
+            <StackLayout Orientation="Horizontal" Margin="20,30,20,0" HorizontalOptions="StartAndExpand">
+                 <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry1" Style="{DynamicResource verifyE}"  />
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry2" Style="{DynamicResource verifyE}"  />
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry3" Style="{DynamicResource verifyE}"  />
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry4" Style="{DynamicResource verifyE}"  />
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry5" Style="{DynamicResource verifyE}"  />
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntry6" Style="{DynamicResource verifyE}"  /> 
+                </Frame>
+
+
+            
+
+            </StackLayout>
+
+            <Entry x:Name="txtName" Placeholder="Email" TextChanged="ValidateEmail"/>
+            <Entry x:Name="userEmailEntry" Placeholder="Email" />
+            <Button x:Name="requestcode" 
+                Text="check" Style="{DynamicResource entranceButtons}"
+                Clicked="requestcode_Clicked" Margin="20,40,20,0" />
+
+            <Entry Placeholder="code" x:Name="VerificationCodeEntry"/>
+            <Button x:Name="verifybut" 
+                 Text="Verify the code" Style="{DynamicResource entranceButtons}"
+                 Clicked="verifybut_Clicked" Margin="20,40,20,0" />
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

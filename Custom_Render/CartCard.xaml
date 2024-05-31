@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.CartCard">
+    <ContentView.Content>
+        <Frame BackgroundColor="{DynamicResource Purewhite}" HasShadow="True" CornerRadius="8">
+
+            <Grid Margin="0" Grid.RowDefinitions="Auto, 1, Auto ">
+                <Grid Margin="0, 0, 0,10" Grid.Row="0" Grid.ColumnDefinitions="Auto, Auto ">
+                    <!-- Upper Row: Background Image -->
+                    <Image Margin="5,0" Grid.Column="0" HeightRequest="110" WidthRequest="100"
+                  Source="{Binding BackgroundImageSource}" Aspect="AspectFill" />
+
+                    <!-- Lower Row: Product Name and Price -->
+                    <Grid Margin="5,0,0,0" Grid.Column="1">
+
+                        <StackLayout VerticalOptions="StartAndExpand">
+
+                            <Label Text="{Binding ProductName}" 
+                                  FontSize="16" />
+                            <Label Text="{Binding Size}" FontSize="14" Margin="0,0,0,0"
+                            HorizontalOptions="Start" />
+
+                            <Label Text="{Binding Price}" FontSize="16" Margin="0,0,0,0"
+                           FontAttributes="Bold" HorizontalOptions="Start" />
+                        </StackLayout>
+                    </Grid>
+                </Grid>
+
+                <BoxView Grid.Row="1"  WidthRequest="1" HeightRequest="1" BackgroundColor="#dfdfdf"/>
+
+
+                    <StackLayout Margin="0,10,0,5" Grid.Row="2" Orientation="Horizontal" Spacing="75" VerticalOptions="EndAndExpand">
+                        <StackLayout Spacing="20" Orientation="Horizontal">
+                            <ImageButton x:Name="DeleteButton" BackgroundColor="{DynamicResource MastersBackgroundColor2}" Source="Delete.png"/>
+                            <Label x:Name="DeleteLabel" TextColor="{DynamicResource ProothercColor2}" Text="Delete" FontSize="18" Margin="0,4,0,0"
+                           FontAttributes="Bold" HorizontalOptions="Start" >
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnDeleteLabelClicked" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+
+
+                            <StackLayout Spacing="15" VerticalOptions="CenterAndExpand" Margin="0,0,10,0" HorizontalOptions="EndAndExpand" Orientation="Horizontal">
+                                <!-- Decrement Button -->
+                                <ImageButton x:Name="DecrementButton" BackgroundColor="{DynamicResource MastersBackgroundColor2}" Source="minus.png" Clicked="OnDecrementClicked"/>
+                                <!-- Number Label -->
+                                <Label x:Name="NumberLabel" FontSize="18" Text="{Binding Quantity}" TextColor="{DynamicResource PrimaryBrandColor}"  Margin="0,3,0,0" FontAttributes="Bold" HorizontalOptions="Start" />
+                                <!-- Increment Button -->
+                                <ImageButton x:Name="IncrementButton" BackgroundColor="{DynamicResource MastersBackgroundColor2}" Source="plus.png" Clicked="OnIncrementClicked"/>
+                            </StackLayout>
+
+
+                    </StackLayout>
+
+                </Grid>
+
+        </Frame>
+
+    </ContentView.Content>
+</ContentView>

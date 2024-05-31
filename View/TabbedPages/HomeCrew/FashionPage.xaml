@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:local="clr-namespace:Grabby_Two.Custom_Render"  
+             NavigationPage.HasNavigationBar="False"
+             x:Class="Grabby_Two.View.TabbedPages.HomeCrew.FashionPage">
+    <ContentPage.Content>
+        <Grid Grid.RowDefinitions="auto, Auto">
+            <Grid Grid.Row="0">
+                <Image Source="backdesign.png" Aspect="AspectFill" />
+                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" >
+                    <StackLayout Margin="15,30,0,10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="StartAndExpand">
+                        <ImageButton x:Name="back" Margin="0,3,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}" Clicked="back_Clicked" Source="whitearrow.png"/>
+                        <Label Style="{DynamicResource label1b}" FontSize="18" VerticalOptions="Start" Text="Fashion"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,30, 20, 10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="EndAndExpand">
+                        <ImageButton x:Name="search" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitesearch.png" Clicked="search_Clicked"/>
+                        <ImageButton x:Name="cart" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="cartt.png" Clicked="cart_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+            <ScrollView  Grid.Row="1">
+                <StackLayout Margin="20, 0"  Grid.Row="1">
+                    <StackLayout  Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle1.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle2.png"
+                                           ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle3.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle4.png" ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle5.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle6.png" ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+
+                    <StackLayout Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                        <local:ListingCard BackgroundImageSource="Rectangle7.png" ProductName="Product Name"  RatingText="4.5/5" />
+                    </StackLayout>
+                </StackLayout>
+            </ScrollView>
+         
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,223 @@
+is_global = true
+build_property.TargetFramework = net8.0-windows10.0.19041.0
+build_property.TargetPlatformMinVersion = 10.0.17763.0
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 9A19103F-16F7-4668-BE54-9A1E7A4F7556
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Grabby_Two
+build_property.ProjectDir = C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/CartCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.CartCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\CartCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\CartCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/DescriptionCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.DescriptionCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\DescriptionCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\DescriptionCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/DesignerCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.DesignerCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\DesignerCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\DesignerCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/DetailsCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.DetailsCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\DetailsCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\DetailsCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/FullCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.FullCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\FullCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\FullCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/ImageTextButton.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.ImageTextButton.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\ImageTextButton.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\ImageTextButton.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/ItemsCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.ItemsCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\ItemsCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\ItemsCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/ListingCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.ListingCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\ListingCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\ListingCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/MerchantCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.MerchantCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\MerchantCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\MerchantCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/ProductCard.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.ProductCard.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\ProductCard.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\ProductCard.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Custom_Render/TitleBar.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Custom_Render.TitleBar.xaml
+build_metadata.AdditionalFiles.TargetPath = Custom_Render\TitleBar.xaml
+build_metadata.AdditionalFiles.RelativePath = Custom_Render\TitleBar.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Resources/Styles/ColorStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Resources.Styles.ColorStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\ColorStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\ColorStyles.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Resources/Styles/MainappStyles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Resources.Styles.MainappStyles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\MainappStyles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\MainappStyles.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/AccountPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.AccountPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AccountPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AccountPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CartPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/CodeVerificationSignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.CodeVerificationSignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\CodeVerificationSignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\CodeVerificationSignUpPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/GetStartedPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.GetStartedPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\GetStartedPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\GetStartedPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomePage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/HomeScreen.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.HomeScreen.xaml
+build_metadata.AdditionalFiles.TargetPath = View\HomeScreen.xaml
+build_metadata.AdditionalFiles.RelativePath = View\HomeScreen.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/SignInPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.SignInPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SignInPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SignInPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/SignUpPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.SignUpPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\SignUpPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\SignUpPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/StartPages.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.StartPages.xaml
+build_metadata.AdditionalFiles.TargetPath = View\StartPages.xaml
+build_metadata.AdditionalFiles.RelativePath = View\StartPages.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/AccountPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.AccountPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\AccountPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\AccountPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/CartPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.CartPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\CartPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\CartPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomeCrew/FashionPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.HomeCrew.FashionPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\HomeCrew\FashionPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\HomeCrew\FashionPage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomeCrew/FashionStores/FashionStore1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.HomeCrew.FashionStores.FashionStore1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\HomeCrew\FashionStores\FashionStore1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\HomeCrew\FashionStores\FashionStore1.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomeCrew/FashionStores/ProductDetails1.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.HomeCrew.FashionStores.ProductDetails1.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\HomeCrew\FashionStores\ProductDetails1.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\HomeCrew\FashionStores\ProductDetails1.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomeCrew/StoreInformation.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.HomeCrew.StoreInformation.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\HomeCrew\StoreInformation.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\HomeCrew\StoreInformation.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.HomePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\HomePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\HomePage.xaml
+
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/SearchPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.TabbedPages.SearchPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\SearchPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\SearchPage.xaml

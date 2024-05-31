@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Grabby_Two.View.TabbedPages"
+             xmlns:android="clr-namespace:Microsoft.Maui.Controls.PlatformConfiguration.AndroidSpecific;assembly=Microsoft.Maui.Controls"
+             x:Class="Grabby_Two.View.HomeScreen"
+             NavigationPage.HasNavigationBar="False"
+             BarBackgroundColor="Transparent"           
+             SelectedTabColor="{DynamicResource PrimaryBrandColor}"
+             UnselectedTabColor="{DynamicResource PrimaryBackgroundColor2}">
+    
+    <TabbedPage.Children>
+        <local:HomePage IconImageSource="Home">
+            <local:HomePage.Title>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="Android" Value="Home" />
+                </OnPlatform>
+            </local:HomePage.Title>
+        </local:HomePage>
+
+        <local:SearchPage IconImageSource="Search">
+            <local:SearchPage.Title>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="Android" Value="Search" />
+                </OnPlatform>
+            </local:SearchPage.Title>
+        </local:SearchPage>
+
+        <local:CartPage IconImageSource="Cart.png">
+            <local:CartPage.Title>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="Android" Value="Cart" />
+                </OnPlatform>
+            </local:CartPage.Title>
+        </local:CartPage>
+
+        <local:AccountPage IconImageSource="Account.png">
+            <local:AccountPage.Title>
+                <OnPlatform x:TypeArguments="x:String">
+                    <On Platform="Android" Value="Account" />
+                </OnPlatform>
+            </local:AccountPage.Title>
+        </local:AccountPage>
+    </TabbedPage.Children>
+
+    <!-- Customizing the tabbed page for Android -->
+    <android:TabbedPage.ToolbarPlacement>
+        <OnPlatform x:TypeArguments="android:ToolbarPlacement">
+            <On Platform="Android" Value="Bottom" />
+        </OnPlatform>
+    </android:TabbedPage.ToolbarPlacement>
+</TabbedPage>

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Grabby_Two.Custom_Render"
+                  NavigationPage.HasNavigationBar="False"
+             xmlns:converters="clr-namespace:Grabby_Two.Model"
+             x:Class="Grabby_Two.View.TabbedPages.HomeCrew.FashionStores.FashionStore1">
+
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <converters:IndicatorConverter x:Key="IndicatorConverter" />
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+
+    <ContentPage.Content>
+        <Grid Grid.RowDefinitions="70, Auto, 230, auto">
+            <Grid Grid.Row="0">
+                <Image Source="backdesign.png" Aspect="AspectFill" />
+                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" >
+                    <StackLayout Margin="20,30,0,10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="StartAndExpand">
+                        <ImageButton Margin="0,3,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitearrow.png"/>
+                        <Label Style="{DynamicResource label1b}" FontSize="18" VerticalOptions="Start" Text="Yomi Casuals"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,30, 20, 10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="EndAndExpand">
+                        <ImageButton BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitesearch.png"/>
+                        <ImageButton BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="cartt.png"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+            <Grid Grid.Row="1" Grid.RowDefinitions="180, 20">
+                <ScrollView HorizontalScrollBarVisibility="Never" Orientation="Horizontal" x:Name="merchantCardsScrollView">
+                    <StackLayout x:Name="merchantCardsStack" Margin="15, 10" Spacing="20" Orientation="Horizontal">
+
+                        <local:MerchantCard IconSource="PicA.png"
+                                            LabelText="Yomi Elements of Style"
+                                            LabelColor="White"
+                                            BackgroundColor="Firebrick"
+                                            ButtonText="Shop Now"
+                                            ButtonBackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                            ButtonTextColor="{DynamicResource PrimaryBrandColor}"
+                                            ActionButtonClicked="OnActionButtonClicked"/>
+
+                        <local:MerchantCard IconSource="PicA.png"
+                                            LabelText="Yomi Elements of Style"
+                                            LabelColor="White"                                        
+                                            BackgroundColor="Gold"
+                                            ButtonText="Shop Now"
+                                            ButtonBackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                            ButtonTextColor="{DynamicResource PrimaryBrandColor}"
+                                            ActionButtonClicked="OnActionButtonClicked"/>
+
+                        <local:MerchantCard IconSource="PicA.png"
+                                            LabelText="Yomi Elements of Style"                                 
+                                            LabelColor="White"
+                                            BackgroundColor="Firebrick"
+                                            ButtonText="Shop Now"
+                                            ButtonBackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                            ButtonTextColor="{DynamicResource PrimaryBrandColor}"
+                                            ActionButtonClicked="OnActionButtonClicked"/>
+
+                    </StackLayout>
+                </ScrollView>
+
+
+                <!-- Indicators -->
+                <StackLayout Grid.Row="1" Orientation="Horizontal" HorizontalOptions="Center">
+                    <BoxView BackgroundColor="{Binding Source={x:Reference merchantCardsStack}, Path=Children.Count, Converter={StaticResource IndicatorConverter}, ConverterParameter=0}" Style="{DynamicResource IndicatorStyle}" />
+                    <BoxView BackgroundColor="{Binding Source={x:Reference merchantCardsStack}, Path=Children.Count, Converter={StaticResource IndicatorConverter}, ConverterParameter=1}" Style="{DynamicResource IndicatorStyle}" />
+                    <BoxView BackgroundColor="{Binding Source={x:Reference merchantCardsStack}, Path=Children.Count, Converter={StaticResource IndicatorConverter}, ConverterParameter=2}" Style="{DynamicResource IndicatorStyle}" />
+                </StackLayout>
+            </Grid>
+
+            <Grid Margin="15, 5" Grid.Row="2">
+                <ScrollView HorizontalScrollBarVisibility="Never" Orientation="Horizontal">
+                    <StackLayout Orientation="Vertical">
+                        <Label Margin="0,5" FontAttributes="Bold" FontSize="18"  VerticalOptions="Start" 
+            Text="Top Deals"/>
+                        <StackLayout Spacing="20" Orientation="Horizontal">
+                            <local:ItemsCard BackgroundImageSource="Rectangle121.png"
+              ProductName="Your Name"  WidthRequest="180"
+              Price="$10" />
+                            <local:ItemsCard BackgroundImageSource="Rectangle121.png"
+              ProductName="Yomi classic"
+              Price="$10"  HeightRequest="140" WidthRequest="180" />
+                            <local:ItemsCard BackgroundImageSource="Rectangle121.png"
+              ProductName="Your Product Name"
+              Price="$10"  HeightRequest="140" WidthRequest="180" />
+                        </StackLayout>
+
+                    </StackLayout>
+                </ScrollView>
+               
+                
+            </Grid>
+
+            <Grid Margin="15, 0" Grid.Row="3">
+
+                <StackLayout>
+                    <StackLayout Margin="0,5" Orientation="Horizontal">
+                        <Label FontAttributes="Bold" FontSize="18" VerticalOptions="Start" Text="Most Popular"/>
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                            <Image VerticalOptions="StartAndExpand" Margin="0,2"
+                                WidthRequest="18" HeightRequest="18" Source="Filter.png"/>
+                            <Label TextColor="{DynamicResource PrimaryBrandColor}" FontSize="16"  Text="Filter">
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="OnLabelClicked" />
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </StackLayout>
+
+                    </StackLayout>
+
+
+                    <ScrollView VerticalScrollBarVisibility="Never" Orientation="Vertical">
+                        <StackLayout Spacing="20" Orientation="Vertical">
+                            <local:FullCard
+    BackgroundImageSource="Rectangle120.png"
+    ProductName="Yomi Casual Trendy Men's Shirt"
+    Price="$10"
+    Rating="4.5"
+    ButtonTextColor="{DynamicResource MastersTextColor}"
+    ButtonBackgroundColor="{DynamicResource PrimaryBrandColor}"
+    ButtonText="Buy Now" />
+
+                            <local:FullCard
+    BackgroundImageSource="Rectangle120.png"
+    ProductName="Product 2"
+    Price="$10"
+    Rating="4.5"
+    ButtonTextColor="{DynamicResource MastersTextColor}"
+    ButtonBackgroundColor="{DynamicResource PrimaryBrandColor}"
+    ButtonText="Buy Now" />
+
+
+                        </StackLayout>
+                    </ScrollView>
+                </StackLayout>
+
+            </Grid>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

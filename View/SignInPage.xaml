@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             NavigationPage.HasNavigationBar="False"
+             xmlns:local1="clr-namespace:Grabby_Two.Custom_Render" 
+             xmlns:local="clr-namespace:Grabby_Two.Model"
+             x:Class="Grabby_Two.View.SignInPage">
+    <ContentPage.Content>
+        <Grid RowDefinitions="Auto,Auto, *">
+
+
+            <Image Style="{DynamicResource logoimage}"/>
+
+            <StackLayout Margin="0,25,0,0"
+           Grid.Row="1">
+
+                <Label Text="Welcome Back" 
+                  Style="{DynamicResource label1}"/>
+
+                <Label Text="Sign in to continue" 
+                  Style="{DynamicResource label2}"/>
+
+                <StackLayout Margin="20,35,20,0">
+
+                    <Frame HasShadow="False" BackgroundColor="Transparent" Margin="0,10,0,0"
+                  BorderColor="{DynamicResource TertiaryBackgroundColor2}" CornerRadius="8" Padding="8">
+
+                        <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                            <ImageButton Style="{DynamicResource fnicon}"
+                             Source="mailicon"/>
+                            <local1:BorderlessEntry x:Name="emailaddressEntry"
+                               HorizontalOptions="FillAndExpand"
+                               Placeholder="Enter email address" />
+                        </StackLayout>
+
+                    </Frame>
+
+                    <Frame HasShadow="False" BackgroundColor="Transparent" Margin="0,10,0,0"
+                  BorderColor="{DynamicResource TertiaryBackgroundColor2}" CornerRadius="8" Padding="8">
+
+                        <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                            <ImageButton Style="{DynamicResource fnicon}"
+                   Source="passwordicon"/>
+
+                            <local1:BorderlessEntry x:Name="passwordEntry"
+                             HorizontalOptions="FillAndExpand" 
+                              IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"
+                               Placeholder="Enter password" />
+
+
+                            <ImageButton Style="{DynamicResource eyebutton}"
+                          Source="hideicon">
+                                <ImageButton.Triggers>
+                                    <EventTrigger Event="Clicked">
+                                        <local:ShowPasswordClass ShowIcon="openicon"
+                                       HideIcon="hideicon"
+                                       x:Name="ShowPasswordActualTrigger"/>
+                                    </EventTrigger>
+                                </ImageButton.Triggers>
+                            </ImageButton>
+                        </StackLayout>
+
+                    </Frame>
+
+                </StackLayout>
+
+
+                <Grid Margin="0,5,0,0">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand">
+                        <CheckBox  
+                   x:Name="RememberMecheck" Style="{DynamicResource TandCBox}"
+                   CheckedChanged="RememberMecheck_CheckedChanged"/>
+
+                        <Label FontSize="14" Text="Remember me" LineBreakMode="WordWrap" x:Name="termsLabel" Margin="0,5,0,0"/>
+
+                    </StackLayout>
+
+                    <Label Text="Forgot password?" FontSize="14"
+                         HorizontalOptions="End" Margin="0,5,20,0"
+                        TextColor="{DynamicResource PrimaryBrandColor}" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_ForgotPassword"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+                </Grid>
+
+            </StackLayout>
+
+
+            <StackLayout Margin="0,10,0,0" Orientation="Vertical"
+           Grid.Row="2">
+
+                <Button x:Name="SignInBut" 
+                      Text="Sign In" Style="{DynamicResource entranceButtons}"
+                      Clicked="SignInBut_Clicked" Margin="20,10,20,0" />
+
+                <Button x:Name="googlebut" ImageSource="googleicon.png" 
+                   Text="Continue with Google" Style="{DynamicResource otherbuttons}"
+               Clicked="googlebut_Clicked" Margin="20,20,20,0" />
+
+                <Button x:Name="Facebooksignup" Style="{DynamicResource otherbuttons}" 
+                      Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
+                Margin="20,10,20,10"/>
+
+
+                <StackLayout Margin="0,50,0,0" HorizontalOptions="CenterAndExpand"
+                        Orientation="Horizontal">
+                    <Label Text="Don’t have an account?" Style="{DynamicResource Titlelabel}" />
+                    <Label Text="Create an Account" FontSize="14" 
+                      TextColor="{DynamicResource PrimaryBrandColor}" >
+                        <Label.GestureRecognizers>
+                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Signup"/>
+                        </Label.GestureRecognizers>
+                    </Label>
+
+
+                </StackLayout>
+
+            </StackLayout>
+
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

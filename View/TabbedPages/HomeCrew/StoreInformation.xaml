@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                   NavigationPage.HasNavigationBar="False"
+             x:Class="Grabby_Two.View.TabbedPages.HomeCrew.StoreInformation">
+    <ContentPage.Content>
+        <Grid   Grid.RowDefinitions="Auto, Auto, Auto">
+            <Grid Grid.Row="0">
+                <Image Source="backdesign.png" Aspect="AspectFill" />
+                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" >
+                    <StackLayout Margin="15,30,0,10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="StartAndExpand">
+                        <ImageButton x:Name="back" Margin="0,3,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}" Clicked="back_Clicked" Source="whitearrow.png"/>
+                        <Label Style="{DynamicResource label1b}" FontSize="18" VerticalOptions="Start" Text="Store Information"/>
+                    </StackLayout>
+                    <StackLayout Margin="0,30, 20, 10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="EndAndExpand">
+                        <ImageButton x:Name="search" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitesearch.png" Clicked="search_Clicked"/>
+                        <ImageButton x:Name="cart" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="cartt.png" Clicked="cart_Clicked"/>
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+
+            <ScrollView Grid.Row="1" >
+                <Grid Margin="15,20" Grid.RowDefinitions="Auto, Auto,Auto">
+                    <StackLayout Grid.Row="0">
+                        <Label FontSize="18" TextColor="{DynamicResource PrimaryTextColor}" Text="Description"/>
+
+                    </StackLayout>
+                    <BoxView  Grid.Row="1" HeightRequest="1" Color="#d6d6d6" WidthRequest="1"/>
+                    <Grid Grid.Row="2">
+
+                        <StackLayout>
+                            <Label FontSize="14"  Text="Ratings and Reviews"/>
+                            <BoxView  Grid.Row="1" HeightRequest="1" Color="#d6d6d6" WidthRequest="1"/>
+                        </StackLayout>
+
+                    </Grid>
+
+                </Grid>
+            </ScrollView>
+
+            <StackLayout Grid.Row="2">
+                <StackLayout VerticalOptions="End">
+                    <Grid>
+                        <Button HeightRequest="50" CornerRadius="10" BackgroundColor="{DynamicResource PrimaryBrandColor}"
+                    Margin="15,0,15,10" Clicked="gotoStoreClicked" />
+
+                        <!-- StackLayout to contain both the image icon and the text -->
+                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+
+                            <Label  Text="Go To Store" TextColor="white" VerticalTextAlignment="Center"
+                           VerticalOptions="CenterAndExpand" />
+                        </StackLayout>
+                    </Grid>
+
+                    <Grid>
+                        <Button CornerRadius="10" HeightRequest="50" BorderWidth="1.5" BorderColor="{DynamicResource PrimaryBrandColor}" BackgroundColor="white"
+     Margin="15,0,15,10" Clicked="gotoStoreClicked" />
+
+                        <!-- StackLayout to contain both the image icon and the text -->
+                     
+
+                            <Label HorizontalOptions="Center"  VerticalOptions="CenterAndExpand" HorizontalTextAlignment="Center"
+                                   Text="Write a Review" TextColor="{DynamicResource PrimaryBrandColor}" VerticalTextAlignment="Center" />
+               
+                    </Grid>
+                </StackLayout>
+            </StackLayout>
+          
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.ProductCard">
+    <ContentView.Content>
+        <Frame Margin="5,0,0,0" HeightRequest="182" HasShadow="True"
+               BackgroundColor="{DynamicResource SecondaryBackgroundColor}" CornerRadius="10" Padding="5">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="110" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+
+                <StackLayout HeightRequest="105" Grid.Row="0" Orientation="Horizontal" Spacing="0">
+                    <Image Margin="15,0, 0, 0"  WidthRequest="112" HeightRequest="105" HorizontalOptions="CenterAndExpand" 
+                         Source="{Binding IconSource}" />
+                    <ImageButton WidthRequest="20" HeightRequest="20" Margin="5,5" BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                 VerticalOptions="Start" Source="like.png" HorizontalOptions="End" />
+                </StackLayout>
+
+                <StackLayout Orientation="Vertical" Grid.Row="1">
+                    <Label Text="{Binding TextName}" FontSize="16" HorizontalOptions="StartAndExpand" />
+                    <Label Text="{Binding TextPrice}" FontAttributes="Bold" FontSize="16" HorizontalOptions="StartAndExpand" />
+                </StackLayout>
+            </Grid>
+        </Frame>
+    </ContentView.Content>
+</ContentView>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.Custom_Render.FullCard">
+    <ContentView.Content>
+        <Frame HasShadow="True" CornerRadius="8">
+            <Grid Margin="0" Grid.ColumnDefinitions="Auto, Auto ">
+                <!-- Upper Row: Background Image -->
+                <Image Margin="0" Grid.Column="0" HeightRequest="110" WidthRequest="100"
+                   Source="{Binding BackgroundImageSource}" Aspect="AspectFill" />
+
+                <!-- Lower Row: Product Name and Price -->
+                <Grid Margin="5,0,0,0" Grid.Column="1">
+                    
+                    <StackLayout VerticalOptions="StartAndExpand" BackgroundColor="White">
+                        <StackLayout   HorizontalOptions="StartAndExpand" Orientation="Horizontal">
+                            <Label Text="{Binding ProductName}" 
+                                   FontSize="14" />
+                            <ImageButton Margin="0,0,0,10"
+                                BackgroundColor="{DynamicResource MastersBackgroundColor2}" Source="like.png"/>
+                        </StackLayout>
+
+                        <Label Text="{Binding Price}" FontSize="14" Margin="0,0,0,0"
+                            FontAttributes="Bold" HorizontalOptions="Start" />
+                    </StackLayout>
+
+
+                    <StackLayout Orientation="Horizontal" Spacing="75" VerticalOptions="EndAndExpand">
+                        <StackLayout Spacing="10" Orientation="Horizontal">
+                            <ImageButton BackgroundColor="{DynamicResource MastersBackgroundColor2}" Source="star2.png"/>
+                            <Label Text="{Binding Rating}" FontSize="14" Margin="0,9,0,0"
+                            FontAttributes="Bold" HorizontalOptions="Start" />
+                        </StackLayout>
+
+
+                        <Button x:Name="actionButton"
+                            TextColor="{Binding ButtonTextColor}"
+                             BackgroundColor="{Binding ButtonBackgroundColor}"
+                             Text="{Binding ButtonText}"
+                             Clicked="OnActionButtonClicked"
+                             WidthRequest="90"
+                             HeightRequest="35" CornerRadius="8"
+                             HorizontalOptions="End" />
+                    </StackLayout>
+
+                </Grid>
+               
+            </Grid>
+        </Frame>
+
+    </ContentView.Content>
+</ContentView>
