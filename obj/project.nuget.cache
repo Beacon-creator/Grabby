@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "WXy67TUuuko=",
+  "dgSpecHash": "O/mUD8zVnXA=",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\OneDrive\\Documents\\MobileApps\\Grabby_Two\\Grabby_Two.csproj",
   "expectedPackageFiles": [
@@ -28,6 +28,7 @@
     "C:\\Users\\user\\.nuget\\packages\\microsoft.maui.graphics.win2d.winui.desktop\\8.0.40\\microsoft.maui.graphics.win2d.winui.desktop.8.0.40.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.40\\microsoft.maui.resizetizer.8.0.40.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.net.illink.tasks\\8.0.5\\microsoft.net.illink.tasks.8.0.5.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.platforms\\7.0.4\\microsoft.netcore.platforms.7.0.4.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windows.sdk.buildtools\\10.0.22621.756\\microsoft.windows.sdk.buildtools.10.0.22621.756.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsappsdk\\1.5.240311000\\microsoft.windowsappsdk.1.5.240311000.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\sqlite\\3.13.0\\sqlite.3.13.0.nupkg.sha512",

@@ -1,45 +1,67 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             NavigationPage.HasNavigationBar="False"
              x:Class="Grabby_Two.View.StartPages">
-   <StackLayout>
-      <!-- CarouselView to display images with labels -->
-      <CarouselView x:Name="carouselView" Position="{Binding CurrentCarouselIndex}"
-                 PositionChanged="OnCarouselPositionChanged"  ItemsSource="{Binding CarouselItems}">
-          <CarouselView.ItemTemplate>
-              <DataTemplate>
-                  <StackLayout>
-                      <!-- Image -->
-                      <Image Source="{Binding ImageUrl}"
-                             HorizontalOptions="Center" Margin="0,50,0,0" VerticalOptions="CenterAndExpand" 
-                             Aspect="AspectFit" HeightRequest="350"/>
 
-                      <!-- Labels -->
-                      <Label Text="{Binding Title}" Margin="0,30,0,0" FontSize="Title" HorizontalTextAlignment="Center"
-                             TextColor="Purple"/>
-                      <Label Text="{Binding Description}" Margin="0,10,0,0"  HorizontalOptions="CenterAndExpand" 
-                                 VerticalOptions="CenterAndExpand"
-                                 LineBreakMode="WordWrap"
-                                 TextColor="Black" VerticalTextAlignment="Center"
-                                 FontSize="Medium" HorizontalTextAlignment="Center" />
-                  </StackLayout>
-              </DataTemplate>
-          </CarouselView.ItemTemplate>
-      </CarouselView>
+    <Grid Margin="0,0,0,0" Padding="0,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- CarouselView -->
+            <RowDefinition Height="100" />
+            <!-- Indicator Dots -->
+            <RowDefinition Height="Auto" />
+            <!-- Buttons -->
+        </Grid.RowDefinitions>
 
-      <!-- Indicator Dots -->
-      <StackLayout Margin="0,0,0,50" Orientation="Horizontal" HorizontalOptions="CenterAndExpand">
-          <IndicatorView x:Name="indicatorView" IndicatorColor="Gray" ItemsSource="{Binding CarouselItems}"
-                         SelectedIndicatorColor="Purple"
-                         IndicatorSize="8" Margin="0,10,0,10" />
-      </StackLayout>
+        <!-- CarouselView to display images with labels -->
+        <CarouselView x:Name="carouselView" Position="{Binding CurrentCarouselIndex}"
+                      PositionChanged="OnCarouselPositionChanged" ItemsSource="{Binding CarouselItems}"
+                      Grid.Row="0">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,50,0,0" RowDefinitions="Auto, Auto, Auto">
+                        <!-- Image -->
+                        <Image Source="{Binding ImageUrl}"
+                               HorizontalOptions="Center" Margin="0,0,0,20" VerticalOptions="CenterAndExpand"
+                               Aspect="Center" HeightRequest="350" Grid.Row="0"/>
 
-      <!-- Buttons -->
-      <StackLayout Margin="10,0,0,30" Spacing="180" Orientation="Horizontal">
-          <Button Margin="0,0,0,0"  Text="Skip" Clicked="OnSkipClicked" BackgroundColor="Transparent" HorizontalOptions="Start"/>
-          <Button CornerRadius="10" WidthRequest="100"
-                  Text="Next" Clicked="OnNextClicked" BackgroundColor="Purple" HorizontalOptions="End"/>
-      </StackLayout>
-  </StackLayout>
+                        <!-- Title Label -->
+                        <Label Text="{Binding Title}" Margin="0,70,0,20" FontSize="Title" VerticalOptions="Start"
+                               HorizontalTextAlignment="Center" TextColor="{DynamicResource PrimaryTextBrandColor}" Grid.Row="1"/>
+
+                        <!-- Description Label -->
+                        <Label Text="{Binding Description}" Margin="0,0,0,0" HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand" LineBreakMode="WordWrap"
+                               TextColor="{DynamicResource PrimaryTextColor}" VerticalTextAlignment="Center" WidthRequest="300"
+                               FontSize="Medium" HorizontalTextAlignment="Center" Grid.Row="2"/>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <!-- Indicator Dots -->
+        <StackLayout x:Name="indicatorStack" Margin="0,0,0,0" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="1">
+            <IndicatorView x:Name="indicatorView" IndicatorColor="{DynamicResource MasterBrandColor}" ItemsSource="{Binding CarouselItems}"
+                           SelectedIndicatorColor="{DynamicResource PrimaryBrandColor}" IndicatorSize="10"
+                           Position="{Binding CurrentCarouselIndex, Mode=TwoWay}" />
+        </StackLayout>
+
+        <!-- Buttons -->
+        <StackLayout x:Name="buttonStack" Padding="15,0" Margin="0,0,0,0" Spacing="220" Orientation="Horizontal" HorizontalOptions="CenterAndExpand" Grid.Row="2">
+            <Button x:Name="skipButton" Margin="0,0,0,0" Text="Skip"
+                    Clicked="OnSkipClicked" TextColor="{DynamicResource PrimaryTextBlackColor}" FontSize="Medium"
+                    BackgroundColor="Transparent" HorizontalOptions="Start"/>
+            <Button x:Name="nextButton"  CornerRadius="5" WidthRequest="90" HeightRequest="40"
+                    Text="Next" Clicked="OnNextClicked" BackgroundColor="{DynamicResource PrimaryBrandColor}" HorizontalOptions="End"/>
+        </StackLayout>
+
+
+        <!-- Get Started Button -->
+        <Button x:Name="getStartedButton" Margin="0,20,0,0"  WidthRequest="350" 
+                HeightRequest="55" Text="Get Started" Clicked="OnGetStartedClicked"
+                BackgroundColor="{DynamicResource PrimaryBrandColor}" 
+                TextColor="{DynamicResource MastersTextColor}" FontSize="Medium"
+                IsVisible="False" Grid.Row="2" HorizontalOptions="FillAndExpand"/>
+        
+    </Grid>
 </ContentPage>

@@ -142,12 +142,6 @@ build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.CodeVerifi
 build_metadata.AdditionalFiles.TargetPath = View\CodeVerificationSignUpPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CodeVerificationSignUpPage.xaml
 
-[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/GetStartedPage.xaml]
-build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.GetStartedPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\GetStartedPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\GetStartedPage.xaml
-
 [C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/HomePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Grabby_Two.View.HomePage.xaml

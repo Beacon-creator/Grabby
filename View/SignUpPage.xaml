@@ -7,7 +7,7 @@
              xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
               xmlns:local2="clr-namespace:Grabby_Two.Resources.Styles" >
     <ContentPage.Content>
-        <Grid RowDefinitions="Auto,Auto, *">
+        <Grid Padding="20,0" RowDefinitions="Auto,Auto, *">
 
 
             <Image Style="{DynamicResource logoimage}"/>
@@ -21,12 +21,12 @@
                 <Label Text="Let’s help you get set up" 
                     Style="{DynamicResource label2}"/>
 
-                <StackLayout Margin="20,35,20,0">
+                <StackLayout Margin="0,45,0,0">
 
                     <Frame HasShadow="False" BackgroundColor="Transparent" 
-                           BorderColor="{DynamicResource TertiaryBackgroundColor2}" CornerRadius="8" Padding="8">
+                           BorderColor="{DynamicResource MastersCornerColor}" CornerRadius="8" Padding="8">
 
-                        <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                        <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
                             <ImageButton Style="{DynamicResource fnicon}"
                                         Source="fnicon"/>
                             <local1:BorderlessEntry x:Name="fullnameEntry"
@@ -39,7 +39,7 @@
                     <Frame HasShadow="False" BackgroundColor="Transparent" Margin="0,10,0,0"
                     BorderColor="{DynamicResource TertiaryBackgroundColor2}" CornerRadius="8" Padding="8">
 
-                        <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                        <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
                             <ImageButton Style="{DynamicResource fnicon}"
                      Source="mailicon"/>
                             <local1:BorderlessEntry x:Name="emailaddressEntry"
@@ -57,7 +57,7 @@
                     <Frame HasShadow="False" BackgroundColor="Transparent" Margin="0,10,0,0"
                     BorderColor="{DynamicResource TertiaryBackgroundColor2}" CornerRadius="8" Padding="8">
 
-                        <StackLayout Margin="10,0,0,0" Orientation="Horizontal">
+                        <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
                             <ImageButton Style="{DynamicResource fnicon}"
                      Source="passwordicon"/>
 
@@ -74,7 +74,8 @@
                                  Style="{DynamicResource passwordverifyStyle}" />
 -->
 
-                            <ImageButton Style="{DynamicResource eyebutton}"
+                            <ImageButton 
+                               Margin="10,0,0,0" Style="{DynamicResource eyebutton}"
                             Source="hideicon">
                                 <ImageButton.Triggers>
                                     <EventTrigger Event="Clicked">
@@ -150,23 +151,25 @@
             <StackLayout Margin="0,10,0,0" Orientation="Vertical"
              Grid.Row="2">
 
-                <Button x:Name="createAccountbut" 
-                        Text="Create Account" Style="{DynamicResource entranceButtons}"
-                        Clicked="createAccountbut_Clicked" Margin="20,10,20,0" />
+                <Button x:Name="createAccountbut" WidthRequest="375"
+                        Text="Create Account" FontSize="Medium" Style="{DynamicResource entranceButtons}"
+                        Clicked="createAccountbut_Clicked" Margin="0,10,0,10" />
 
-                <Button x:Name="googlebut" ImageSource="googleicon.png" 
+                <Button x:Name="googlebut" FontSize="Medium" WidthRequest="375"
+                        ImageSource="googleicon.png" 
                      Text="Continue with Google" Style="{DynamicResource otherbuttons}"
-                 Clicked="googlebut_Clicked" Margin="20,20,20,0" />
+                 Clicked="googlebut_Clicked" Margin="0,20,0,0" />
 
-                <Button x:Name="Facebooksignup" Style="{DynamicResource otherbuttons}" 
+                <Button x:Name="Facebooksignup" FontSize="Medium" WidthRequest="375"
+                        Style="{DynamicResource otherbuttons}" 
                         Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
-                  Margin="20,10,20,10"/>
+                  Margin="0,20,0,10"/>
 
 
-                <StackLayout Margin="0,0,0,50" HorizontalOptions="CenterAndExpand"
+                <StackLayout Margin="0,10,0,0" HorizontalOptions="CenterAndExpand"
                           Orientation="Horizontal">
                     <Label Text="Already have an account?" Style="{DynamicResource Titlelabel}" />
-                    <Label Text="Sign in" FontSize="14" 
+                    <Label Text="Sign in" FontSize="14" Margin="5,0,0,0"
                         TextColor="{DynamicResource PrimaryBrandColor}" >
                         <Label.GestureRecognizers>
                             <TapGestureRecognizer Tapped="TapGestureRecognizer_Signin"/>

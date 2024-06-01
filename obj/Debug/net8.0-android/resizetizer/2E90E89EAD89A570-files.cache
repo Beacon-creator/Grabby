@@ -2,12 +2,12 @@
 obj\Debug\net8.0-android\resizetizer\r\drawable\ellipses.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\facebookicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\fnicon.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\fram1e.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\fram2e.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\fram3e.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\frame1.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\frame2.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\frame3.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\googleicon.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\grabby2logo.png
-obj\Debug\net8.0-android\resizetizer\r\drawable\grabby_logos.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\grabbylogo.png
+obj\Debug\net8.0-android\resizetizer\r\drawable\grabbylogo2.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\hideicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\mailicon.png
 obj\Debug\net8.0-android\resizetizer\r\drawable\openicon.png
