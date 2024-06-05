@@ -25,20 +25,20 @@ namespace Grabby_Two.View
 
         }
 
-         private void SignInBut_Clicked(object sender, EventArgs e)
+         private async void SignInBut_Clicked(object sender, EventArgs e)
         {
-      
+          await Navigation.PushAsync(new HomeScreen());
         }
 
-        private void googlebut_Clicked(object sender, EventArgs e)
+        private async void googlebut_Clicked(object sender, EventArgs e)
         {
+            await Navigation.PushAsync(new HomeScreen());
 
-           
         }
 
-        private void Facebooksignup_Clicked(object sender, EventArgs e)
+        private async void Facebooksignup_Clicked(object sender, EventArgs e)
         {
-
+            await Navigation.PushAsync(new HomeScreen());
         }
 
         private void TapGestureRecognizer_Signup(object sender, EventArgs e)

@@ -43,7 +43,8 @@
 		<MauiIcon Include="Resources\AppIcon\appicon.svg" ForegroundFile="Resources\AppIcon\appiconfg.svg" Color="#512BD4" />
 
 		<!-- Splash Screen -->
-		<MauiSplashScreen Include="Resources\Splash\splash.svg" Color="#512BD4" BaseSize="128,128" />
+		<!--<MauiSplashScreen Include="Resources\Raw\splash.svg" Color="#512BD4" BaseSize="128,128" />-->
+		<MauiSplashScreen Include="Resources\Splash\splashgrabby.svg" Color="#7734BA" />
 
 		<!-- Images -->
 		<MauiImage Include="Resources\Images\*" />
@@ -70,20 +71,39 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\Adidas.svg" />
+	  <None Remove="Resources\Images\baby_product.svg" />
 	  <None Remove="Resources\Images\backarrowicon.png" />
+	  <None Remove="Resources\Images\beauty_Icon.svg" />
+	  <None Remove="Resources\Images\computers.svg" />
+	  <None Remove="Resources\Images\dinner.png" />
+	  <None Remove="Resources\Images\electronics_Icon.svg" />
 	  <None Remove="Resources\Images\ellipses.png" />
 	  <None Remove="Resources\Images\facebookicon.png" />
+	  <None Remove="Resources\Images\fashion_Icon.svg" />
+	  <None Remove="Resources\Images\fendi_logo.svg" />
 	  <None Remove="Resources\Images\fnicon.png" />
+	  <None Remove="Resources\Images\food.svg" />
 	  <None Remove="Resources\Images\frame1.png" />
 	  <None Remove="Resources\Images\frame2.png" />
 	  <None Remove="Resources\Images\frame3.png" />
+	  <None Remove="Resources\Images\furnitures.svg" />
+	  <None Remove="Resources\Images\gaming.svg" />
 	  <None Remove="Resources\Images\googleicon.png" />
 	  <None Remove="Resources\Images\grabbylogo.png" />
 	  <None Remove="Resources\Images\grabbylogo2.png" />
 	  <None Remove="Resources\Images\hideicon.png" />
+	  <None Remove="Resources\Images\like.svg" />
 	  <None Remove="Resources\Images\mailicon.png" />
+	  <None Remove="Resources\Images\more.svg" />
+	  <None Remove="Resources\Images\mores.svg" />
+	  <None Remove="Resources\Images\nike.svg" />
+	  <None Remove="Resources\Images\Notification.svg" />
 	  <None Remove="Resources\Images\openicon.png" />
 	  <None Remove="Resources\Images\passwordicon.png" />
+	  <None Remove="Resources\Images\phoneIcon.svg" />
+	  <None Remove="Resources\Images\xiaomi.png" />
+	  <None Remove="Resources\Splash\splashgrabby.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -146,9 +166,6 @@
 	  <MauiXaml Update="View\CodeVerificationSignUpPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\HomePage.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
 	  <MauiXaml Update="View\HomeScreen.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
@@ -185,6 +202,10 @@
 	  <MauiXaml Update="View\TabbedPages\SearchPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Folder Include="Platforms\Android\Handlers\" />
 	</ItemGroup>
 
 </Project>

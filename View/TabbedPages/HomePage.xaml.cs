@@ -18,9 +18,9 @@ namespace Grabby_Two.View.TabbedPages
             InitializeComponent();
         }
 
-        private void fashion_Clicked(object sender, EventArgs e)
+        private async void fashion_Clicked(object sender, EventArgs e)
         {
-            Navigation.PushAsync(new FashionPage());
+            await Navigation.PushAsync(new FashionPage());
         }
     }
 }

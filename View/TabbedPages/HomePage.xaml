@@ -7,98 +7,108 @@
              x:Class="Grabby_Two.View.TabbedPages.HomePage">
     <ContentPage.Content>
        
-            <Grid   Grid.RowDefinitions="Auto, Auto">
+            <Grid  Grid.RowDefinitions="Auto, Auto">
 
-
-                <Grid  Grid.Row="0"
-            BackgroundColor="{DynamicResource PrimaryBrandColor}">
+            <StackLayout Padding="20,10" BackgroundColor="{DynamicResource PrimaryBrandColor}">
+                
+         
+                <Grid Margin="5,0, 0, 20" Grid.Row="0">
                     <StackLayout>
                         <StackLayout Orientation="Horizontal">
-                            <Label Text="Welcome Back" Style="{DynamicResource label1a}"/>
-                            <ImageButton Margin="0, 20, 20, 0" BackgroundColor="Transparent" HorizontalOptions="EndAndExpand" Source="Notification.png"/>
+                        <Label Text="Welcome Back" Style="{DynamicResource homelabel}"/>
+                            <ImageButton Margin="0, 15, 0, 0" BackgroundColor="Transparent" HeightRequest="30"
+                                         HorizontalOptions="EndAndExpand" Source="notification.svg"/>
 
                         </StackLayout>
-                        <Label Text="Joan" FontAttributes="Bold" Margin="20, 0" Style="{DynamicResource label1a}"/>
+                        <Label Text="Joan" FontAttributes="Bold"
+                                Style="{DynamicResource homelabel}"/>
 
                     </StackLayout>
                 </Grid>
-                <StackLayout Margin="5,70,0,20" Grid.Row="0">
-                    <StackLayout Margin="10, 10, 0, 0" Orientation="Horizontal" >
-                        <StackLayout>
-                            <ImageButton x:Name="fashion" Style="{DynamicResource imageclicks}" Clicked="fashion_Clicked"
-                                         Source="fashion.png"/>
-                            <Label Style="{DynamicResource label1b}"  Text="Fashion"/>
+                <Grid Grid.RowDefinitions="Auto, Auto"
+                             Margin="0,0,0,20" Grid.Row="0">
+                    <Grid Grid.Row="0" Grid.ColumnDefinitions="*,*,*,*"
+                                 Margin="0, 10, 0, 0" >
+                        <StackLayout Grid.Column="0">
+                            <ImageButton x:Name="fashion"
+                                         Style="{DynamicResource homeicon}" Clicked="fashion_Clicked"
+                                         Source="fashion_icon.svg"/>
+                            <Label Style="{DynamicResource label1b}" Text="Fashion"/>
                         </StackLayout>
 
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="food.png"/>
+                        <StackLayout Grid.Column="1" >
+                            <ImageButton Style="{DynamicResource homeicon}" Source="food.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="Food"/>
                         </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="babyproducts.png"/>
-                            <Label Style="{DynamicResource label1b}"  Text="Baby Products"/>
-                        </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="electronic.png"/>
+                       
+                        
+                        <StackLayout Grid.Column="2">
+                            <ImageButton Style="{DynamicResource homeicon}" Source="electronics_icon.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="Electronics"/>
                         </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="beauty.png"/>
+                        <StackLayout Grid.Column="3">
+                            <ImageButton Style="{DynamicResource homeicon}" Source="beauty_icon.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="Beauty"/>
                         </StackLayout>
-                    </StackLayout>
+                        
+                    </Grid>
 
-                    <StackLayout Margin="10, 10, 0, 0"  Orientation="Horizontal" >
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="phone_assesories.png"/>
-                            <Label Style="{DynamicResource label1b}"  Text="Phones and Accessories"/>
-                        </StackLayout>
 
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="gaming.png"/>
-                            <Label Style="{DynamicResource label1b}"  Text="Gaming"/>
-                        </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="furniture.png"/>
-                            <Label Style="{DynamicResource label1b}"  Text="Furniture"/>
-                        </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="computers.png"/>
+                    <Grid Grid.Row="1" Grid.ColumnDefinitions="*,*,*,*"
+                          Margin="0, 30, 0, 0"  >
+                        <StackLayout Grid.Column="0">
+                            <ImageButton Style="{DynamicResource homeicon}" Source="computers.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="Computers"/>
                         </StackLayout>
-                        <StackLayout>
-                            <ImageButton Style="{DynamicResource imageclicks}" Source="beauty.png"/>
+
+                        <StackLayout Grid.Column="1">
+                            <ImageButton Style="{DynamicResource homeicon}" Source="gaming.svg"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Gaming"/>
+                        </StackLayout>
+                        <StackLayout  Grid.Column="2">
+                            <ImageButton Style="{DynamicResource homeicon}" Source="furnitures.svg"/>
+                            <Label Style="{DynamicResource label1b}"  Text="Furniture"/>
+                        </StackLayout>
+                        <StackLayout  Grid.Column="3">
+                            <ImageButton Style="{DynamicResource homeicon}" 
+                                         Source="more.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="More"/>
                         </StackLayout>
-                    </StackLayout>
-
-                </StackLayout>
-            <ScrollView Grid.Row="1" Orientation="Vertical">
-                <StackLayout Grid.Row="1" Margin="15,10,15,0">
+                    </Grid>
+                </Grid>
+            </StackLayout>
+                
+                
+                
+                
+            <ScrollView  Grid.Row="1" Orientation="Vertical">
+                <StackLayout Padding="20,0"
+                             Grid.Row="1" Margin="0,30,0,0">
                     <StackLayout Orientation="Horizontal">
-                        <Label Text="Top Brands" HorizontalOptions="Start" FontSize="16" Style="{DynamicResource headlabel3}"/>
-                        <Label HorizontalOptions="EndAndExpand" TextColor="{DynamicResource PrimaryBrandColor}"
-    Text="See all"/>
+                        <Label Text="Top Brands" HorizontalOptions="Start" 
+                               FontSize="18" Style="{DynamicResource headlabel3}"/>
+                        <Label HorizontalOptions="EndAndExpand" FontSize="18"
+                               TextColor="{DynamicResource PrimaryBrandColor}" Text="See all"/>
                     </StackLayout>
 
-                    <StackLayout Grid.Row="1" Margin="0, 10" Orientation="Horizontal">
-                        <local:DesignerCard IconSource="Adidas.png" Text="Adidas"/>
-                        <local:DesignerCard IconSource="Nike.png" Text="Nike"/>
-                        <local:DesignerCard IconSource="fendi.png" Text="Fendi"/>
+                    <StackLayout Spacing="5" Grid.Row="1" Margin="0, 10, 0, 0" Orientation="Horizontal">
+                        <local:DesignerCard IconSource="adidas.svg" Text="Adidas"/>
+                        <local:DesignerCard IconSource="nike.svg" Text="Nike"/>
+                        <local:DesignerCard IconSource="fendi_logo.svg" Text="Fendi"/>
                     </StackLayout>
-                    <Label FontSize="18" Margin="5,5" FontAttributes="Bold" Text="Recommended For You"/>
-                    <StackLayout Margin="0,10,0,0" Orientation="Horizontal">
-                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                    <Label FontSize="Medium" Margin="0, 20, 10, 0" FontAttributes="Bold" Text="Recommended For You"/>
+                    <StackLayout Spacing="10" Margin="0,20,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>
 
-                    <StackLayout  Margin="0,10,0,0" Orientation="Horizontal">
-                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                    <StackLayout  Spacing="10"  Margin="0,20,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>
 
-                    <StackLayout  Margin="0,10,0,0" Orientation="Horizontal">
-                        <local1:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                    <StackLayout  Spacing="10"  Margin="0,10,0,0" Orientation="Horizontal">
+                        <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>
                 </StackLayout>

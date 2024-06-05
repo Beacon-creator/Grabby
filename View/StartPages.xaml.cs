@@ -46,7 +46,7 @@ namespace Grabby_Two.View
             indicatorView.ItemsSource = CarouselItems;
         }
 
-        private async void OnSkipClicked(object sender, EventArgs e)
+        private void OnSkipClicked(object sender, EventArgs e)
         {
             CurrentCarouselIndex = CarouselItems.Count - 1;
             carouselView.Position = CurrentCarouselIndex;

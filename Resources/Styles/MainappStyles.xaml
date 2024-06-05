@@ -81,7 +81,7 @@
 
     <Style x:Key="Titlelabel" TargetType="Label">
         <Setter Property="FontSize"
-                            Value="14" />
+                            Value="16" />
         <Setter Property="VerticalOptions"
                             Value="Center" />
         <Setter Property="HorizontalOptions"
@@ -120,6 +120,30 @@
         <Setter Property="HorizontalOptions"
                          Value="Center" />
     </Style>
+
+    <Style x:Key="homelabel" TargetType="Label">
+        <Setter Property="TextColor"
+                       Value="{DynamicResource MastersTextColor}" />
+        <Setter Property="FontSize"
+                       Value="Medium" />
+        <Setter Property="Margin"
+                       Value="0,0,0,0" />
+        <Setter Property="HorizontalOptions"
+                       Value="Start" />
+        <Setter Property="VerticalOptions"
+                  Value="Center" />
+    </Style>
+
+    <Style x:Key="label1b" TargetType="Label">
+        <Setter Property="TextColor"
+                    Value="{DynamicResource MastersTextColor}" />
+        <Setter Property="FontSize"
+                    Value="16" />
+        <Setter Property="Margin"
+                    Value="0,10,0,0" />
+        <Setter Property="HorizontalOptions" Value="Center"/>
+        <Setter Property="HorizontalTextAlignment" Value="Start"/>
+    </Style>
     <!--end Labels-->
    
 
@@ -143,6 +167,42 @@
     <!--end entry-->
     
     <!-- start button-->
+
+
+    <Style x:Key="HoverButtonStyle" TargetType="Button">
+
+        <Setter Property="TextColor" Value="{DynamicResource SecondaryBrandColor}"/>
+        <Setter Property="CornerRadius" Value="10"/>
+        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+        <Setter Property="TextTransform" Value="None"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontFamily" Value="Lato"/>
+        <Setter Property="BorderWidth" Value="1.5"/>
+        <Setter Property="BorderColor" Value="{DynamicResource PrimaryBrandColor}"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}"/>
+        <Setter Property="HeightRequest" Value="55"/>
+        <Setter Property="WidthRequest" Value="375"/>
+        <Setter Property="VisualStateManager.VisualStateGroups">
+            <VisualStateGroupList>
+                <VisualStateGroup x:Name="CommonStates">
+                    <VisualState x:Name="Normal">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                    <VisualState x:Name="PointerOver">
+                        <VisualState.Setters>
+                            <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryBackgroundBackColor}" />
+                        </VisualState.Setters>
+                    </VisualState>
+                </VisualStateGroup>
+            </VisualStateGroupList>
+        </Setter>
+    </Style>
+
+
+
+
     <Style x:Key="InvalidClick" TargetType="Button">
         <Setter Property="TextColor" Value="Yellow"/>
     </Style>
@@ -151,10 +211,10 @@
         <Setter Property="TextColor" Value="{DynamicResource MastersTextColor}"/>
         <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="TextTransform" Value="None"/>
-        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontSize" Value="16"/>
         <Setter Property="BackgroundColor" Value="{DynamicResource SecondaryBrandColor}"/>
-        <Setter Property="HeightRequest" Value="52"/>
-        <Setter Property="WidthRequest" Value="350"/>
+        <Setter Property="HeightRequest" Value="55"/>
+        <Setter Property="WidthRequest" Value="375" />
     </Style>
 
     <Style x:Key="otherbuttons" TargetType="Button">
@@ -162,13 +222,13 @@
         <Setter Property="CornerRadius" Value="10"/>
         <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
         <Setter Property="TextTransform" Value="None"/>
-        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontSize" Value="16"/>
         <Setter Property="FontFamily" Value="Lato"/>
         <Setter Property="BorderWidth" Value="1.5"/>
         <Setter Property="BorderColor" Value="{DynamicResource PrimaryBrandColor}"/>
         <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}"/>
-        <Setter Property="HeightRequest" Value="52"/>
-        <Setter Property="WidthRequest" Value="350"/>
+        <Setter Property="HeightRequest" Value="55"/>
+        <Setter Property="WidthRequest" Value="375"/>
     </Style>
 
     <!--start checkbox-->
@@ -180,8 +240,8 @@
     <Style x:Key="TandCBox" TargetType="CheckBox">
         <Setter Property="IsEnabled"
                             Value="True" />
-        <Setter Property="Margin"
-                            Value="15,0,0,0" />
+        <Setter Property="WidthRequest"
+                            Value="20" />
 
     </Style>
 
@@ -255,10 +315,31 @@
         <Setter Property="VerticalOptions" Value="Center"/>
     </Style>
 
+    <Style x:Key="homeicon" TargetType="{x:Type ImageButton}">
+        <Setter Property="HeightRequest" Value="60"/>
+        <Setter Property="WidthRequest" Value="70"/>
+        <Setter Property="Margin" Value="10,0,0,0"/>
+        <Setter Property="HorizontalOptions" Value="StartAndExpand"/>
+  
+    </Style>
+
     <Style x:Key="StackLay" TargetType="{x:Type StackLayout}">
         <Setter Property="Margin" Value="0,150,0,0"/>
         <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
         <Setter Property="VerticalOptions" Value="StartAndExpand"/>
         <Setter Property="Orientation" Value="Horizontal"/>
     </Style>
+
+
+
+    <Style x:Key="framelay" TargetType="{x:Type Frame}">
+        <Setter Property="Margin" Value="0,20,0,0"/>
+        <Setter Property="Padding" Value="{OnPlatform Android='8', iOS='10'}"/>
+        <Setter Property="CornerRadius" Value="8"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource TertiaryBackgroundColor}"/>
+        <Setter Property="BorderColor" Value="{DynamicResource MasterBrandColor}"/>
+        <Setter Property="HasShadow" Value="False"/>
+    
+    </Style>
+
 </ResourceDictionary>

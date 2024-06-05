@@ -47,5 +47,7 @@ namespace Grabby_Two.View
         {
             await Navigation.PushAsync(new SignInPage()).ConfigureAwait(false);
         }
+
+   
     }
 }
