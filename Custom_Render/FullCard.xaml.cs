@@ -2,6 +2,8 @@
 using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using System.Windows.Input;
+
 
 namespace Grabby_Two.Custom_Render
 {
@@ -9,7 +11,15 @@ namespace Grabby_Two.Custom_Render
     {
         // Bindable properties
         public static readonly BindableProperty BackgroundImageSourceProperty =
-            BindableProperty.Create(nameof(BackgroundImageSource), typeof(ImageSource), typeof(FullCard));
+            BindableProperty.Create(
+                nameof(BackgroundImageSource), 
+                typeof(String), 
+                typeof(FullCard),
+                null,
+                     propertyChanged: (bindable, oldValue, newValue) =>
+                     {
+                         ((FullCard)bindable).productImage.Source = (string)newValue;
+                     });
 
         public static readonly BindableProperty ProductNameProperty =
             BindableProperty.Create(nameof(ProductName), typeof(string), typeof(FullCard));
@@ -32,8 +42,8 @@ namespace Grabby_Two.Custom_Render
         // Properties
         public ImageSource BackgroundImageSource
         {
-            get => (ImageSource)GetValue(BackgroundImageSourceProperty);
-            set => SetValue(BackgroundImageSourceProperty, value);
+            get { return (string)GetValue(BackgroundImageSourceProperty); }
+            set { SetValue(BackgroundImageSourceProperty, value); }
         }
 
         public string ProductName
@@ -72,11 +82,82 @@ namespace Grabby_Two.Custom_Render
             set => SetValue(ButtonTextProperty, value);
         }
 
+
+        // Commands
+
+        public static readonly BindableProperty ImageTappedCommandProperty = BindableProperty.Create(
+nameof(ImageTappedCommand),
+typeof(ICommand),
+typeof(FullCard),
+null);
+        public ICommand ImageTappedCommand
+        {
+            get => (ICommand)GetValue(ImageTappedCommandProperty);
+            set => SetValue(ImageTappedCommandProperty, value);
+        }
+
+        public static readonly BindableProperty LikeCommandProperty = BindableProperty.Create(
+nameof(LikeCommand),
+typeof(ICommand),
+typeof(FullCard),
+null);
+
+        public ICommand LikeCommand
+        {
+            get => (ICommand)GetValue(LikeCommandProperty);
+            set => SetValue(LikeCommandProperty, value);
+        }
+
+
+
+        private void HandleImageNavigation()
+        {
+            if (ImageTappedCommand != null && ImageTappedCommand.CanExecute(null))
+                ImageTappedCommand.Execute(null);
+        }
+
+
+
+        public static readonly BindableProperty StarCommandProperty = BindableProperty.Create(
+nameof(StarCommand),
+typeof(ICommand),
+typeof(FullCard),
+null);
+
+        public ICommand StarCommand
+        {
+            get => (ICommand)GetValue(StarCommandProperty);
+            set => SetValue(StarCommandProperty, value);
+        }
+
+
         // Constructor
         public FullCard()
         {
             InitializeComponent();
             BindingContext = this;
+
+            // Wire up click event handlers
+            productImage.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => HandleImageNavigation()),
+            });
+
+            starbut.Clicked += (sender, e) => HandleStar();
+
+            starbut.Clicked += (sender, e) => HandleLike();
+        }
+
+        private void HandleStar()
+        {
+            if (StarCommand != null && StarCommand.CanExecute(null))
+                StarCommand.Execute(null);
+        }
+
+        private void HandleLike()
+        {
+            if (LikeCommand != null && LikeCommand.CanExecute(null))
+                LikeCommand.Execute(null);
         }
 
         // Event handler for the actionButton Clicked event

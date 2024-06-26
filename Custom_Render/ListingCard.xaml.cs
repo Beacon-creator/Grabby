@@ -6,12 +6,41 @@ using System.Threading.Tasks;
 using Microsoft.Maui.Controls.Xaml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using System.Windows.Input;
 
 namespace Grabby_Two.Custom_Render
 {
-	[XamlCompilation(XamlCompilationOptions.Compile)]
+	
 	public partial class ListingCard : ContentView
 	{
+        // Define Commands
+        public static readonly BindableProperty NavigationCommandProperty = BindableProperty.Create(
+     nameof(NavigationCommand),
+     typeof(ICommand),
+     typeof(ListingCard),
+     null);
+
+        public ICommand NavigationCommand
+        {
+            get => (ICommand)GetValue(NavigationCommandProperty);
+            set => SetValue(NavigationCommandProperty, value);
+        }
+
+        public static readonly BindableProperty RatingCommandProperty = BindableProperty.Create(
+            nameof(RatingCommand),
+            typeof(ICommand),
+            typeof(ListingCard),
+            null);
+
+        public ICommand RatingCommand
+        {
+            get => (ICommand)GetValue(RatingCommandProperty);
+            set => SetValue(RatingCommandProperty, value);
+        }
+
+
+
+
         public static readonly BindableProperty BackgroundImageSourceProperty = BindableProperty.Create(
             nameof(BackgroundImageSource),
             typeof(string),
@@ -63,6 +92,27 @@ namespace Grabby_Two.Custom_Render
         public ListingCard()
         {
             InitializeComponent();
+            // Wire up click event handlers
+            backgroundImage.GestureRecognizers.Add(new TapGestureRecognizer
+            {
+                Command = new Command(() => HandleNavigation()),
+            });
+
+            starbut.Clicked += (sender, e) => HandleRating();
+        }
+
+        // Handle navigation
+        private void HandleNavigation()
+        {
+            if (NavigationCommand != null && NavigationCommand.CanExecute(null))
+                NavigationCommand.Execute(null);
+        }
+
+        // Handle rating
+        private void HandleRating()
+        {
+            if (RatingCommand != null && RatingCommand.CanExecute(null))
+                RatingCommand.Execute(null);
         }
     }
 }

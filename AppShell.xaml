@@ -7,10 +7,14 @@
     NavigationPage.HasNavigationBar="False"
     NavigationPage.HasBackButton="False"
     Shell.FlyoutBehavior="Disabled"
+    Shell.TabBarIsVisible="False"
     Title="Grabby_Two">
 
     <ShellContent
     
-        ContentTemplate="{DataTemplate local:SignUpPage}"/>
+        ContentTemplate="{DataTemplate local:SignInPage}"
+        Route="SignInPage"
+        FlyoutItemIsVisible="False"
+        Shell.FlyoutBehavior="Disabled"/>
 
 </Shell>

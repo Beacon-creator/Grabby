@@ -6,10 +6,9 @@
         <Frame x:Name="cardFrame"
                BackgroundColor="Transparent"
                CornerRadius="10"
-               HasShadow="True"
                Padding="0"
                Margin="5"
-               WidthRequest="165"
+               WidthRequest="174"
                HeightRequest="162">
             <AbsoluteLayout>
                 <Image x:Name="backgroundImage"
@@ -17,25 +16,33 @@
                        AbsoluteLayout.LayoutFlags="All"
                        AbsoluteLayout.LayoutBounds="0,0,1,1" />
                 <!-- Overlaying BoxView for shadow effect -->
-                <BoxView  Color="#80000000" 
+                <BoxView  BackgroundColor="{DynamicResource SecondaryBackgroundColor2}" 
                     AbsoluteLayout.LayoutFlags="All"
                          AbsoluteLayout.LayoutBounds="0,1,1,0.25"/>
-                    <StackLayout Orientation="Horizontal" Margin="0,0,0,10"
+                    <StackLayout Spacing="5" Orientation="Horizontal" Margin="0,0,0,5"
                              HorizontalOptions="Center"
                              AbsoluteLayout.LayoutFlags="PositionProportional"
                              AbsoluteLayout.LayoutBounds="0.5,1,-1,-1">
                         <Label x:Name="productName"
-                           TextColor="White"
-                           FontSize="14"
-                           HorizontalOptions="Center" />
-                        <ImageButton x:Name="imgbut" Source="star.png"
-                                 BackgroundColor="Transparent"/>
-                        <Label x:Name="ratingText"
-                           TextColor="White"
+                           TextColor="{DynamicResource MastersTextColor}"
+                           FontSize="Small"
+                           HorizontalOptions="Start" />
+                    <ImageButton x:Name="starbut" 
+                                     Source="star.svg" 
+                                 Style="{DynamicResource headbutton}"
+                                   Command="{Binding Source={x:Reference ListingCardView}, Path=RatingCommand}"
+                                 CommandParameter="{Binding Source={x:Reference ListingCardView}, Path=RatingCommandParameter}"/>
+                    <Label x:Name="ratingText"
+                          TextColor="{DynamicResource MastersTextColor}"
                            FontSize="14"
                            HorizontalOptions="Center" />
                     </StackLayout>
             </AbsoluteLayout>
+            <!-- Making the entire Frame clickable -->
+            <Frame.GestureRecognizers>
+                <TapGestureRecognizer Command="{Binding Source={x:Reference ListingCardView}, Path=NavigationCommand}"
+                                      CommandParameter="{Binding Source={x:Reference ListingCardView}, Path=NavigationCommandParameter}" />
+            </Frame.GestureRecognizers>
         </Frame>
     </ContentView.Content>
 </ContentView>

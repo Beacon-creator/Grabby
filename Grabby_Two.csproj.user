@@ -11,6 +11,9 @@
     <RuntimeIdentifier>iossimulator-x64</RuntimeIdentifier>
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Custom_Render\CartCard.xaml">
       <SubType>Designer</SubType>

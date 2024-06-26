@@ -7,12 +7,12 @@
              x:Class="Grabby_Two.View.TabbedPages.HomePage">
     <ContentPage.Content>
        
-            <Grid  Grid.RowDefinitions="Auto, Auto">
+            <Grid  Grid.RowDefinitions="Auto, *">
 
-            <StackLayout Padding="20,10" BackgroundColor="{DynamicResource PrimaryBrandColor}">
+            <StackLayout  Padding="20,0" BackgroundColor="{DynamicResource PrimaryBrandColor}">
                 
          
-                <Grid Margin="5,0, 0, 20" Grid.Row="0">
+                <Grid Margin="5,20, 0, 20" Grid.Row="0">
                     <StackLayout>
                         <StackLayout Orientation="Horizontal">
                         <Label Text="Welcome Back" Style="{DynamicResource homelabel}"/>
@@ -69,9 +69,12 @@
                             <ImageButton Style="{DynamicResource homeicon}" Source="furnitures.svg"/>
                             <Label Style="{DynamicResource label1b}"  Text="Furniture"/>
                         </StackLayout>
-                        <StackLayout  Grid.Column="3">
-                            <ImageButton Style="{DynamicResource homeicon}" 
-                                         Source="more.svg"/>
+                        <StackLayout Grid.Column="3">
+                            <Frame BackgroundColor="{DynamicResource BackgoundPink}" CornerRadius="50" WidthRequest="60" HeightRequest="60">
+                                <ImageButton Style="{DynamicResource homeicon2}"
+                                    Source="mores.svg"/>
+                            </Frame>
+                          
                             <Label Style="{DynamicResource label1b}"  Text="More"/>
                         </StackLayout>
                     </Grid>
@@ -81,7 +84,7 @@
                 
                 
                 
-            <ScrollView  Grid.Row="1" Orientation="Vertical">
+            <ScrollView VerticalScrollBarVisibility="Never" Grid.Row="1" Orientation="Vertical">
                 <StackLayout Padding="20,0"
                              Grid.Row="1" Margin="0,30,0,0">
                     <StackLayout Orientation="Horizontal">
@@ -97,17 +100,17 @@
                         <local:DesignerCard IconSource="fendi_logo.svg" Text="Fendi"/>
                     </StackLayout>
                     <Label FontSize="Medium" Margin="0, 20, 10, 0" FontAttributes="Bold" Text="Recommended For You"/>
-                    <StackLayout Spacing="10" Margin="0,20,0,0" Orientation="Horizontal">
+                    <StackLayout Spacing="30" Margin="0,20,0,0" Orientation="Horizontal">
                         <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>
 
-                    <StackLayout  Spacing="10"  Margin="0,20,0,0" Orientation="Horizontal">
+                    <StackLayout  Spacing="30"  Margin="0,20,0,0" Orientation="Horizontal">
                         <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>
 
-                    <StackLayout  Spacing="10"  Margin="0,10,0,0" Orientation="Horizontal">
+                    <StackLayout  Spacing="30"  Margin="0,10,0,0" Orientation="Horizontal">
                         <local1:ProductCard IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                         <local1:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                     </StackLayout>

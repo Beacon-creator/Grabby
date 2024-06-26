@@ -26,7 +26,7 @@
                                Aspect="Center" HeightRequest="350" Grid.Row="0"/>
 
                         <!-- Title Label -->
-                        <Label Text="{Binding Title}" Margin="0,70,0,20" FontSize="Title" VerticalOptions="Start"
+                        <Label Text="{Binding Title}" Margin="0,30,0,20" FontSize="Title" VerticalOptions="Start"
                                HorizontalTextAlignment="Center" TextColor="{DynamicResource PrimaryTextBrandColor}" Grid.Row="1"/>
 
                         <!-- Description Label -->

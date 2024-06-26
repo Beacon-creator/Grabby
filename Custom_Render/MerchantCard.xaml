@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Grabby_Two.Custom_Render.MerchantCard">
     <ContentView.Content>
-        <Frame WidthRequest="300"  CornerRadius="10" Padding="0"
+        <Frame WidthRequest="330" HeightRequest="150" CornerRadius="10" Padding="0"
               BackgroundColor="{Binding BackgroundColor}">
             <Grid>
                 <Image x:Name="backgroundImage"
@@ -17,7 +17,7 @@
                            Text="{Binding LabelText}"
                            HorizontalOptions="End"
                            TextColor="{Binding LabelColor}"
-                           FontSize="18" />
+                           FontSize="Medium" />
                     <Button x:Name="actionButton"
                             TextColor="{Binding ButtonTextColor}"
                             BackgroundColor="{Binding ButtonBackgroundColor}"
@@ -25,7 +25,8 @@
                             Clicked="OnActionButtonClicked"
                             VerticalOptions="End"
                             Margin="0,30,0,0"
-                            Padding="0"
+                            Padding="10,0"
+                            FontAttributes="Bold"
                             HeightRequest="35"
                             HorizontalOptions="End" />
                 </StackLayout>

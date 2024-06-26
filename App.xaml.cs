@@ -1,6 +1,9 @@
 ﻿using Grabby_Two.Custom_Render;
+using Grabby_Two.Model;
 using Grabby_Two.View;
 using Grabby_Two.View.TabbedPages;
+using Grabby_Two.View.TabbedPages.HomeCrew;
+using Grabby_Two.View.TabbedPages.HomeCrew.FashionStores;
 using Microsoft.Maui;
 using Microsoft.Maui.Controls;
 
@@ -8,13 +11,15 @@ namespace Grabby_Two
 {
     public partial class App : Application
     {
+
+        public static User user;
         public App()
         {
             InitializeComponent();
 
           //  MainPage = new AppShell();
 
-            MainPage = new NavigationPage(new HomePage());
+            MainPage = new NavigationPage(new StartPages());
 
             Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping(nameof(BorderlessEntry), (handler, view) =>
             {

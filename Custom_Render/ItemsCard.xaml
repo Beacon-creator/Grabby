@@ -4,16 +4,16 @@
              x:Class="Grabby_Two.Custom_Render.ItemsCard">
     
     <ContentView.Content>
-        <Frame HasShadow="True" Padding="0"  CornerRadius="8">
-            <Grid  Padding="0" Margin="0" Grid.RowDefinitions="Auto, Auto ">
+        <Frame HasShadow="True"  Padding="0"  CornerRadius="10">
+            <Grid Grid.RowDefinitions="Auto, Auto ">
                 <!-- Upper Row: Background Image -->
-                <Image Margin="0" Grid.Row="0" HeightRequest="105" WidthRequest="170"
+                <Image Margin="0" Grid.Row="0"  HeightRequest="110" WidthRequest="185"
                        Source="{Binding BackgroundImageSource}" Aspect="AspectFill" />
 
                 <!-- Lower Row: Product Name and Price -->
-                <StackLayout Grid.Row="1" BackgroundColor="White" VerticalOptions="End" Margin="5, 0">
-                    <Label Text="{Binding ProductName}" FontSize="14" HorizontalOptions="Start" />
-                    <Label Text="{Binding Price}" FontSize="14" Margin="0,0,0,10"
+                <StackLayout Grid.Row="1" BackgroundColor="White" VerticalOptions="End" Margin="5, 5,0,0">
+                    <Label Text="{Binding ProductName}" FontSize="16" HorizontalOptions="Start" />
+                    <Label Text="{Binding Price}" FontSize="Small" Margin="0,0,0,5"
                            FontAttributes="Bold" HorizontalOptions="Start" />
                 </StackLayout>
             </Grid>

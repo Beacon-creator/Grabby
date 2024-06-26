@@ -4,6 +4,8 @@
              NavigationPage.HasNavigationBar="False"
               NavigationPage.HasBackButton="False"
              xmlns:local1="clr-namespace:Grabby_Two.Custom_Render" 
+              xmlns:vm="clr-namespace:Grabby_Two.ViewModel" 
+             x:DataType="vm:SignInPageVM"
              xmlns:local="clr-namespace:Grabby_Two.Model"
              x:Class="Grabby_Two.View.SignInPage">
     <ContentPage.Content>
@@ -29,7 +31,8 @@
                             <ImageButton Style="{DynamicResource fnicon}"
                              Source="mailicon"/>
                             <local1:BorderlessEntry x:Name="emailaddressEntry"
-                               HorizontalOptions="FillAndExpand" FontSize="Large"
+                               Text="{Binding Email}"
+                                                    HorizontalOptions="FillAndExpand" FontSize="Large"
                                Placeholder="Enter email address" />
                         </StackLayout>
 
@@ -42,6 +45,7 @@
                    Source="passwordicon"/>
 
                             <local1:BorderlessEntry x:Name="passwordEntry"
+                                                    Text="{Binding Password}"
                              HorizontalOptions="FillAndExpand"  FontSize="Large"
                               IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"
                                Placeholder="Enter password" />
@@ -97,7 +101,7 @@
 
                 <Button x:Name="googlebut" ImageSource="googleicon.png" 
                    Text="Continue with Google" Style="{DynamicResource HoverButtonStyle}"
-               Clicked="googlebut_Clicked" Margin="0,15,0,0" />
+               Clicked="googlebut_Clicked" Margin="0,10,0,0" />
 
                 <Button x:Name="Facebooksignup" Style="{DynamicResource HoverButtonStyle}" 
                       Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
@@ -124,3 +128,6 @@
         </Grid>
     </ContentPage.Content>
 </ContentPage>
+
+
+<!--Command="{Binding SignInCommand}"-->

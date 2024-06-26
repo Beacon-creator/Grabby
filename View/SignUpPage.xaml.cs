@@ -5,10 +5,11 @@ using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using Grabby_Two.ViewModel;
 
 namespace Grabby_Two.View
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+   
     public sealed partial class SignUpPage : ContentPage
     {
        
@@ -27,9 +28,9 @@ namespace Grabby_Two.View
 
         }     
        
-        private  void createAccountbut_Clicked(object sender, EventArgs e)
+        private async  void createAccountbut_Clicked(object sender, EventArgs e)
         {
-           
+            await Navigation.PushAsync(new CodeVerificationSignUpPage());
 
 
         }
@@ -45,7 +46,8 @@ namespace Grabby_Two.View
 
         private async void TapGestureRecognizer_Signin(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new SignInPage()).ConfigureAwait(false);
+            var signInPageViewModel = new SignInPageVM(); // Assuming you have a parameterless constructor
+            await Navigation.PushAsync(new SignInPage(signInPageViewModel)).ConfigureAwait(false);
         }
 
    

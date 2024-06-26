@@ -11,14 +11,18 @@
     <Color x:Key="PrimaryBackgroundColor" >#C4C4C4</Color>
     <Color x:Key="SecondaryBackgroundColor" >#F5F6FA</Color>
     <Color x:Key="TertiaryBackgroundColor" >#FAFAFA</Color>
+    <Color x:Key="TertiaryBackgroundColor2" >#DFDFDF</Color>
     <Color x:Key="BackgoundWhite" >#FEFEFE</Color>
+    <Color x:Key="BackgoundWhite2" >#FFFFFF</Color>
+    <Color x:Key="BackgoundPink" >#E3CCFA</Color>
     <Color x:Key="TertiaryBackgroundBackColor" >#8f959e</Color>
     <Color x:Key="MastersBackgroundColor" >transparent</Color>
     
     
     <Color x:Key="PrimaryBackgroundColor2">#252D3E</Color>
     <Color x:Key="SecondaryBackgroundColor2">#565F66</Color>
-    <Color x:Key="TertiaryBackgroundColor2" >#B1B1B1</Color>
+    <Color x:Key="PrimaryBackgroundColor3" >#767676</Color>
+    <Color x:Key="TertiaryBackgroundColor3" >#B1B1B1</Color>
 
     <!-- Primary brand Colors -->
     <Color x:Key="PrimaryBrandColor" >#7734BA</Color>

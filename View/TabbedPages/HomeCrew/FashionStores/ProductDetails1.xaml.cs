@@ -26,5 +26,20 @@ namespace Grabby_Two.View.TabbedPages.HomeCrew.FashionStores
         {
 
         }
+
+        private async void cart_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new CartPage());
+        }
+
+        private async void search_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new SearchPage());
+        }
+
+        private async void back_Clicked(object sender, EventArgs e)
+        {
+            await Navigation.PopAsync();
+        }
     }
 }

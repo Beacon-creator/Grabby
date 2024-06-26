@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Grabby_Two.Custom_Render.ProductCard">
     <ContentView.Content>
-        <Frame HeightRequest="200" 
+        <Frame 
                BorderColor="{DynamicResource TertiaryBackgroundColor2}" 
-               BackgroundColor="{DynamicResource SecondaryBackgroundColor}" CornerRadius="10" Padding="10">
+               BackgroundColor="{DynamicResource SecondaryBackgroundColor}" CornerRadius="10" Padding="5">
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="120" />
@@ -13,16 +13,16 @@
                 </Grid.RowDefinitions>
 
                 <StackLayout HeightRequest="105" Grid.Row="0" Orientation="Horizontal" Spacing="0">
-                    <Image Margin="15,0, 0, 0"  WidthRequest="111" 
+                    <Image Margin="5,0, 0, 0"  WidthRequest="120" 
                            HeightRequest="121" HorizontalOptions="CenterAndExpand" 
                          Source="{Binding IconSource}" />
-                    <ImageButton WidthRequest="20" HeightRequest="20" Margin="5,5" BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                    <ImageButton WidthRequest="20" HeightRequest="20" Margin="0,5,5,0" BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
                                  VerticalOptions="Start" Source="like.svg" HorizontalOptions="End" />
                 </StackLayout>
 
-                <StackLayout Orientation="Vertical" Grid.Row="1">
-                    <Label Text="{Binding TextName}" 
-                           FontSize="16" HorizontalOptions="StartAndExpand" />
+                <StackLayout Spacing="5" Orientation="Vertical" Grid.Row="1">
+                    <Label  Text="{Binding TextName}" 
+                           FontSize="Subtitle" HorizontalOptions="StartAndExpand" />
                     <Label Text="{Binding TextPrice}" FontAttributes="Bold" FontSize="16" HorizontalOptions="StartAndExpand" />
                 </StackLayout>
             </Grid>

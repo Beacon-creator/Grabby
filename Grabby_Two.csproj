@@ -36,6 +36,7 @@
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</SupportedOSPlatformVersion>
 		<TargetPlatformMinVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'windows'">10.0.17763.0</TargetPlatformMinVersion>
 		<SupportedOSPlatformVersion Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'tizen'">6.5</SupportedOSPlatformVersion>
+		<Configurations>Debug;Release;Deploy</Configurations>
 	</PropertyGroup>
 
 	<ItemGroup>
@@ -71,29 +72,43 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <None Remove="Resources\Images\Account.svg" />
 	  <None Remove="Resources\Images\Adidas.svg" />
 	  <None Remove="Resources\Images\baby_product.svg" />
 	  <None Remove="Resources\Images\backarrowicon.png" />
+	  <None Remove="Resources\Images\backdesign.png" />
 	  <None Remove="Resources\Images\beauty_Icon.svg" />
+	  <None Remove="Resources\Images\Cart.svg" />
 	  <None Remove="Resources\Images\computers.svg" />
 	  <None Remove="Resources\Images\dinner.png" />
 	  <None Remove="Resources\Images\electronics_Icon.svg" />
 	  <None Remove="Resources\Images\ellipses.png" />
 	  <None Remove="Resources\Images\facebookicon.png" />
 	  <None Remove="Resources\Images\fashion_Icon.svg" />
+	  <None Remove="Resources\Images\favorite.svg" />
 	  <None Remove="Resources\Images\fendi_logo.svg" />
+	  <None Remove="Resources\Images\filter.svg" />
 	  <None Remove="Resources\Images\fnicon.png" />
 	  <None Remove="Resources\Images\food.svg" />
+	  <None Remove="Resources\Images\forward.svg" />
 	  <None Remove="Resources\Images\frame1.png" />
 	  <None Remove="Resources\Images\frame2.png" />
 	  <None Remove="Resources\Images\frame3.png" />
+	  <None Remove="Resources\Images\front_arrow.svg" />
 	  <None Remove="Resources\Images\furnitures.svg" />
 	  <None Remove="Resources\Images\gaming.svg" />
 	  <None Remove="Resources\Images\googleicon.png" />
 	  <None Remove="Resources\Images\grabbylogo.png" />
 	  <None Remove="Resources\Images\grabbylogo2.png" />
 	  <None Remove="Resources\Images\hideicon.png" />
+	  <None Remove="Resources\Images\Home.svg" />
+	  <None Remove="Resources\Images\img1.png" />
+	  <None Remove="Resources\Images\img2.png" />
+	  <None Remove="Resources\Images\img3.png" />
+	  <None Remove="Resources\Images\img4.png" />
+	  <None Remove="Resources\Images\img8.png" />
 	  <None Remove="Resources\Images\like.svg" />
+	  <None Remove="Resources\Images\like3.svg" />
 	  <None Remove="Resources\Images\mailicon.png" />
 	  <None Remove="Resources\Images\more.svg" />
 	  <None Remove="Resources\Images\mores.svg" />
@@ -102,17 +117,41 @@
 	  <None Remove="Resources\Images\openicon.png" />
 	  <None Remove="Resources\Images\passwordicon.png" />
 	  <None Remove="Resources\Images\phoneIcon.svg" />
+	  <None Remove="Resources\Images\pic1.png" />
+	  <None Remove="Resources\Images\pic2.png" />
+	  <None Remove="Resources\Images\pic3.png" />
+	  <None Remove="Resources\Images\pic4.png" />
+	  <None Remove="Resources\Images\pic5.png" />
+	  <None Remove="Resources\Images\pic6.png" />
+	  <None Remove="Resources\Images\pic7.png" />
+	  <None Remove="Resources\Images\purple_star.svg" />
+	  <None Remove="Resources\Images\Rectangle1.png" />
+	  <None Remove="Resources\Images\rectangle2.png" />
+	  <None Remove="Resources\Images\rectangle3.png" />
+	  <None Remove="Resources\Images\rectangle4.png" />
+	  <None Remove="Resources\Images\rectangle5.png" />
+	  <None Remove="Resources\Images\rectangle6.png" />
+	  <None Remove="Resources\Images\rectangle7.png" />
+	  <None Remove="Resources\Images\search.svg" />
+	  <None Remove="Resources\Images\Share.svg" />
+	  <None Remove="Resources\Images\star2.svg" />
+	  <None Remove="Resources\Images\Verified.svg" />
+	  <None Remove="Resources\Images\whitecart.svg" />
+	  <None Remove="Resources\Images\white_arrow.svg" />
+	  <None Remove="Resources\Images\white_search.svg" />
 	  <None Remove="Resources\Images\xiaomi.png" />
 	  <None Remove="Resources\Splash\splashgrabby.svg" />
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.0" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.1" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.40" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.40" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
 		<PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
+		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SQLite" Version="3.13.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
 	</ItemGroup>

@@ -5,15 +5,19 @@ using System.Threading.Tasks;
 using Microsoft.Maui.Controls.Xaml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using Grabby_Two.ViewModel;
 namespace Grabby_Two.View
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class SignInPage : ContentPage
 	{
-		public SignInPage ()
+        private SignInPageVM _viewModel;
+        public SignInPage (SignInPageVM vm)
 		{
 			InitializeComponent ();
-		}
+            _viewModel = vm;
+            BindingContext = _viewModel;
+        }
 
         private void RememberMecheck_CheckedChanged(object sender, CheckedChangedEventArgs e)
         {

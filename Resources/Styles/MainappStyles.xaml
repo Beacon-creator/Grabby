@@ -293,6 +293,14 @@
 
 
 <!-- imagebutton -->
+
+    <Style x:Key="headbutton" TargetType="{x:Type ImageButton}">
+        <Setter Property="WidthRequest" Value="25"/>
+        <Setter Property="HeightRequest" Value="25"/>
+        <Setter Property="BackgroundColor" Value="{DynamicResource MastersBackgroundColor}"/>
+    </Style>
+
+
     <Style x:Key="Backbutton" TargetType="{x:Type ImageButton}">
         <Setter Property="Source" Value="backicon.png"/>
         <Setter Property="Margin" Value="10,0,0,0"/>
@@ -323,6 +331,15 @@
   
     </Style>
 
+
+    <Style x:Key="homeicon2" TargetType="{x:Type ImageButton}">
+        <Setter Property="HeightRequest" Value="40"/>
+        <Setter Property="WidthRequest" Value="40"/>
+        <Setter Property="Margin" Value="0,0,0,0"/>
+        <Setter Property="HorizontalOptions" Value="Center"/>
+
+    </Style>
+
     <Style x:Key="StackLay" TargetType="{x:Type StackLayout}">
         <Setter Property="Margin" Value="0,150,0,0"/>
         <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
@@ -340,6 +357,14 @@
         <Setter Property="BorderColor" Value="{DynamicResource MasterBrandColor}"/>
         <Setter Property="HasShadow" Value="False"/>
     
+    </Style>
+
+    <!--box view-->
+    <Style x:Key="IndicatorStyle" TargetType="BoxView">
+        <Setter Property="WidthRequest" Value="10" />
+        <Setter Property="HeightRequest" Value="10" />
+        <Setter Property="Margin" Value="5" />
+        <Setter Property="CornerRadius" Value="5" />
     </Style>
 
 </ResourceDictionary>

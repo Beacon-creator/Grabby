@@ -11,6 +11,7 @@ using System.Threading.Tasks;
 using Microsoft.Maui.Controls.Xaml;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using Grabby_Two.ViewModel;
 
 namespace Grabby_Two.View
 {
@@ -55,9 +56,10 @@ namespace Grabby_Two.View
 
         }
 
-        private void verifybut_Clicked(object sender, EventArgs e)
+        private async void verifybut_Clicked(object sender, EventArgs e)
         {
-
+            var signInPageViewModel = new SignInPageVM(); // Assuming you have a parameterless constructor
+            await Navigation.PushAsync(new SignInPage(signInPageViewModel)).ConfigureAwait(false);
         }
     }
 }

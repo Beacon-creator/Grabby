@@ -5,9 +5,17 @@ using Microsoft.Maui;
 
 namespace Grabby_Two.Custom_Render
 {
-    [XamlCompilation(XamlCompilationOptions.Compile)]
+    
     public partial class MerchantCard : ContentView
     {
+        public static readonly BindableProperty IsActiveProperty =
+        BindableProperty.Create(nameof(IsActive), typeof(bool), typeof(MerchantCard), false);
+
+        public bool IsActive
+        {
+            get => (bool)GetValue(IsActiveProperty);
+            set => SetValue(IsActiveProperty, value);
+        }
         public MerchantCard()
         {
             InitializeComponent();

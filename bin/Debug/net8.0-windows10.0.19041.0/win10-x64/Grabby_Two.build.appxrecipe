@@ -43,380 +43,767 @@
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\Resources\Raw\splash.svg">
       <PackagePath>splash.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
-      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashgrabbySplashScreen.scale-100.png">
+      <PackagePath>splashgrabbySplashScreen.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
-      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashgrabbySplashScreen.scale-125.png">
+      <PackagePath>splashgrabbySplashScreen.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
-      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashgrabbySplashScreen.scale-150.png">
+      <PackagePath>splashgrabbySplashScreen.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
-      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashgrabbySplashScreen.scale-200.png">
+      <PackagePath>splashgrabbySplashScreen.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
-      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashgrabbySplashScreen.scale-400.png">
+      <PackagePath>splashgrabbySplashScreen.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
-      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+      <PackagePath>OpenSans-Regular.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
-      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+      <PackagePath>OpenSans-Semibold.ttf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
-      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-100.png">
+      <PackagePath>account.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
-      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-125.png">
+      <PackagePath>account.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
-      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-150.png">
+      <PackagePath>account.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
-      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-200.png">
+      <PackagePath>account.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
-      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\account.scale-400.png">
+      <PackagePath>account.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
-      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adidas.scale-100.png">
+      <PackagePath>adidas.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
-      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adidas.scale-125.png">
+      <PackagePath>adidas.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
-      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adidas.scale-150.png">
+      <PackagePath>adidas.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
-      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adidas.scale-200.png">
+      <PackagePath>adidas.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
-      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
-      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
-      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
-      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
-      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
-      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
-      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
-      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
-      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
-      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
-      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
-      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
-      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
-      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
-      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
-      <PackagePath>appiconLogo.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
-      <PackagePath>appiconLogo.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
-      <PackagePath>appiconLogo.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
-      <PackagePath>appiconLogo.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
-      <PackagePath>appiconLogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\adidas.scale-400.png">
+      <PackagePath>adidas.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hideicon.scale-100.png">
-      <PackagePath>hideicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+      <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ellipses.scale-100.png">
-      <PackagePath>ellipses.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+      <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mailicon.scale-100.png">
-      <PackagePath>mailicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+      <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame1.scale-100.png">
-      <PackagePath>frame1.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+      <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-400.png">
-      <PackagePath>more.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+      <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-200.png">
-      <PackagePath>more.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-150.png">
-      <PackagePath>more.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-125.png">
-      <PackagePath>more.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-100.png">
-      <PackagePath>more.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backarrowicon.scale-100.png">
-      <PackagePath>backarrowicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-400.png">
-      <PackagePath>notification.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-200.png">
-      <PackagePath>notification.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-150.png">
-      <PackagePath>notification.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-125.png">
-      <PackagePath>notification.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-100.png">
-      <PackagePath>notification.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+      <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebookicon.scale-100.png">
-      <PackagePath>facebookicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+      <PackagePath>appiconLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-400.png">
-      <PackagePath>phoneicon.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+      <PackagePath>appiconLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-200.png">
-      <PackagePath>phoneicon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+      <PackagePath>appiconLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-150.png">
-      <PackagePath>phoneicon.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+      <PackagePath>appiconLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-125.png">
-      <PackagePath>phoneicon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+      <PackagePath>appiconLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-100.png">
-      <PackagePath>phoneicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+      <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\googleicon.scale-100.png">
-      <PackagePath>googleicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+      <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fnicon.scale-100.png">
-      <PackagePath>fnicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+      <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-400.png">
-      <PackagePath>furnitures.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+      <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-200.png">
-      <PackagePath>furnitures.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+      <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-150.png">
-      <PackagePath>furnitures.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+      <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-125.png">
-      <PackagePath>furnitures.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+      <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-100.png">
-      <PackagePath>furnitures.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+      <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-400.png">
-      <PackagePath>computers.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+      <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-200.png">
-      <PackagePath>computers.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+      <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-150.png">
-      <PackagePath>computers.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+      <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-125.png">
-      <PackagePath>computers.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+      <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-100.png">
-      <PackagePath>computers.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+      <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-400.png">
-      <PackagePath>beauty_icon.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+      <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-200.png">
-      <PackagePath>beauty_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+      <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-150.png">
-      <PackagePath>beauty_icon.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+      <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-125.png">
-      <PackagePath>beauty_icon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+      <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-100.png">
-      <PackagePath>beauty_icon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+      <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-400.png">
-      <PackagePath>baby_product.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+      <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-200.png">
-      <PackagePath>baby_product.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+      <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-150.png">
-      <PackagePath>baby_product.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+      <PackagePath>appiconWideTile.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-125.png">
-      <PackagePath>baby_product.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+      <PackagePath>appiconWideTile.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+      <PackagePath>appiconWideTile.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+      <PackagePath>appiconWideTile.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+      <PackagePath>appiconWideTile.scale-400.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-100.png">
       <PackagePath>baby_product.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-400.png">
-      <PackagePath>electronics_icon.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-125.png">
+      <PackagePath>baby_product.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-200.png">
-      <PackagePath>electronics_icon.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-150.png">
+      <PackagePath>baby_product.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-150.png">
-      <PackagePath>electronics_icon.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-200.png">
+      <PackagePath>baby_product.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-125.png">
-      <PackagePath>electronics_icon.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\baby_product.scale-400.png">
+      <PackagePath>baby_product.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-100.png">
-      <PackagePath>electronics_icon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backarrowicon.scale-100.png">
+      <PackagePath>backarrowicon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\passwordicon.scale-100.png">
-      <PackagePath>passwordicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\backdesign.scale-100.png">
+      <PackagePath>backdesign.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\grabbylogo2.scale-100.png">
-      <PackagePath>grabbylogo2.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-100.png">
+      <PackagePath>beauty_icon.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-400.png">
-      <PackagePath>mores.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-125.png">
+      <PackagePath>beauty_icon.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-200.png">
-      <PackagePath>mores.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-150.png">
+      <PackagePath>beauty_icon.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-150.png">
-      <PackagePath>mores.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-200.png">
+      <PackagePath>beauty_icon.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-125.png">
-      <PackagePath>mores.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\beauty_icon.scale-400.png">
+      <PackagePath>beauty_icon.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-100.png">
-      <PackagePath>mores.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart.scale-100.png">
+      <PackagePath>cart.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\grabbylogo.scale-100.png">
-      <PackagePath>grabbylogo.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart.scale-125.png">
+      <PackagePath>cart.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame3.scale-100.png">
-      <PackagePath>frame3.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart.scale-150.png">
+      <PackagePath>cart.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame2.scale-100.png">
-      <PackagePath>frame2.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart.scale-200.png">
+      <PackagePath>cart.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-400.png">
-      <PackagePath>gaming.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\cart.scale-400.png">
+      <PackagePath>cart.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-200.png">
-      <PackagePath>gaming.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-100.png">
+      <PackagePath>computers.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-150.png">
-      <PackagePath>gaming.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-125.png">
+      <PackagePath>computers.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-125.png">
-      <PackagePath>gaming.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-150.png">
+      <PackagePath>computers.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-100.png">
-      <PackagePath>gaming.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-200.png">
+      <PackagePath>computers.scale-200.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\openicon.scale-100.png">
-      <PackagePath>openicon.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\computers.scale-400.png">
+      <PackagePath>computers.scale-400.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-400.png">
-      <PackagePath>fashion_icon.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-200.png">
-      <PackagePath>fashion_icon.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-150.png">
-      <PackagePath>fashion_icon.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-125.png">
-      <PackagePath>fashion_icon.scale-125.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-100.png">
-      <PackagePath>fashion_icon.scale-100.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
-      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
-      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
-      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
-      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dinner.scale-100.png">
+      <PackagePath>dinner.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-400.png">
-      <PackagePath>food.scale-400.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+      <PackagePath>dotnet_bot.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-200.png">
-      <PackagePath>food.scale-200.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+      <PackagePath>dotnet_bot.scale-150.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-150.png">
-      <PackagePath>food.scale-150.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+      <PackagePath>dotnet_bot.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+      <PackagePath>dotnet_bot.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-100.png">
+      <PackagePath>electronics_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-125.png">
+      <PackagePath>electronics_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-150.png">
+      <PackagePath>electronics_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-200.png">
+      <PackagePath>electronics_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\electronics_icon.scale-400.png">
+      <PackagePath>electronics_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\ellipses.scale-100.png">
+      <PackagePath>ellipses.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\facebookicon.scale-100.png">
+      <PackagePath>facebookicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-100.png">
+      <PackagePath>fashion_icon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-125.png">
+      <PackagePath>fashion_icon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-150.png">
+      <PackagePath>fashion_icon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-200.png">
+      <PackagePath>fashion_icon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fashion_icon.scale-400.png">
+      <PackagePath>fashion_icon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-100.png">
+      <PackagePath>favorite.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-125.png">
+      <PackagePath>favorite.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-150.png">
+      <PackagePath>favorite.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-200.png">
+      <PackagePath>favorite.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\favorite.scale-400.png">
+      <PackagePath>favorite.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fendi_logo.scale-100.png">
+      <PackagePath>fendi_logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fendi_logo.scale-125.png">
+      <PackagePath>fendi_logo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fendi_logo.scale-150.png">
+      <PackagePath>fendi_logo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fendi_logo.scale-200.png">
+      <PackagePath>fendi_logo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fendi_logo.scale-400.png">
+      <PackagePath>fendi_logo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filter.scale-100.png">
+      <PackagePath>filter.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filter.scale-125.png">
+      <PackagePath>filter.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filter.scale-150.png">
+      <PackagePath>filter.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filter.scale-200.png">
+      <PackagePath>filter.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\filter.scale-400.png">
+      <PackagePath>filter.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\fnicon.scale-100.png">
+      <PackagePath>fnicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-100.png">
+      <PackagePath>food.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-125.png">
       <PackagePath>food.scale-125.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-100.png">
-      <PackagePath>food.scale-100.png</PackagePath>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-150.png">
+      <PackagePath>food.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-200.png">
+      <PackagePath>food.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\food.scale-400.png">
+      <PackagePath>food.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\forward.scale-100.png">
+      <PackagePath>forward.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\forward.scale-125.png">
+      <PackagePath>forward.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\forward.scale-150.png">
+      <PackagePath>forward.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\forward.scale-200.png">
+      <PackagePath>forward.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\forward.scale-400.png">
+      <PackagePath>forward.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame1.scale-100.png">
+      <PackagePath>frame1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame2.scale-100.png">
+      <PackagePath>frame2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\frame3.scale-100.png">
+      <PackagePath>frame3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\front_arrow.scale-100.png">
+      <PackagePath>front_arrow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\front_arrow.scale-125.png">
+      <PackagePath>front_arrow.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\front_arrow.scale-150.png">
+      <PackagePath>front_arrow.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\front_arrow.scale-200.png">
+      <PackagePath>front_arrow.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\front_arrow.scale-400.png">
+      <PackagePath>front_arrow.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-100.png">
+      <PackagePath>furnitures.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-125.png">
+      <PackagePath>furnitures.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-150.png">
+      <PackagePath>furnitures.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-200.png">
+      <PackagePath>furnitures.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\furnitures.scale-400.png">
+      <PackagePath>furnitures.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-100.png">
+      <PackagePath>gaming.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-125.png">
+      <PackagePath>gaming.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-150.png">
+      <PackagePath>gaming.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-200.png">
+      <PackagePath>gaming.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\gaming.scale-400.png">
+      <PackagePath>gaming.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\googleicon.scale-100.png">
+      <PackagePath>googleicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\grabbylogo.scale-100.png">
+      <PackagePath>grabbylogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\grabbylogo2.scale-100.png">
+      <PackagePath>grabbylogo2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\hideicon.scale-100.png">
+      <PackagePath>hideicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-100.png">
+      <PackagePath>home.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-125.png">
+      <PackagePath>home.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-150.png">
+      <PackagePath>home.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-200.png">
+      <PackagePath>home.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\home.scale-400.png">
+      <PackagePath>home.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img1.scale-100.png">
+      <PackagePath>img1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img2.scale-100.png">
+      <PackagePath>img2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img3.scale-100.png">
+      <PackagePath>img3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img4.scale-100.png">
+      <PackagePath>img4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\img8.scale-100.png">
+      <PackagePath>img8.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like.scale-100.png">
+      <PackagePath>like.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like.scale-125.png">
+      <PackagePath>like.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like.scale-150.png">
+      <PackagePath>like.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like.scale-200.png">
+      <PackagePath>like.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like.scale-400.png">
+      <PackagePath>like.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like3.scale-100.png">
+      <PackagePath>like3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like3.scale-125.png">
+      <PackagePath>like3.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like3.scale-150.png">
+      <PackagePath>like3.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like3.scale-200.png">
+      <PackagePath>like3.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\like3.scale-400.png">
+      <PackagePath>like3.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mailicon.scale-100.png">
+      <PackagePath>mailicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-100.png">
+      <PackagePath>more.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-125.png">
+      <PackagePath>more.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-150.png">
+      <PackagePath>more.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-200.png">
+      <PackagePath>more.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\more.scale-400.png">
+      <PackagePath>more.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-100.png">
+      <PackagePath>mores.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-125.png">
+      <PackagePath>mores.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-150.png">
+      <PackagePath>mores.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-200.png">
+      <PackagePath>mores.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\mores.scale-400.png">
+      <PackagePath>mores.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nike.scale-100.png">
+      <PackagePath>nike.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nike.scale-125.png">
+      <PackagePath>nike.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nike.scale-150.png">
+      <PackagePath>nike.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nike.scale-200.png">
+      <PackagePath>nike.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\nike.scale-400.png">
+      <PackagePath>nike.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-100.png">
+      <PackagePath>notification.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-125.png">
+      <PackagePath>notification.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-150.png">
+      <PackagePath>notification.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-200.png">
+      <PackagePath>notification.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\notification.scale-400.png">
+      <PackagePath>notification.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\openicon.scale-100.png">
+      <PackagePath>openicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\passwordicon.scale-100.png">
+      <PackagePath>passwordicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-100.png">
+      <PackagePath>phoneicon.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-125.png">
+      <PackagePath>phoneicon.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-150.png">
+      <PackagePath>phoneicon.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-200.png">
+      <PackagePath>phoneicon.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\phoneicon.scale-400.png">
+      <PackagePath>phoneicon.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic1.scale-100.png">
+      <PackagePath>pic1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic2.scale-100.png">
+      <PackagePath>pic2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic3.scale-100.png">
+      <PackagePath>pic3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic4.scale-100.png">
+      <PackagePath>pic4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic5.scale-100.png">
+      <PackagePath>pic5.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic6.scale-100.png">
+      <PackagePath>pic6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\pic7.scale-100.png">
+      <PackagePath>pic7.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\purple_star.scale-100.png">
+      <PackagePath>purple_star.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\purple_star.scale-125.png">
+      <PackagePath>purple_star.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\purple_star.scale-150.png">
+      <PackagePath>purple_star.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\purple_star.scale-200.png">
+      <PackagePath>purple_star.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\purple_star.scale-400.png">
+      <PackagePath>purple_star.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle1.scale-100.png">
+      <PackagePath>rectangle1.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle2.scale-100.png">
+      <PackagePath>rectangle2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle3.scale-100.png">
+      <PackagePath>rectangle3.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle4.scale-100.png">
+      <PackagePath>rectangle4.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle5.scale-100.png">
+      <PackagePath>rectangle5.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle6.scale-100.png">
+      <PackagePath>rectangle6.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\rectangle7.scale-100.png">
+      <PackagePath>rectangle7.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-100.png">
+      <PackagePath>search.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-125.png">
+      <PackagePath>search.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-150.png">
+      <PackagePath>search.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-200.png">
+      <PackagePath>search.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\search.scale-400.png">
+      <PackagePath>search.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-100.png">
+      <PackagePath>share.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-125.png">
+      <PackagePath>share.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-150.png">
+      <PackagePath>share.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-200.png">
+      <PackagePath>share.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\share.scale-400.png">
+      <PackagePath>share.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star2.scale-100.png">
+      <PackagePath>star2.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star2.scale-125.png">
+      <PackagePath>star2.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star2.scale-150.png">
+      <PackagePath>star2.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star2.scale-200.png">
+      <PackagePath>star2.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\star2.scale-400.png">
+      <PackagePath>star2.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verified.scale-100.png">
+      <PackagePath>verified.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verified.scale-125.png">
+      <PackagePath>verified.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verified.scale-150.png">
+      <PackagePath>verified.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verified.scale-200.png">
+      <PackagePath>verified.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\verified.scale-400.png">
+      <PackagePath>verified.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\whitecart.scale-100.png">
+      <PackagePath>whitecart.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\whitecart.scale-125.png">
+      <PackagePath>whitecart.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\whitecart.scale-150.png">
+      <PackagePath>whitecart.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\whitecart.scale-200.png">
+      <PackagePath>whitecart.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\whitecart.scale-400.png">
+      <PackagePath>whitecart.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_arrow.scale-100.png">
+      <PackagePath>white_arrow.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_arrow.scale-125.png">
+      <PackagePath>white_arrow.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_arrow.scale-150.png">
+      <PackagePath>white_arrow.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_arrow.scale-200.png">
+      <PackagePath>white_arrow.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_arrow.scale-400.png">
+      <PackagePath>white_arrow.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_search.scale-100.png">
+      <PackagePath>white_search.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_search.scale-125.png">
+      <PackagePath>white_search.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_search.scale-150.png">
+      <PackagePath>white_search.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_search.scale-200.png">
+      <PackagePath>white_search.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\white_search.scale-400.png">
+      <PackagePath>white_search.scale-400.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\obj\Debug\net8.0-windows10.0.19041.0\win10-x64\resizetizer\r\xiaomi.scale-100.png">
+      <PackagePath>xiaomi.scale-100.png</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\bin\Debug\net8.0-windows10.0.19041.0\win10-x64\Grabby_Two.deps.json">
       <PackagePath>Grabby_Two.deps.json</PackagePath>
@@ -427,11 +814,14 @@
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.maui\9.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.maui\9.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">
       <PackagePath>CommunityToolkit.Maui.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.maui.core\9.0.0\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.maui.core\9.0.1\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.Core.dll">
       <PackagePath>CommunityToolkit.Maui.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.mvvm\8.2.2\lib\net6.0\CommunityToolkit.Mvvm.dll">
+      <PackagePath>CommunityToolkit.Mvvm.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.extensions.configuration\8.0.0\lib\net8.0\Microsoft.Extensions.Configuration.dll">
       <PackagePath>Microsoft.Extensions.Configuration.dll</PackagePath>
@@ -528,6 +918,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windowsappsdk\1.5.240311000\lib\net6.0-windows10.0.18362.0\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll">
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\newtonsoft.json\13.0.3\lib\net6.0\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\sqlite-net-pcl\1.9.172\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>

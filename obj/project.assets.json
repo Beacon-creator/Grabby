@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0-android34.0": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -20,7 +20,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -35,6 +35,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -487,6 +503,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -2385,10 +2414,10 @@
       }
     },
     "net8.0-android34.0/android-arm": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -2403,7 +2432,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -2418,6 +2447,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -2870,6 +2915,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -4750,10 +4808,10 @@
       }
     },
     "net8.0-android34.0/android-arm64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -4768,7 +4826,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -4783,6 +4841,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -5235,6 +5309,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -7115,10 +7202,10 @@
       }
     },
     "net8.0-android34.0/android-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -7133,7 +7220,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -7148,6 +7235,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -7600,6 +7703,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -9483,10 +9599,10 @@
       }
     },
     "net8.0-android34.0/android-x86": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -9501,7 +9617,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -9516,6 +9632,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -9968,6 +10100,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -11848,10 +11993,10 @@
       }
     },
     "net8.0-android34.0/iossimulator-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -11866,7 +12011,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -11881,6 +12026,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -12333,6 +12494,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -14213,10 +14387,10 @@
       }
     },
     "net8.0-android34.0/maccatalyst-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -14231,7 +14405,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -14246,6 +14420,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -14698,6 +14888,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -16578,10 +16781,10 @@
       }
     },
     "net8.0-android34.0/win10-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -16596,7 +16799,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -16611,6 +16814,22 @@
           "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "GoogleGson/2.10.1.4": {
@@ -17063,6 +17282,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -18946,10 +19178,10 @@
       }
     },
     "net8.0-ios17.2": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -18964,7 +19196,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -18979,6 +19211,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -19407,6 +19655,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -19508,10 +19769,10 @@
       }
     },
     "net8.0-ios17.2/android-arm": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -19526,7 +19787,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -19541,6 +19802,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -19969,6 +20246,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -20052,10 +20342,10 @@
       }
     },
     "net8.0-ios17.2/android-arm64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -20070,7 +20360,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -20085,6 +20375,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -20513,6 +20819,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -20596,10 +20915,10 @@
       }
     },
     "net8.0-ios17.2/android-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -20614,7 +20933,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -20629,6 +20948,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -21057,6 +21392,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -21143,10 +21491,10 @@
       }
     },
     "net8.0-ios17.2/android-x86": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -21161,7 +21509,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -21176,6 +21524,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -21604,6 +21968,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -21687,10 +22064,10 @@
       }
     },
     "net8.0-ios17.2/iossimulator-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -21705,7 +22082,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -21720,6 +22097,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -22148,6 +22541,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -22231,10 +22637,10 @@
       }
     },
     "net8.0-ios17.2/maccatalyst-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -22249,7 +22655,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -22264,6 +22670,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -22692,6 +23114,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -22775,10 +23210,10 @@
       }
     },
     "net8.0-ios17.2/win10-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -22793,7 +23228,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -22808,6 +23243,22 @@
           "lib/net8.0-ios17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -23236,6 +23687,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -23322,10 +23786,10 @@
       }
     },
     "net8.0-maccatalyst17.2": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -23340,7 +23804,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -23355,6 +23819,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -23783,6 +24263,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -23978,10 +24471,10 @@
       }
     },
     "net8.0-maccatalyst17.2/android-arm": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -23996,7 +24489,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -24011,6 +24504,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -24439,6 +24948,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -24529,10 +25051,10 @@
       }
     },
     "net8.0-maccatalyst17.2/android-arm64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -24547,7 +25069,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -24562,6 +25084,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -24990,6 +25528,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -25080,10 +25631,10 @@
       }
     },
     "net8.0-maccatalyst17.2/android-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -25098,7 +25649,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -25113,6 +25664,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -25541,6 +26108,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -25634,10 +26214,10 @@
       }
     },
     "net8.0-maccatalyst17.2/android-x86": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -25652,7 +26232,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -25667,6 +26247,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -26095,6 +26691,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -26185,10 +26794,10 @@
       }
     },
     "net8.0-maccatalyst17.2/iossimulator-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -26203,7 +26812,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -26218,6 +26827,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -26646,6 +27271,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -26733,10 +27371,10 @@
       }
     },
     "net8.0-maccatalyst17.2/maccatalyst-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -26751,7 +27389,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -26766,6 +27404,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -27194,6 +27848,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -27284,10 +27951,10 @@
       }
     },
     "net8.0-maccatalyst17.2/win10-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -27302,7 +27969,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -27317,6 +27984,22 @@
           "lib/net8.0-maccatalyst17.2/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -27745,6 +28428,19 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -27838,10 +28534,10 @@
       }
     },
     "net8.0-windows10.0.19041": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -27856,7 +28552,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -27872,6 +28568,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -28457,6 +29169,19 @@
           }
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLite/3.13.0": {
         "type": "package",
         "compile": {
@@ -28668,10 +29393,10 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -28686,7 +29411,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -28702,6 +29427,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -29245,6 +29986,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -29347,10 +30101,10 @@
       }
     },
     "net8.0-windows10.0.19041/android-arm64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -29365,7 +30119,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -29381,6 +30135,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -29924,6 +30694,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -30026,10 +30809,10 @@
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -30044,7 +30827,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -30060,6 +30843,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -30603,6 +31402,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -30708,10 +31520,10 @@
       }
     },
     "net8.0-windows10.0.19041/android-x86": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -30726,7 +31538,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -30742,6 +31554,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -31285,6 +32113,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -31387,10 +32228,10 @@
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -31405,7 +32246,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -31421,6 +32262,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -31964,6 +32821,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -32063,10 +32933,10 @@
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -32081,7 +32951,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -32097,6 +32967,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -32640,6 +33526,19 @@
         "build": {
           "buildTransitive/Microsoft.WindowsAppSDK.props": {},
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
+        }
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
         }
       },
       "SQLite/3.13.0": {
@@ -32742,10 +33641,10 @@
       }
     },
     "net8.0-windows10.0.19041/win10-x64": {
-      "CommunityToolkit.Maui/9.0.0": {
+      "CommunityToolkit.Maui/9.0.1": {
         "type": "package",
         "dependencies": {
-          "CommunityToolkit.Maui.Core": "9.0.0",
+          "CommunityToolkit.Maui.Core": "9.0.1",
           "Microsoft.Maui.Controls": "8.0.14",
           "Microsoft.Maui.Controls.Compatibility": "8.0.14"
         },
@@ -32760,7 +33659,7 @@
           }
         }
       },
-      "CommunityToolkit.Maui.Core/9.0.0": {
+      "CommunityToolkit.Maui.Core/9.0.1": {
         "type": "package",
         "dependencies": {
           "Microsoft.Maui.Core": "8.0.14",
@@ -32776,6 +33675,22 @@
           "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "CommunityToolkit.Mvvm/8.2.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/CommunityToolkit.Mvvm.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "build": {
+          "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets": {}
         }
       },
       "Microsoft.Extensions.Configuration/8.0.0": {
@@ -33327,6 +34242,19 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "SQLite/3.13.0": {
         "type": "package",
         "compile": {
@@ -33431,10 +34359,10 @@
     }
   },
   "libraries": {
-    "CommunityToolkit.Maui/9.0.0": {
-      "sha512": "G1z3FFAokpu18rDt4L2SZj827xIzqOv7PLq54Lxx46/57zUa8QjVTRTowl6s1qAeSW9r4XyFwnTb1sY1KOnzWg==",
+    "CommunityToolkit.Maui/9.0.1": {
+      "sha512": "w9+Lt5grGljPQ9tHQF6GAbmsCQtFj7H9NbduOx2nHSFKUAnuy+D7iSDqS3ds/uVCjsylw2x+FXroG3R1tTB2CQ==",
       "type": "package",
-      "path": "communitytoolkit.maui/9.0.0",
+      "path": "communitytoolkit.maui/9.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -33442,7 +34370,7 @@
         "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.CodeFixes.dll",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.Analyzers.dll",
         "analyzers/dotnet/cs/CommunityToolkit.Maui.SourceGenerators.dll",
-        "communitytoolkit.maui.9.0.0.nupkg.sha512",
+        "communitytoolkit.maui.9.0.1.nupkg.sha512",
         "communitytoolkit.maui.nuspec",
         "icon.png",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.dll",
@@ -33459,15 +34387,15 @@
         "lib/net8.0/CommunityToolkit.Maui.xml"
       ]
     },
-    "CommunityToolkit.Maui.Core/9.0.0": {
-      "sha512": "wzOYHQPs5yokoYyoCm2Ri5RDEkDmnvSklotzp0M4jfOE5M0ZPmCDvEVUJpVzZR9J5cudPlsL3Hh1cK3QzQd2NQ==",
+    "CommunityToolkit.Maui.Core/9.0.1": {
+      "sha512": "0lBnt0cWGXONKAc26E31rsSm0lCD6JSwDB1AngEYEly4Oybv6KrxmVTx3irpuaMNXJKnhbf4xSgG2ObGf4vw6g==",
       "type": "package",
-      "path": "communitytoolkit.maui.core/9.0.0",
+      "path": "communitytoolkit.maui.core/9.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "ReadMe.txt",
-        "communitytoolkit.maui.core.9.0.0.nupkg.sha512",
+        "communitytoolkit.maui.core.9.0.1.nupkg.sha512",
         "communitytoolkit.maui.core.nuspec",
         "icon.png",
         "lib/net8.0-android34.0/CommunityToolkit.Maui.Core.dll",
@@ -33482,6 +34410,37 @@
         "lib/net8.0-windows10.0.19041/CommunityToolkit.Maui.Core.xml",
         "lib/net8.0/CommunityToolkit.Maui.Core.dll",
         "lib/net8.0/CommunityToolkit.Maui.Core.xml"
+      ]
+    },
+    "CommunityToolkit.Mvvm/8.2.2": {
+      "sha512": "r0g0k9tGYdrnz8R7T3x5UiokDffeevzK/2P/9SBL6fqLgN8B157MIi/bVUWI1KAz6ZorZrK9AdABCWUeXZZsvA==",
+      "type": "package",
+      "path": "communitytoolkit.mvvm/8.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "License.md",
+        "ThirdPartyNotices.txt",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.0/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.CodeFixers.dll",
+        "analyzers/dotnet/roslyn4.3/cs/CommunityToolkit.Mvvm.SourceGenerators.dll",
+        "build/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "build/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.0/CommunityToolkit.Mvvm.targets",
+        "buildTransitive/netstandard2.1/CommunityToolkit.Mvvm.targets",
+        "communitytoolkit.mvvm.8.2.2.nupkg.sha512",
+        "communitytoolkit.mvvm.nuspec",
+        "lib/net6.0/CommunityToolkit.Mvvm.dll",
+        "lib/net6.0/CommunityToolkit.Mvvm.pdb",
+        "lib/net6.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.0/CommunityToolkit.Mvvm.xml",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.dll",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.pdb",
+        "lib/netstandard2.1/CommunityToolkit.Mvvm.xml"
       ]
     },
     "GoogleGson/2.10.1.4": {
@@ -35624,6 +36583,36 @@
         "tools/net6.0/System.Text.Json.dll",
         "tools/x64/GenXbf.dll",
         "tools/x86/GenXbf.dll"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
       ]
     },
     "SQLite/3.13.0": {
@@ -37934,45 +38923,53 @@
   },
   "projectFileDependencyGroups": {
     "net8.0-android34.0": [
-      "CommunityToolkit.Maui >= 9.0.0",
+      "CommunityToolkit.Maui >= 9.0.1",
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.5",
       "Microsoft.NETCore.Platforms >= 7.0.4",
+      "Newtonsoft.Json >= 13.0.3",
       "SQLite >= 3.13.0",
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-ios17.2": [
-      "CommunityToolkit.Maui >= 9.0.0",
+      "CommunityToolkit.Maui >= 9.0.1",
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.5",
       "Microsoft.NETCore.Platforms >= 7.0.4",
+      "Newtonsoft.Json >= 13.0.3",
       "SQLite >= 3.13.0",
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-maccatalyst17.2": [
-      "CommunityToolkit.Maui >= 9.0.0",
+      "CommunityToolkit.Maui >= 9.0.1",
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.40",
       "Microsoft.NET.ILLink.Tasks >= 8.0.5",
       "Microsoft.NETCore.Platforms >= 7.0.4",
+      "Newtonsoft.Json >= 13.0.3",
       "SQLite >= 3.13.0",
       "sqlite-net-pcl >= 1.9.172"
     ],
     "net8.0-windows10.0.19041": [
-      "CommunityToolkit.Maui >= 9.0.0",
+      "CommunityToolkit.Maui >= 9.0.1",
+      "CommunityToolkit.Mvvm >= 8.2.2",
       "Microsoft.Extensions.Logging >= 8.0.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.40",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.40",
       "Microsoft.NETCore.Platforms >= 7.0.4",
+      "Newtonsoft.Json >= 13.0.3",
       "SQLite >= 3.13.0",
       "sqlite-net-pcl >= 1.9.172"
     ]
@@ -38045,7 +39042,11 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.1, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
           },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
@@ -38072,6 +39073,10 @@
           "Microsoft.NETCore.Platforms": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "SQLite": {
             "target": "Package",
@@ -38108,7 +39113,11 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.1, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
           },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
@@ -38135,6 +39144,10 @@
           "Microsoft.NETCore.Platforms": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "SQLite": {
             "target": "Package",
@@ -38171,7 +39184,11 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.1, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
           },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
@@ -38198,6 +39215,10 @@
           "Microsoft.NETCore.Platforms": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "SQLite": {
             "target": "Package",
@@ -38235,7 +39256,11 @@
         "dependencies": {
           "CommunityToolkit.Maui": {
             "target": "Package",
-            "version": "[9.0.0, )"
+            "version": "[9.0.1, )"
+          },
+          "CommunityToolkit.Mvvm": {
+            "target": "Package",
+            "version": "[8.2.2, )"
           },
           "Microsoft.Extensions.Logging": {
             "target": "Package",
@@ -38256,6 +39281,10 @@
           "Microsoft.NETCore.Platforms": {
             "target": "Package",
             "version": "[7.0.4, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[13.0.3, )"
           },
           "SQLite": {
             "target": "Package",

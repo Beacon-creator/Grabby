@@ -7,17 +7,18 @@ namespace Grabby_Two.Model
 {
     public class IndicatorConverter : IValueConverter
     {
-        public object Convert(object? value, Type targetType, object? parameter, CultureInfo culture)
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (value == null || !(value is int currentIndex) || !(parameter is int indicatorIndex))
-                return Colors.Gray; // Default color for inactive indicators
+            int currentIndex = (int)value;
+            int index = int.Parse(parameter.ToString());
 
-            return currentIndex == indicatorIndex ? Colors.Purple : Colors.Gray;
+            return currentIndex == index ? Colors.Purple : Colors.Gray; // Active color: Purple, Inactive color: Gray
         }
 
-        public object ConvertBack(object? value, Type targetType, object? parameter, CultureInfo culture)
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
             throw new NotImplementedException();
         }
     }
+
 }

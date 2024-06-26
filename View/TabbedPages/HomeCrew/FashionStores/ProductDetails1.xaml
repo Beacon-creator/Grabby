@@ -2,45 +2,64 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
              xmlns:local="clr-namespace:Grabby_Two.Custom_Render"
+               xmlns:local1="clr-namespace:Grabby_Two.ViewModel"
              NavigationPage.HasNavigationBar="False"
              x:Class="Grabby_Two.View.TabbedPages.HomeCrew.FashionStores.ProductDetails1">
+    
+    <ContentPage.BindingContext>
+        <local1:ProductDetailsVM />
+    </ContentPage.BindingContext>
+
     <ContentPage.Content>
         
-        <Grid   Grid.RowDefinitions="Auto, Auto">
-            <Grid Grid.Row="0">
+        <Grid   Grid.RowDefinitions="Auto, *">
+            <Grid Padding="20,0" BackgroundColor="{DynamicResource PrimaryBrandColor}" Grid.Row="0">
                 <Image Source="backdesign.png" Aspect="AspectFill" />
-                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" >
-                    <StackLayout Margin="15,30,0,10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="StartAndExpand">
-                        <ImageButton Margin="0,3,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitearrow.png"/>
-                        <Label Style="{DynamicResource label1b}" FontSize="18" VerticalOptions="Start" Text="Product Details"/>
+                <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal">
+                    <StackLayout Margin="0,30,0,0" Spacing="20"
+                      Orientation="Horizontal" VerticalOptions="Center" HorizontalOptions="StartAndExpand">
+                        <ImageButton x:Name="back" Margin="0,10,0,0"
+                          Style="{DynamicResource headbutton}"
+                          Clicked="back_Clicked" Source="white_arrow.png"/>
+                        <Label Style="{DynamicResource label1b}" FontSize="Large" VerticalOptions="Start" Text="Product Details"/>
                     </StackLayout>
-                    <StackLayout Margin="0,30, 20, 10" Spacing="15" Orientation="Horizontal" VerticalOptions="Start" HorizontalOptions="EndAndExpand">
-                        <ImageButton BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="whitesearch.png"/>
-                        <ImageButton BackgroundColor="{DynamicResource MastersBackgroundColor}" Source="cartt.png"/>
+                    <StackLayout Margin="0,45,0,0" Spacing="20"
+                      Orientation="Horizontal" VerticalOptions="Center"
+                      HorizontalOptions="EndAndExpand">
+                        <ImageButton x:Name="search" Style="{DynamicResource headbutton}"
+                          Source="white_search.svg" Clicked="search_Clicked"/>
+                        <ImageButton x:Name="cart" Style="{DynamicResource headbutton}"
+                          Source="whitecart.svg" Clicked="cart_Clicked"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
 
 
-            <ScrollView Grid.Row="1" Orientation="Vertical">
-                <Grid Grid.RowDefinitions="auto,auto,auto"> 
+            <ScrollView HorizontalScrollBarVisibility="Never" Grid.Row="1" Orientation="Vertical">
+                <Grid Padding="20,0" Grid.RowDefinitions="Auto,Auto,Auto"> 
                     
                
                 <Grid Grid.Row="0">
 
                     <StackLayout>
 
-                        <StackLayout Orientation="Horizontal" Margin="15,10">
-                            <Label Text="Seller Information"/>
-                            <ImageButton VerticalOptions="StartAndExpand" WidthRequest="15" Margin="0,2,5,0"
-                              HeightRequest="15" HorizontalOptions="EndAndExpand" Source="forwardarrow.png"/>
-                        </StackLayout>
+                            <StackLayout Orientation="Horizontal" Margin="0,10">
+                                <StackLayout.GestureRecognizers>
+                                    <TapGestureRecognizer Command="{Binding NavigateCommand}" />
+                                </StackLayout.GestureRecognizers>
+                                <Label FontSize="Medium" Text="Seller Information"/>
+                                <ImageButton VerticalOptions="StartAndExpand" 
+                 Style="{DynamicResource headbutton}" 
+                 HorizontalOptions="EndAndExpand" 
+                 Source="front_arrow.svg"/>
+                            </StackLayout>
 
-                        <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
-                            <StackLayout Margin="15, 10" Spacing="10" Orientation="Horizontal">
-                                <local:DetailsCard BackgroundImageSource="PicA.png"/>
-                                <local:DetailsCard BackgroundImageSource="PicA.png"/>
-                                <local:DetailsCard BackgroundImageSource="PicA.png"/>
+
+                            <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
+                            <StackLayout Margin="0, 10" Spacing="20" Orientation="Horizontal">
+                                <local:DetailsCard BackgroundImageSource="pic7.png"/>
+                                <local:DetailsCard BackgroundImageSource="pic7.png"/>
+                                <local:DetailsCard BackgroundImageSource="Pic7.png"/>
                             </StackLayout>
 
                         </ScrollView>
@@ -48,7 +67,7 @@
                     </StackLayout>
                 </Grid>
 
-                    <Grid Grid.Row="1">
+                    <Grid Margin="0,20,0,0" Grid.Row="1">
                         <local:DescriptionCard
                              MerchantName="Your Merchant Name"
                              ProductName="Your Product Name"
@@ -57,9 +76,9 @@
                     </Grid>
 
 
-                    <Grid Margin="15,20" Grid.Row="2" Grid.RowDefinitions="auto,auto">
+                    <Grid Margin="0,20" Grid.Row="2" Grid.RowDefinitions="auto,auto">
                         <StackLayout Margin="0,20,0,10" Grid.Row="0" Orientation="Vertical">
-                            <StackLayout Orientation="Horizontal">
+                            <StackLayout Spacing="200" Margin="0,20" Orientation="Horizontal">
                                 <Label FontAttributes="Bold" FontSize="18" Text="Top Products"/>
                                 <Label TextColor="{DynamicResource SecondaryBrandColor}" Margin="0,2,0,0" FontAttributes="Bold" FontSize="16" Text="See all" HorizontalOptions="End" >
                                     <Label.GestureRecognizers>
@@ -69,33 +88,26 @@
                             </StackLayout>
 
                             <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
-                                <StackLayout Orientation="Horizontal">
-                                    <local:ProductCard  IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
-                                    <local:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
-                                    <local:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
-                                    <local:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
+                                <StackLayout Spacing="15" Orientation="Horizontal">
+                                    <local:ProductCard  IconSource="dinner.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                                    <local:ProductCard IconSource="img8.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
+                                    <local:ProductCard IconSource="dinner.png" TextName="Yomi Classy Gown" TextPrice="$1600"/>
+                                    <local:ProductCard IconSource="img2.png" TextName="Xiaomi Note 11 Pro" TextPrice="$500"/>
                                 </StackLayout>
                             </ScrollView>
 
                         </StackLayout>
 
-                        <StackLayout Margin="0,20,0,10" Grid.Row="1" Orientation="Vertical">
+                        <StackLayout Grid.Row="1" Orientation="Vertical">
 
-                            <StackLayout Orientation="Horizontal">
-                                <Label FontAttributes="Bold" FontSize="18" Text="Top Products"/>
-                                <Label  TextColor="{DynamicResource SecondaryBrandColor}" Margin="0,2,0,0" FontAttributes="Bold" FontSize="16" Text="See all" HorizontalOptions="End" >
-                                    <Label.GestureRecognizers>
-                                        <TapGestureRecognizer Tapped="OnSmallClicked" />
-                                    </Label.GestureRecognizers>
-                                </Label>
-                            </StackLayout>
+                            <Label Margin="0,15" FontAttributes="Bold" FontSize="18" Text="Recently Viewed Items"/>
 
 
                             <ScrollView Orientation="Horizontal" HorizontalScrollBarVisibility="Never">
-                                <StackLayout Orientation="Horizontal">
-                                    <local:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                                <StackLayout Spacing="15" Orientation="Horizontal">
+                                    <local:ProductCard IconSource="img3.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
                                     <local:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
-                                    <local:ProductCard IconSource="dinnergown.png" TextName="Defacto Dinner Gown" TextPrice="$1600"/>
+                                    <local:ProductCard IconSource="img4.png" TextName="Defacto Dinner Gown" TextPrice="$600"/>
                                     <local:ProductCard IconSource="xiaomi.png" TextName="Xiaomi Note 11 Pro" TextPrice="$999"/>
                                 </StackLayout>
                             </ScrollView>
@@ -112,15 +124,17 @@
 
             <!-- Button at the bottom -->
             <StackLayout Grid.Row="1" VerticalOptions="End">
-                <Grid>
+                <Grid Padding="20,0" >
                     <Button CornerRadius="10" BackgroundColor="{DynamicResource PrimaryBrandColor}"
-                        Margin="15,0,15,10" Clicked="AddtoCartClicked" />
+                        Margin="0,0,0,20" Clicked="AddtoCartClicked" />
 
                     <!-- StackLayout to contain both the image icon and the text -->
-                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                        <Image Source="whiteCart.png" HeightRequest="0" WidthRequest="20" Margin="0,0,5,0" />
+                    <StackLayout Spacing="10" Margin="0,0,0,20" 
+                                 Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Image Source="whitecart.svg"  />
                         <!-- Adjust the Source and size accordingly -->
-                        <Label Text="Add To Cart" TextColor="{DynamicResource TertiaryTextColor}" VerticalTextAlignment="Center"
+                        <Label Text="Add To Cart" FontSize="Medium" 
+                               TextColor="{DynamicResource MastersTextColor}" VerticalTextAlignment="Center"
                                VerticalOptions="CenterAndExpand" />
                     </StackLayout>
                 </Grid>

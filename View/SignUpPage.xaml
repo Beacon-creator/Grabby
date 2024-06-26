@@ -22,7 +22,7 @@
                 <Label Text="Let’s help you get set up" 
                     Style="{DynamicResource label2}"/>
 
-                <StackLayout Margin="0,35,0,0">
+                <StackLayout Margin="0,25,0,0">
 
                    <Frame Style="{DynamicResource framelay}">
 
@@ -158,12 +158,12 @@
                 <Button x:Name="googlebut" FontSize="Medium" WidthRequest="375"
                         ImageSource="googleicon.png" 
                      Text="Continue with Google" Style="{DynamicResource HoverButtonStyle}"
-                 Clicked="googlebut_Clicked" Margin="0,15,0,0" />
+                 Clicked="googlebut_Clicked" Margin="0,10,0,0" />
 
                 <Button x:Name="Facebooksignup" Style="{DynamicResource HoverButtonStyle}"
                         
                         Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
-                  Margin="0,20,0,10"/>
+                  Margin="0,15,0,10"/>
 
 
                 <StackLayout Margin="0,10,0,0" Spacing="5" HorizontalOptions="CenterAndExpand"

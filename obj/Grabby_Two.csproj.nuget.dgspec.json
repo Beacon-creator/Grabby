@@ -68,7 +68,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -95,6 +99,10 @@
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLite": {
               "target": "Package",
@@ -131,7 +139,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -158,6 +170,10 @@
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLite": {
               "target": "Package",
@@ -194,7 +210,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -221,6 +241,10 @@
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLite": {
               "target": "Package",
@@ -258,7 +282,11 @@
           "dependencies": {
             "CommunityToolkit.Maui": {
               "target": "Package",
-              "version": "[9.0.0, )"
+              "version": "[9.0.1, )"
+            },
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
@@ -279,6 +307,10 @@
             "Microsoft.NETCore.Platforms": {
               "target": "Package",
               "version": "[7.0.4, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             },
             "SQLite": {
               "target": "Package",

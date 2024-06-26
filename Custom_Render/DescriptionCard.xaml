@@ -3,74 +3,88 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Grabby_Two.Custom_Render.DescriptionCard">
   <ContentView.Content>
-        <Frame HasShadow="True" > 
+        <Frame CornerRadius="0" HasShadow="False" Padding="0"
+               BorderColor="{DynamicResource SecondaryBackgroundColor}" > 
             
       
-        <Grid Grid.RowDefinitions="auto,auto,auto">
+        <Grid Grid.RowDefinitions="Auto,Auto,Auto">
             <StackLayout Orientation="Vertical">
-                <StackLayout Grid.Row="0" Orientation="Horizontal">
-                    <Label FontSize="12" Text="{Binding MerchantName}"/>
-                    <Image Source="Verified.png" />
+                <StackLayout Spacing="5" Grid.Row="0" Orientation="Horizontal">
+                    <Label FontSize="Small" FontAttributes="Bold"
+                           TextColor="{DynamicResource SecondaryTextBrandColor}"  Text="{Binding MerchantName}"/>
+                    <Image WidthRequest="15" HeightRequest="15" Source="Verified.svg" />
                 </StackLayout>
 
-                <StackLayout Margin="0,0,5,0" Grid.Row="0" Orientation="Horizontal">
-                    <Label FontAttributes="Bold" Margin="0,10,0,0" Text="{Binding ProductName}"/>
+                <StackLayout Margin="0,10,5,0" Grid.Row="0" Orientation="Horizontal">
+                    <Label  FontSize="Medium" FontAttributes="Bold" Margin="0,10,0,0" Text="{Binding ProductName}"/>
 
                     <StackLayout Spacing="20" Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                        <ImageButton BackgroundColor="{DynamicResource TertiaryBackgroundColor}" Source="Star2.png"/>
-                        <Label Margin="0,4,0,0" TextColor="{DynamicResource PrimaryBrandColor}" FontSize="16" Text="{Binding Rating}"/>
+                        <ImageButton BackgroundColor="{DynamicResource TertiaryBackgroundColor}" Style="{DynamicResource headbutton}"
+                                     Source="purple_star.svg"/>
+                        <Label Margin="0,4,0,0" TextColor="{DynamicResource PrimaryBrandColor}" 
+                               FontSize="Medium" Text="{Binding Rating}"/>
                     </StackLayout>
 
                 </StackLayout>
 
 
                 <StackLayout Grid.Row="1" Margin="0,20,5,15" Orientation="Horizontal">
-                    <Label FontAttributes="Bold" Text="{Binding ProductPrice}"/>
+                    <Label FontSize="Medium" FontAttributes="Bold" Text="{Binding ProductPrice}"/>
 
                     <StackLayout Spacing="20"  Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                        <ImageButton BackgroundColor="{DynamicResource SecondaryBackgroundColor}" Source="forward.png"/>
-                        <ImageButton BackgroundColor="{DynamicResource SecondaryBackgroundColor}" Source="like.png"/>
+                        <ImageButton BackgroundColor="{DynamicResource SecondaryBackgroundColor}" Style="{DynamicResource headbutton}"
+                                     Source="forward.png"/>
+                        <ImageButton BackgroundColor="{DynamicResource SecondaryBackgroundColor}" Style="{DynamicResource headbutton}"
+                                     Source="like.png"/>
                     </StackLayout>
 
                 </StackLayout>
 
                 <StackLayout Grid.Row="2" Orientation="Vertical">
-                        <BoxView Color="#dfdfdf" HeightRequest="1" 
+                        <BoxView Color="{DynamicResource TertiaryBackgroundColor2}" HeightRequest="1" 
                                  HorizontalOptions="FillAndExpand" Margin="0,0" />
 
 
-                        <Label Margin="0,15,0,10" Text="SIZES"/>
+                        <Label Margin="0,15,0,10" FontSize="Small" Text="SIZES"/>
 
-                        <StackLayout Spacing="12" Orientation="Horizontal">
-                            <Frame  HasShadow="False" BackgroundColor="{DynamicResource TertiaryBackgroundColor}" CornerRadius="10">
+                        <StackLayout Padding="10,10" Spacing="10" Orientation="Horizontal">
+                            <Frame  HasShadow="False" BorderColor="{DynamicResource MastersBackgroundColor}"
+                                   BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                     CornerRadius="10">
                                 <Label FontAttributes="Bold" FontSize="20" Text="S" HorizontalOptions="Center" VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnSmallClicked" />
                                     </Label.GestureRecognizers>
                                 </Label>
                             </Frame>
-                            <Frame HasShadow="False" BackgroundColor="{DynamicResource TertiaryBackgroundColor}" CornerRadius="10">
+                            <Frame HasShadow="False" BorderColor="{DynamicResource MastersBackgroundColor}"
+                                   BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                 CornerRadius="10">
                                 <Label FontAttributes="Bold" FontSize="20" Text="M" HorizontalOptions="Center" VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnSmallClicked" />
                                     </Label.GestureRecognizers>
                                 </Label>
                             </Frame>
-                            <Frame HasShadow="False" BackgroundColor="{DynamicResource TertiaryBackgroundColor}" CornerRadius="10">
+                            <Frame HasShadow="False" BorderColor="{DynamicResource MastersBackgroundColor}"
+                                   BackgroundColor="{DynamicResource SecondaryBackgroundColor}"
+                                    CornerRadius="10">
                                 <Label FontAttributes="Bold" FontSize="20" Text="L" HorizontalOptions="Center" VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnSmallClicked" />
                                     </Label.GestureRecognizers>
                                 </Label>
                             </Frame>
-                            <Frame HasShadow="False" BackgroundColor="{DynamicResource TertiaryBackgroundColor}" CornerRadius="10">
+                            <Frame HasShadow="False" BorderColor="{DynamicResource MastersBackgroundColor}"
+                                   BackgroundColor="{DynamicResource SecondaryBackgroundColor}" CornerRadius="10">
                                 <Label FontAttributes="Bold" FontSize="20" Text="XL" HorizontalOptions="Center" VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnSmallClicked" />
                                     </Label.GestureRecognizers>
                                 </Label>
                             </Frame>
-                            <Frame HasShadow="False" BackgroundColor="{DynamicResource TertiaryBackgroundColor}" CornerRadius="10">
+                            <Frame HasShadow="False" BorderColor="{DynamicResource MastersBackgroundColor}"
+                                   BackgroundColor="{DynamicResource SecondaryBackgroundColor}" CornerRadius="10">
                                 <Label FontAttributes="Bold" FontSize="20" Text="XXL" HorizontalOptions="Center" VerticalOptions="Center">
                                     <Label.GestureRecognizers>
                                         <TapGestureRecognizer Tapped="OnSmallClicked" />
