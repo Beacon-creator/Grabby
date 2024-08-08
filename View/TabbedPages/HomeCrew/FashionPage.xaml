@@ -12,7 +12,7 @@
 
             <Grid Padding="20,0" BackgroundColor="{DynamicResource PrimaryBrandColor}" Grid.Row="0">
 
-                <Image Source="backdesign.png" Aspect="AspectFill" /> 
+                <Image Source="backdesign.png" Aspect="AspectFill" />
 
                 <StackLayout VerticalOptions="CenterAndExpand" Orientation="Horizontal" >
 
@@ -23,9 +23,9 @@
                                       Style="{DynamicResource headbutton}" 
                                      Clicked="back_Clicked" Source="white_arrow.png"/>
 
-                            <Label Style="{DynamicResource label1b}" FontSize="Large" VerticalOptions="Start" Text="Fashion"/> 
+                        <Label Style="{DynamicResource label1b}" FontSize="Large" VerticalOptions="Start" Text="Fashion"/>
 
-                    </StackLayout> 
+                    </StackLayout>
 
                     <StackLayout Margin="0,55,0,10" Spacing="20" 
                                  Orientation="Horizontal" VerticalOptions="Center" 
@@ -34,22 +34,28 @@
                         <ImageButton x:Name="search" Style="{DynamicResource headbutton}" 
                                      Source="white_search.svg" Clicked="search_Clicked"/>
 
-                            <ImageButton x:Name="cart"  Style="{DynamicResource headbutton}" 
+                        <ImageButton x:Name="cart"  Style="{DynamicResource headbutton}" 
                                      Source="whitecart.svg" Clicked="cart_Clicked"/>
 
-                    </StackLayout> 
+                    </StackLayout>
 
-                </StackLayout> 
+                </StackLayout>
 
-            </Grid> 
+            </Grid>
 
 
             <ScrollView VerticalScrollBarVisibility="Never"  Grid.Row="1">
 
                 <StackLayout Padding="20,0" Margin="0,10,0,0"  Grid.Row="1">
 
-                    <StackL Spacing="5" Orientation="Horizontal">
-                        
+                    <StackLayout Spacing="5" Orientation="Horizontal">
+
+
+                        <local:ListingCard x:Name="licard" BackgroundImageSource="rectangle2.png" 
+                   ProductName="Yomi Casual"  
+                   RatingText="4.5/5"  
+                   NavigationCommand="{Binding NavigationCommand2}"
+                   RatingCommand="{Binding RatingCommand2}" />
 
                         <local:ListingCard BackgroundImageSource="rectangle2.png" 
                    ProductName="Yomi Casual"  
@@ -57,113 +63,107 @@
                    NavigationCommand="{Binding NavigationCommand2}"
                    RatingCommand="{Binding RatingCommand2}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle2.png" 
-                   ProductName="Yomi Casual"  
-                   RatingText="4.5/5"  
-                   NavigationCommand="{Binding NavigationCommand2}"
-                   RatingCommand="{Binding RatingCommand2}" />
+                </StackLayout>
 
-                    </StackLayout> 
+                <StackLayout Spacing="5" Orientation="Horizontal">
 
-                    <StackLayout Spacing="5" Orientation="Horizontal">
-
-                        <local:ListingCard BackgroundImageSource="rectangle4.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle4.png" 
                    ProductName="Fanal Designs"  
                    RatingText="4.5/5"  
                    NavigationCommand="{Binding NavigationCommand1}"
                    RatingCommand="{Binding RatingCommand1}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle2.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle2.png" 
                    ProductName="Yomi Casual"  
                    RatingText="4.5/5"  
                    NavigationCommand="{Binding NavigationCommand2}"
                    RatingCommand="{Binding RatingCommand2}" />
-                     
 
 
-                    </StackLayout> 
+
+                </StackLayout>
 
 
-                    <StackLayout Spacing="5" Orientation="Horizontal">
+                <StackLayout Spacing="5" Orientation="Horizontal">
 
-                        <local:ListingCard BackgroundImageSource="rectangle1.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle1.png" 
                    ProductName="Product Name"  
                    RatingText="4.4/5"  
                    NavigationCommand="{Binding NavigationCommand1}"
                    RatingCommand="{Binding RatingCommand1}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle2.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle2.png" 
                    ProductName="Yomi Casual"  
                    RatingText="4.5/5"  
                    NavigationCommand="{Binding NavigationCommand2}"
                    RatingCommand="{Binding RatingCommand2}" />
-                       
 
 
-                    </StackLayout> 
+
+                </StackLayout>
 
 
-                    <StackLayout Spacing="5" Orientation="Horizontal">
+                <StackLayout Spacing="5" Orientation="Horizontal">
 
-                        <local:ListingCard BackgroundImageSource="rectangle1.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle1.png" 
                    ProductName="Product Name"  
                    RatingText="4.5/5"  
                    NavigationCommand="{Binding NavigationCommand1}"
                    RatingCommand="{Binding RatingCommand1}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle3.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle3.png" 
                    ProductName="Yomi Casual"  
                    RatingText="3.5/5"  
                    NavigationCommand="{Binding NavigationCommand2}"
                    RatingCommand="{Binding RatingCommand2}" />
-              
 
 
-                    </StackLayout> 
+
+                </StackLayout>
 
 
-                    <StackLayout Spacing="5" Orientation="Horizontal">
+                <StackLayout Spacing="5" Orientation="Horizontal">
 
-                        <local:ListingCard BackgroundImageSource="rectangle4.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle4.png" 
             ProductName="Product Name"  
             RatingText="5/5"  
             NavigationCommand="{Binding NavigationCommand1}"
             RatingCommand="{Binding RatingCommand1}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle5.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle5.png" 
             ProductName="Yomi Casual"  
             RatingText="4.8/5"  
             NavigationCommand="{Binding NavigationCommand2}"
             RatingCommand="{Binding RatingCommand2}" />
 
 
-                    </StackLayout> 
+                </StackLayout>
 
 
-                    <StackLayout Spacing="5" Orientation="Horizontal">
+                <StackLayout Spacing="5" Orientation="Horizontal">
 
-                        <local:ListingCard BackgroundImageSource="rectangle6.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle6.png" 
             ProductName="Product Name"  
             RatingText="4.5/5"  
             NavigationCommand="{Binding NavigationCommand1}"
             RatingCommand="{Binding RatingCommand1}" />
 
-                            <local:ListingCard BackgroundImageSource="rectangle7.png" 
+                    <local:ListingCard BackgroundImageSource="rectangle7.png" 
             ProductName="Yomi Casual"  
             RatingText="4.5/5"  
             NavigationCommand="{Binding NavigationCommand2}"
             RatingCommand="{Binding RatingCommand2}" />
 
 
-                    </StackLayout> 
+                </StackLayout>
 
-                </StackLayout> 
+                </StackLayout>
 
-            </ScrollView> 
-         
+            </ScrollView>
+           
+        </Grid>
 
-        </Grid> 
+    </ContentPage.Content>
 
-    </ContentPage.Content> 
 
 </ContentPage>

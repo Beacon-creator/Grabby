@@ -44,6 +44,8 @@ namespace Grabby_Two.View.TabbedPages.HomeCrew
                     await Navigation.PushAsync(new ProductDetails1());
                     break;
                     // Add more cases as needed
+
+                 
             }
         }
 

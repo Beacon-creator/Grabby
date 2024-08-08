@@ -9,7 +9,7 @@ namespace Grabby_Two
         {
             InitializeComponent();
 
-            Routing.RegisterRoute(nameof(HomePage), typeof(HomePage));
+            Routing.RegisterRoute(nameof(StartPage), typeof(StartPage));
             Routing.RegisterRoute(nameof(SignInPage), typeof(SignInPage));
             Routing.RegisterRoute(nameof(SignUpPage), typeof(SignUpPage));
         }

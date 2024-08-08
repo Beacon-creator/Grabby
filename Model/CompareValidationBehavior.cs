@@ -1,12 +1,13 @@
 ﻿using System;
+using Grabby_Two.Custom_Render;
 using Microsoft.Maui.Controls;
 
 namespace Grabby_Two.Model
 {
-    public class CompareValidationBehavior : Behavior<Entry>
+    public class CompareValidationBehavior : Behavior<BorderlessEntry>
     {
         public static readonly BindableProperty CompareToEntryProperty =
-            BindableProperty.Create(nameof(CompareToEntry), typeof(Entry), typeof(CompareValidationBehavior), null);
+            BindableProperty.Create(nameof(CompareToEntry), typeof(BorderlessEntry), typeof(CompareValidationBehavior), null);
 
         public Entry CompareToEntry
         {
@@ -14,7 +15,7 @@ namespace Grabby_Two.Model
             set => SetValue(CompareToEntryProperty, value);
         }
 
-        protected override void OnAttachedTo(Entry bindable)
+        protected override void OnAttachedTo(BorderlessEntry bindable)
         {
             base.OnAttachedTo(bindable);
             bindable.TextChanged += HandleTextChanged;
@@ -24,7 +25,7 @@ namespace Grabby_Two.Model
             }
         }
 
-        protected override void OnDetachingFrom(Entry bindable)
+        protected override void OnDetachingFrom(BorderlessEntry bindable)
         {
             base.OnDetachingFrom(bindable);
             bindable.TextChanged -= HandleTextChanged;
@@ -36,7 +37,7 @@ namespace Grabby_Two.Model
 
         private void HandleTextChanged(object? sender, TextChangedEventArgs e)
         {
-            if (sender is Entry entry)
+            if (sender is BorderlessEntry entry)
             {
                 bool isValid = string.Equals(entry.Text, CompareToEntry?.Text);
                 entry.TextColor = isValid ? Colors.Green : Colors.Red;

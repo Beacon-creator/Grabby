@@ -13,11 +13,14 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Deploy")]
+[assembly: System.Reflection.AssemblyCopyrightAttribute("copyright@2024")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("...up for grab")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+864946f5b8569ca15e9eeb9c17d69bf7695909d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+446a5a538c4d484fe237ad325349e1bb227a6b19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/Beacon-creator/grabby")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("MacCatalyst17.2")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("MacCatalyst13.1")]
 

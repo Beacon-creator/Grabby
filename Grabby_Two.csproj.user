@@ -14,6 +14,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-android|AnyCPU'">
     <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Deploy|net8.0-android|AnyCPU'">
+    <DebuggerFlavor>ProjectDebugger</DebuggerFlavor>
+  </PropertyGroup>
   <ItemGroup>
     <MauiXaml Update="Custom_Render\CartCard.xaml">
       <SubType>Designer</SubType>
@@ -45,6 +48,9 @@
     <MauiXaml Update="Custom_Render\ProductCard.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
+    <MauiXaml Update="Custom_Render\TermsAndConditionsPopup.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Custom_Render\TitleBar.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
@@ -72,7 +78,7 @@
     <MauiXaml Update="View\SignUpPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
-    <MauiXaml Update="View\StartPages.xaml">
+    <MauiXaml Update="View\StartPage.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\TabbedPages\AccountPage.xaml">

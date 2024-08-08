@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+864946f5b8569ca15e9eeb9c17d69bf7695909d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+446a5a538c4d484fe237ad325349e1bb227a6b19")]
 [assembly: System.Reflection.AssemblyProductAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

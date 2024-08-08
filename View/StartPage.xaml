@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Grabby_Two.View.StartPage"
+             NavigationPage.HasNavigationBar="False">
+
+    <Grid Padding="0,30">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="150" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <CarouselView Position="{Binding CurrentCarouselIndex}"
+                      ItemsSource="{Binding CarouselItems}"
+                      Grid.Row="0">
+            <CarouselView.ItemTemplate>
+                <DataTemplate>
+                    <Grid Margin="0,30,0,0" RowSpacing="10" RowDefinitions="Auto, Auto, Auto">
+                        <Image Source="{Binding ImageUrl}"
+                               HorizontalOptions="Center" VerticalOptions="CenterAndExpand"
+                               Aspect="Center" HeightRequest="350" Grid.Row="0"/>
+
+                        <Label Text="{Binding Title}" FontSize="Title" VerticalOptions="Start"
+                               HorizontalTextAlignment="Center" TextColor="{DynamicResource PrimaryTextBrandColor}" Grid.Row="1"/>
+
+                        <Label Text="{Binding Description}" HorizontalOptions="CenterAndExpand"
+                               VerticalOptions="CenterAndExpand" LineBreakMode="WordWrap"
+                               TextColor="{DynamicResource PrimaryTextColor}" VerticalTextAlignment="Center" WidthRequest="300"
+                               FontSize="Medium" HorizontalTextAlignment="Center" Grid.Row="2"/>
+                    </Grid>
+                </DataTemplate>
+            </CarouselView.ItemTemplate>
+        </CarouselView>
+
+        <StackLayout Orientation="Horizontal"  HorizontalOptions="CenterAndExpand" Grid.Row="1">
+            <IndicatorView ItemsSource="{Binding CarouselItems}"
+                           IndicatorColor="{DynamicResource MasterBrandColor}"
+                           SelectedIndicatorColor="{DynamicResource PrimaryBrandColor}"
+                           IndicatorSize="10"
+                           Position="{Binding CurrentCarouselIndex, Mode=TwoWay}" />
+        </StackLayout>
+
+
+        <Grid HorizontalOptions="CenterAndExpand" Grid.Row="2"
+      IsVisible="{Binding AreSkipAndNextVisible}">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="200" />
+                <ColumnDefinition Width="Auto" />
+            </Grid.ColumnDefinitions>
+
+            <Button Text="Skip"
+            Command="{Binding SkipCommand}"
+            TextColor="{DynamicResource PrimaryTextBlackColor}" 
+            FontSize="Medium"
+            BackgroundColor="Transparent"
+            HorizontalOptions="Start"
+            Grid.Column="0"/>
+
+            <Button CornerRadius="5" WidthRequest="90" HeightRequest="40"
+            Text="Next" 
+            Command="{Binding NextCommand}"
+            BackgroundColor="{DynamicResource PrimaryBrandColor}" 
+            HorizontalOptions="End"
+            Grid.Column="2"/>
+        </Grid>
+
+        <Button WidthRequest="350" 
+        HeightRequest="55" Text="Get Started"
+        Command="{Binding GetStartedCommand}"
+        BackgroundColor="{DynamicResource PrimaryBrandColor}" 
+        TextColor="{DynamicResource MastersTextColor}" FontSize="Medium"
+        IsVisible="{Binding IsGetStartedVisible}" Grid.Row="2" HorizontalOptions="FillAndExpand"/>
+        
+        
+
+    </Grid>
+
+</ContentPage>

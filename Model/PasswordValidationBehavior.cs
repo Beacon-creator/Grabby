@@ -5,10 +5,11 @@ using System.Text.RegularExpressions;
 using Microsoft.Maui.Graphics;
 using Microsoft.Maui.Controls;
 using Microsoft.Maui;
+using Grabby_Two.Custom_Render;
 
 namespace Grabby_Two.Model
 {
-    public class PasswordValidationBehavior : Behavior<Entry>
+    public class PasswordValidationBehavior : Behavior<BorderlessEntry>
     {
         const string passwordRegex = @"^(?=.*[A-Za-z])(?=.*\d)(?=.*[$@$!%*#?&])[A-Za-z\d$@$!/.%*#?&]{6,}$";
         static readonly BindablePropertyKey IsValidPropertyKey = BindableProperty.CreateReadOnly("IsValid", typeof(bool), typeof(PasswordValidationBehavior), false);
@@ -20,7 +21,7 @@ namespace Grabby_Two.Model
             private set { base.SetValue(IsValidPropertyKey, value); }
         }
 
-        protected override void OnAttachedTo(Entry bindable)
+        protected override void OnAttachedTo(BorderlessEntry bindable)
         {
             bindable.TextChanged += HandleTextChanged;
             base.OnAttachedTo(bindable);
@@ -31,17 +32,17 @@ namespace Grabby_Two.Model
             if (e.NewTextValue != null)
             {
                 IsValid = Regex.IsMatch(e.NewTextValue, passwordRegex);
-                ((Entry)sender).TextColor = IsValid ? null : Colors.Red;
+                ((BorderlessEntry)sender).TextColor = IsValid ? Colors.Black : Colors.Red;
             }
             else
             {
                 IsValid = false;
-                ((Entry)sender).TextColor = Colors.Red;
+                ((BorderlessEntry)sender).TextColor = Colors.Red;
             }
         }
 
 
-        protected override void OnDetachingFrom(Entry bindable)
+        protected override void OnDetachingFrom(BorderlessEntry bindable)
         {
             bindable.TextChanged -= HandleTextChanged;
             base.OnDetachingFrom(bindable);

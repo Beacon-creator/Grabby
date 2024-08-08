@@ -4,7 +4,7 @@
     "includedFrameworks": [
       {
         "name": "Microsoft.NETCore.App",
-        "version": "8.0.5"
+        "version": "8.0.7"
       },
       {
         "name": "Microsoft.MacCatalyst",
@@ -12,7 +12,7 @@
       }
     ],
     "configProperties": {
-      "Microsoft.Extensions.DependencyInjection.VerifyOpenGenericServiceTrimmability": false,
+      "Microsoft.Extensions.DependencyInjection.VerifyOpenGenericServiceTrimmability": true,
       "System.AggressiveAttributeTrimming": true,
       "System.ComponentModel.TypeConverter.EnableUnsafeBinaryFormatterInDesigntimeLicenseContextSerialization": false,
       "System.Diagnostics.Debugger.IsSupported": false,
@@ -27,11 +27,15 @@
       "System.Resources.UseSystemResourceKeys": true,
       "System.Runtime.CompilerServices.RuntimeFeature.IsDynamicCodeSupported": false,
       "System.Runtime.InteropServices.BuiltInComInterop.IsSupported": false,
+      "System.Runtime.InteropServices.EnableConsumingManagedCodeFromNativeHosting": false,
+      "System.Runtime.InteropServices.EnableCppCLIHostActivation": false,
+      "System.Runtime.InteropServices.Marshalling.EnableGeneratedComInterfaceComImportInterop": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
       "System.StartupHookProvider.IsSupported": false,
       "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "System.Text.Json.JsonSerializer.IsReflectionEnabledByDefault": true,
       "System.Threading.Thread.EnableAutoreleasePool": true,
+      "System.Linq.Expressions.CanEmitObjectArrayDelegate": false,
       "ICU_DAT_FILE_PATH": "Contents/MonoBundle/icudt.dat"
     }
   }

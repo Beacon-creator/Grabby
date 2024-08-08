@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="Grabby_Two.View.SignUpPage" 
-             NavigationPage.HasBackButton="False"
-             NavigationPage.HasNavigationBar="False"     
+             x:Class="Grabby_Two.View.SignUpPage"   
              xmlns:local="clr-namespace:Grabby_Two.Model" 
              xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
-              xmlns:local2="clr-namespace:Grabby_Two.Resources.Styles" >
+             NavigationPage.HasNavigationBar="False"   >
+    
     <ContentPage.Content>
-        <Grid Padding="20,20" Margin="0,20,0,0" RowDefinitions="Auto,Auto, *">
+        <Grid Padding="20,20" RowDefinitions="Auto,Auto, *">
 
 
             <Image Style="{DynamicResource logoimage}"/>
@@ -24,12 +23,13 @@
 
                 <StackLayout Margin="0,25,0,0">
 
-                   <Frame Style="{DynamicResource framelay}">
+                    <Frame Style="{DynamicResource framelay}">
 
                         <StackLayout Margin="0,0,0,0" Orientation="Horizontal">
                             <ImageButton Style="{DynamicResource fnicon}"
                                         Source="fnicon"/>
                             <local1:BorderlessEntry x:Name="fullnameEntry"
+                                                     Text="{Binding Fullname}"
                                                      HorizontalOptions="FillAndExpand" FontSize="Large"
                                                     Placeholder="Enter Fullname" />
                         </StackLayout>
@@ -43,12 +43,13 @@
                      Source="mailicon"/>
                             <local1:BorderlessEntry x:Name="emailaddressEntry" FontSize="Large"
                                  HorizontalOptions="FillAndExpand" 
+                                                     Text="{Binding Email}"
                                  Placeholder="Enter email address">
                                 <Entry.Behaviors>
-                                    <local:EmailValidatorBehavior x:Name="emailValidator"/>
+                                    <local:EmailValidatorBehavior x:Name="emailValidator" IsValid="{Binding IsEmailValid}"/>
                                 </Entry.Behaviors>
                             </local1:BorderlessEntry>
-                         
+
                         </StackLayout>
 
                     </Frame>
@@ -58,15 +59,16 @@
                             <ImageButton Style="{DynamicResource fnicon}"
                      Source="passwordicon"/>
 
-                            <local1:BorderlessEntry x:Name="passwordEntry" FontSize="Large"
+                            <local1:BorderlessEntry x:Name="passwordEntry"
+                                                     Text="{Binding Password}" FontSize="Large"
                                HorizontalOptions="FillAndExpand" 
                                 IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"
                                  Placeholder="Enter password">
                                 <Entry.Behaviors>
-                                    <local:PasswordValidationBehavior x:Name="passwordValidator"/>
+                                    <local:PasswordValidationBehavior x:Name="passwordValidator" IsValid="{Binding IsPasswordValid}"/>
                                 </Entry.Behaviors>
                             </local1:BorderlessEntry>
-                      <!--     
+                            <!--     
                             <Label x:Name="lblValPassword" FontSize="Micro" HeightRequest="15"
                                  Style="{DynamicResource passwordverifyStyle}" />
 -->
@@ -85,34 +87,35 @@
                         </StackLayout>
 
                     </Frame>
-                   
-                </StackLayout> 
-              
+
+                </StackLayout>
+
 
                 <Grid Margin="0,5,0,0">
                     <StackLayout Spacing="25"
                         Orientation="Horizontal" HorizontalOptions="StartAndExpand">
-                        <CheckBox
-                     x:Name="TermsAccepted" Style="{DynamicResource TandCBox}"
-                     CheckedChanged="TermsAccepted_CheckedChanged">
+                        <CheckBox x:Name="TermsAccepted" IsChecked="{Binding TermsAccepted}"
+          Style="{DynamicResource TandCBox}">
 
                             <VisualStateManager.VisualStateGroups>
-                                <VisualStateGroup x:Name="CommonStates">
-                                    <VisualState x:Name="Normal">
+                                <VisualStateGroup x:Name="CheckBoxStates">
+                                    <VisualState x:Name="NormalState">
                                         <VisualState.Setters>
                                             <Setter Property="Color"
-                             Value="{DynamicResource PrimaryBrandColor}" />
+                            Value="{DynamicResource PrimaryBrandColor}" />
                                         </VisualState.Setters>
                                     </VisualState>
-                                    <VisualState x:Name="IsChecked">
+                                    <VisualState x:Name="CheckedState">
                                         <VisualState.Setters>
                                             <Setter Property="Color"
-                             Value="{DynamicResource PrimaryBrandColor}" />
+                            Value="{DynamicResource PrimaryBrandColor}" />
                                         </VisualState.Setters>
                                     </VisualState>
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
                         </CheckBox>
+
+
 
                         <Label FontSize="Small" LineBreakMode="WordWrap" 
                                x:Name="termsLabel" 
@@ -138,7 +141,7 @@
                                 </DataTrigger>
                             </Label.Triggers>
                             <Label.GestureRecognizers>
-                                <TapGestureRecognizer Tapped="Rules_Tapped"/>
+                                <TapGestureRecognizer Command="{Binding ShowTermsPopupCommand}"/>
                             </Label.GestureRecognizers>
                         </Label>
 
@@ -153,16 +156,16 @@
 
                 <Button x:Name="createAccountbut" WidthRequest="375"
                         Text="Create Account" FontSize="Medium" Style="{DynamicResource entranceButtons}"
-                        Clicked="createAccountbut_Clicked" Margin="0,10,0,10" />
+                        Command="{Binding SignUpCommand}" Margin="0,10,0,10" />
 
                 <Button x:Name="googlebut" FontSize="Medium" WidthRequest="375"
                         ImageSource="googleicon.png" 
                      Text="Continue with Google" Style="{DynamicResource HoverButtonStyle}"
-                 Clicked="googlebut_Clicked" Margin="0,10,0,0" />
+                  Command="{Binding GoogleSignUpCommand}" Margin="0,10,0,0" />
 
                 <Button x:Name="Facebooksignup" Style="{DynamicResource HoverButtonStyle}"
                         
-                        Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
+                        Command="{Binding FacebookSignUpCommand}" Text="Continue with Facebook" ImageSource="facebookicon.png" 
                   Margin="0,15,0,10"/>
 
 
@@ -172,7 +175,7 @@
                     <Label Text="Sign in" FontSize="16" Margin="5,0,0,0"
                         TextColor="{DynamicResource PrimaryBrandColor}" >
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Signin"/>
+                            <TapGestureRecognizer  Command="{Binding SignInCommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
 

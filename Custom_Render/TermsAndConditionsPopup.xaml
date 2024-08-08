@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<toolkit:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+                 xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Grabby_Two.Custom_Render.TermsAndConditionsPopup">
+    <Grid VerticalOptions="Center"
+          BackgroundColor="{DynamicResource TertiaryBackgroundColor}"
+          HorizontalOptions="Center" Padding="10"
+          WidthRequest="300" HeightRequest="180">
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Terms and Conditions" Style="{DynamicResource headlabel3}" FontAttributes="Bold" HorizontalOptions="Center"/>
+                <Label Text="Here are the terms and privacy policy..." Style="{DynamicResource SubHeadline}"
+                       FontSize="Small" Margin="0,10,0,20"/>
+                <!-- Add more content as needed -->
+
+
+            </StackLayout>
+
+        </ScrollView>
+        <!--<Button Text="X" Style="{DynamicResource entranceButtons}" HeightRequest="40"
+         Command="{Binding HidePopupCommand}" VerticalOptions="End" HorizontalOptions="Center"/>-->
+    </Grid>
+    </toolkit:Popup>

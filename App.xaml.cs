@@ -17,9 +17,9 @@ namespace Grabby_Two
         {
             InitializeComponent();
 
-          //  MainPage = new AppShell();
+            MainPage = new AppShell();
 
-            MainPage = new NavigationPage(new StartPages());
+           // MainPage = new NavigationPage(new StartPage());
 
             Microsoft.Maui.Handlers.EntryHandler.Mapper.AppendToMapping(nameof(BorderlessEntry), (handler, view) =>
             {
