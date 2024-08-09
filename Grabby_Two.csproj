@@ -310,4 +310,6 @@
 	  <Folder Include="Platforms\Android\Handlers\" />
 	</ItemGroup>
 
+	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionGrabby_TwoHideInfoBar="True" XamarinHotReloadGenericExceptionInfoBarGrabby_TwoHideInfoBar="True" /></VisualStudio></ProjectExtensions>
+
 </Project>

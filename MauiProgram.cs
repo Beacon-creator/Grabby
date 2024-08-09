@@ -28,8 +28,9 @@ namespace Grabby_Two
                     fonts.AddFont("OpenSans-Semibold.ttf", "OpenSansSemibold");
                 }).UseMauiCommunityToolkit();
 
-
+            //extensions
             builder.UseMauiApp<App>();
+         //   builder.Services.AddHttpClient();
 
             builder.Services.AddSingleton<StartPage>();
             builder.Services.AddSingleton<SignInPage>();

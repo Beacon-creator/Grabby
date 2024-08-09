@@ -26,45 +26,41 @@
   Route="SignUpPage"/>
     <ShellContent
  ContentTemplate="{DataTemplate local:CodeVerificationSignUpPage}"
- Route="ForgotPasswordPage"/>
+ Route="CodeVerificationSignUpPage"/>
     <ShellContent
 ContentTemplate="{DataTemplate local:CartPage}"
-Route="ForgotPasswordVerificationPage"/>
+Route="CartPage"/>
     <ShellContent
     ContentTemplate="{DataTemplate local:AccountPage}"
-    Route="NewPasswordPage"/>
+    Route="AccountPage"/>
 
     <ShellContent
-        ContentTemplate="{DataTemplate local:CodeVerificationSignUpPage}"
-        Route="StartPage"/>
-    <ShellContent
     ContentTemplate="{DataTemplate local:HomeScreen}"
-    Route="SignInPage"/>
+    Route="HomeScreen"/>
     <ShellContent
   ContentTemplate="{DataTemplate local1:SearchPage}"
-  Route="SignUpPage"/>
+  Route="SearchPage"/>
     <ShellContent
  ContentTemplate="{DataTemplate local1:HomePage}"
- Route="ForgotPasswordPage"/>
+ Route="HomePage"/>
     <ShellContent
 ContentTemplate="{DataTemplate local1:AccountPage}"
 Route="ForgotPasswordVerificationPage"/>
     <ShellContent
-    ContentTemplate="{DataTemplate local1:CartPage}"
-        
-    Route="NewPasswordPage"/>
+    ContentTemplate="{DataTemplate local1:CartPage}"        
+    Route="CartPage"/>
 
     <ShellContent
         ContentTemplate="{DataTemplate local2:FashionPage}"
-        Route="StartPage"/>
+        Route="FashionPage"/>
     <ShellContent
     ContentTemplate="{DataTemplate local2:StoreInformation}"
-    Route="SignInPage"/>
+    Route="StoreInformation"/>
     <ShellContent
   ContentTemplate="{DataTemplate local3:FashionStore1}"
-  Route="SignUpPage"/>
+  Route="FashionStore1"/>
     <ShellContent
  ContentTemplate="{DataTemplate local3:ProductDetails1}"
- Route="ForgotPasswordPage"/>
+ Route="ProductDetails1"/>
 
 </Shell>

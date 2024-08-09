@@ -5,7 +5,8 @@
              xmlns:local="clr-namespace:Grabby_Two.Model" 
              xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
              NavigationPage.HasNavigationBar="False"   >
-    
+
+
     <ContentPage.Content>
         <Grid Padding="20,20" RowDefinitions="Auto,Auto, *">
 
@@ -46,7 +47,7 @@
                                                      Text="{Binding Email}"
                                  Placeholder="Enter email address">
                                 <Entry.Behaviors>
-                                    <local:EmailValidatorBehavior x:Name="emailValidator" IsValid="{Binding IsEmailValid}"/>
+                                    <local:EmailValidatorBehavior  IsValid="{Binding IsEmailValid, Mode=TwoWay}"/>
                                 </Entry.Behaviors>
                             </local1:BorderlessEntry>
 
@@ -65,14 +66,10 @@
                                 IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=HidePassword}"
                                  Placeholder="Enter password">
                                 <Entry.Behaviors>
-                                    <local:PasswordValidationBehavior x:Name="passwordValidator" IsValid="{Binding IsPasswordValid}"/>
+                                    <local:PasswordValidationBehavior IsValid="{Binding IsPasswordValid, Mode=TwoWay}"/>
                                 </Entry.Behaviors>
                             </local1:BorderlessEntry>
-                            <!--     
-                            <Label x:Name="lblValPassword" FontSize="Micro" HeightRequest="15"
-                                 Style="{DynamicResource passwordverifyStyle}" />
--->
-
+                       
                             <ImageButton 
                                Margin="10,0,0,0" Style="{DynamicResource eyebutton}"
                             Source="hideicon">

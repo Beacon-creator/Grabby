@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Net.Http;
 using System.Net.Http.Json;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using CommunityToolkit.Maui.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -27,7 +28,6 @@ namespace Grabby_Two.ViewModel
                 _httpClient.BaseAddress = new Uri("https://aspbackend20240622133116.azurewebsites.net/");
                 }
             }
-
 
         [ObservableProperty]
         private string? fullname;
@@ -71,11 +71,17 @@ namespace Grabby_Two.ViewModel
                 return;
                 }
 
-
-            // Validate email and password
-            if (!IsEmailValid || !IsPasswordValid)
+            if (!Regex.IsMatch(Email, EmailValidatorBehavior.EmailRegex))
                 {
-                await _alertService.ShowAlertAsync("Failed", "Check all details.", "OK");
+                IsEmailValid = false;
+                await _alertService.ShowAlertAsync("Invalid Email", "Please enter a valid email address.", "OK");
+                return;
+                }
+
+            if (!Regex.IsMatch(Password, PasswordValidationBehavior.PasswordRegex))
+                {
+                IsPasswordValid = false;
+                await _alertService.ShowAlertAsync("Invalid Password", "Password must be at least 6 characters long, contain a letter, a number, and a special character.", "OK");
                 return;
                 }
 
@@ -83,24 +89,23 @@ namespace Grabby_Two.ViewModel
 
             try
                 {
-                var signUpModel = new { Email, Password };
+                var signUpModel = new
+                    {
+                    Email,
+                    Password
+                    };
 
-                var response = await _httpClient.PostAsJsonAsync("api/signUp", signUpModel);
+                var response = await _httpClient.PostAsJsonAsync("api/signup", signUpModel);
 
                 if (response.IsSuccessStatusCode)
                     {
-                    var token = await response.Content.ReadAsStringAsync();
-
-                    // Save the token (e.g., in SecureStorage) and navigate to the home screen
-                    await SecureStorage.SetAsync("auth_token", token);
-
-                    await _alertService.ShowAlertAsync("Successful", "You have successfully signed up.", "OK");
-
+                    await _alertService.ShowAlertAsync("Successful", "You have successfully signed up. Please check your email to verify your account.", "OK");
                     await Shell.Current.GoToAsync("///SignInPage");
                     }
                 else
                     {
                     var errorContent = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(errorContent);
                     IsBusy = false;
                     await _alertService.ShowAlertAsync("Sign Up Failed", "Check details and try again", "OK");
                     }
