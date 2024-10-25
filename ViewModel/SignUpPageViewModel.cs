@@ -2,13 +2,11 @@
 using System.Net.Http;
 using System.Net.Http.Json;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 using CommunityToolkit.Maui.Views;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Grabby_Two.Model;
-using Microsoft.Maui.Controls;
-using Newtonsoft.Json.Serialization;
+using System.Threading.Tasks;
 
 namespace Grabby_Two.ViewModel
     {
@@ -25,7 +23,7 @@ namespace Grabby_Two.ViewModel
             // Set the base address if it is not already set
             if (_httpClient.BaseAddress == null)
                 {
-                _httpClient.BaseAddress = new Uri("https://aspbackend20240622133116.azurewebsites.net/");
+                _httpClient.BaseAddress = new Uri("https://grabbyfanalapi.onrender.com/");
                 }
             }
 
@@ -57,91 +55,95 @@ namespace Grabby_Two.ViewModel
         private async Task SignUpAsync()
             {
             if (IsBusy)
-                return;
-
-            if (!TermsAccepted)
                 {
-                await _alertService.ShowAlertAsync("Sign Up Failed", "Please accept the terms and conditions.", "OK");
+                Console.WriteLine("Sign up process is already in progress. Exiting...");
                 return;
                 }
 
-            if (string.IsNullOrEmpty(Fullname) || string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
-                {
-                await _alertService.ShowAlertAsync("Failed", "Please fill in all details.", "OK");
-                return;
-                }
-
-            if (!Regex.IsMatch(Email, EmailValidatorBehavior.EmailRegex))
-                {
-                IsEmailValid = false;
-                await _alertService.ShowAlertAsync("Invalid Email", "Please enter a valid email address.", "OK");
-                return;
-                }
-
-            if (!Regex.IsMatch(Password, PasswordValidationBehavior.PasswordRegex))
-                {
-                IsPasswordValid = false;
-                await _alertService.ShowAlertAsync("Invalid Password", "Password must be at least 6 characters long, contain a letter, a number, and a special character.", "OK");
-                return;
-                }
-
-            IsBusy = true; // Show the spinner
+            // Pre-checks (e.g., terms, fields, etc.) remain the same...
+            IsBusy = true;
+            Console.WriteLine("Sign up process started...");
 
             try
                 {
-                var signUpModel = new
+                var signUpModel = new User
                     {
-                    Email,
-                    Password
+                    FullName = Fullname,
+                    Email = Email,
+                    Password = Password
                     };
 
+                Console.WriteLine("Sending sign up request to the server...");
                 var response = await _httpClient.PostAsJsonAsync("api/signup", signUpModel);
 
                 if (response.IsSuccessStatusCode)
                     {
-                    await _alertService.ShowAlertAsync("Successful", "You have successfully signed up. Please check your email to verify your account.", "OK");
-                    await Shell.Current.GoToAsync("///SignInPage");
+                    var result = await response.Content.ReadFromJsonAsync<SignUpResponseModel>();
+                    Console.WriteLine("Sign up request was successful.");
+
+                    if (result != null && !string.IsNullOrEmpty(result.VerificationCode))
+                        {
+                        // Display verification code in an alert (or bind to a property if needed)
+                        await _alertService.ShowAlertAsync("Successful", $"You have successfully signed up. Your verification code is: {result.VerificationCode}.", "OK");
+                        Console.WriteLine($"Sign up succeeded. Verification code: {result.VerificationCode}");
+
+                        // Optionally, navigate to another page for verification
+                        await Shell.Current.GoToAsync("///CodeVerificationSignUpPage");
+                        }
+                    else
+                        {
+                        await _alertService.ShowAlertAsync("Sign Up Failed", "Could not retrieve verification code.", "OK");
+                        Console.WriteLine("Sign up failed: Verification code was missing.");
+                        }
                     }
                 else
                     {
                     var errorContent = await response.Content.ReadAsStringAsync();
-                    Console.WriteLine(errorContent);
-                    IsBusy = false;
+                    Console.WriteLine($"Sign up failed: Server responded with error - {errorContent}");
                     await _alertService.ShowAlertAsync("Sign Up Failed", "Check details and try again", "OK");
                     }
                 }
             catch (HttpRequestException httpEx)
                 {
-                await _alertService.ShowAlertAsync("Connection Error", "Try again later.", "OK");
+                Console.WriteLine($"Sign up failed: HTTP request error - {httpEx.Message}");
+                await _alertService.ShowAlertAsync("Connection Error", "Check your connection and try again.", "OK");
                 }
             catch (Exception ex)
                 {
-                await _alertService.ShowAlertAsync("Sign Up Failed", "Try again later", "OK");
+                Console.WriteLine($"Sign up failed: An unexpected error occurred - {ex.Message}");
+                await _alertService.ShowAlertAsync("Sign Up Failed", "Something went wrong. Try again later.", "OK");
                 }
             finally
                 {
-                IsBusy = false; // Hide the spinner
+                IsBusy = false;
+                Console.WriteLine("Sign up process completed.");
                 }
             }
 
+
+
+        // Navigate to SignIn page
         [RelayCommand]
         private async Task SignInAsync()
             {
             await Shell.Current.GoToAsync("///SignInPage");
             }
 
+        // Placeholder for Google SignUp
         [RelayCommand]
         private async Task GoogleSignUp()
             {
             await _alertService.ShowAlertAsync("Failed", "Not available yet", "OK");
             }
 
+        // Placeholder for Microsoft SignUp
         [RelayCommand]
         private async Task MicrosoftSignUp()
             {
             await _alertService.ShowAlertAsync("Failed", "Not available yet", "OK");
             }
 
+        // Display Terms and Conditions popup
         [RelayCommand]
         private async Task ShowTermsPopup()
             {

@@ -9,6 +9,7 @@ using Grabby_Two.ViewModel;
 using Grabby_Two.Model;
 using Grabby_Two.View.TabbedPages.HomeCrew;
 using Grabby_Two.View.TabbedPages.HomeCrew.FashionStores;
+using Grabby_Two.Services;
 
 
 
@@ -52,6 +53,7 @@ namespace Grabby_Two
             builder.Services.AddSingleton<HttpClient>();
             builder.Services.AddSingleton<HttpClientService>();
             builder.Services.AddSingleton<IAlertService, AlertService>();
+            builder.Services.AddSingleton<ILoginService, LoginService>(); 
             builder.Services.AddSingleton<JwtService>();
 
 

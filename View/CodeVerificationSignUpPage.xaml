@@ -14,12 +14,12 @@
                        Style="{DynamicResource headlabel3}"/>
             </StackLayout>
 
-            <Label Text="Enter the 6-digit activation code sent to .com" Margin="20,40,30,0"
+            <Label Text="Enter the 6-digit activation code sent to your mail" Margin="20,40,30,0"
                    Style="{DynamicResource headlabel4}"/>
 
 
             <StackLayout Orientation="Horizontal" Margin="20,30,20,0" HorizontalOptions="StartAndExpand">
-                 <Frame Style="{DynamicResource verifyF}">
+                <Frame Style="{DynamicResource verifyF}">
                     <local1:BorderlessEntry x:Name="CodeEntry1" Style="{DynamicResource verifyE}"  />
                 </Frame>
                 <Frame Style="{DynamicResource verifyF}">
@@ -35,24 +35,13 @@
                     <local1:BorderlessEntry x:Name="CodeEntry5" Style="{DynamicResource verifyE}"  />
                 </Frame>
                 <Frame Style="{DynamicResource verifyF}">
-                    <local1:BorderlessEntry x:Name="CodeEntry6" Style="{DynamicResource verifyE}"  /> 
+                    <local1:BorderlessEntry x:Name="CodeEntry6" Style="{DynamicResource verifyE}"  />
                 </Frame>
 
-
-            
-
             </StackLayout>
-
-            <Entry x:Name="txtName" Placeholder="Email" TextChanged="ValidateEmail"/>
-            <Entry x:Name="userEmailEntry" Placeholder="Email" />
-            <Button x:Name="requestcode" 
-                Text="check" Style="{DynamicResource entranceButtons}"
-                Clicked="requestcode_Clicked" Margin="20,40,20,0" />
-
-            <Entry Placeholder="code" x:Name="VerificationCodeEntry"/>
             <Button x:Name="verifybut" 
-                 Text="Verify the code" Style="{DynamicResource entranceButtons}"
-                 Clicked="verifybut_Clicked" Margin="20,40,20,0" />
+                 Text="Verify" Style="{DynamicResource entranceButtons}"
+                  Command="{Binding VerifyCodeCommand}" Margin="20,40,20,0" />
            
         </StackLayout>
     </ContentPage.Content>

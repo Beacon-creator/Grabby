@@ -24,12 +24,8 @@
     <ShellContent
   ContentTemplate="{DataTemplate local:SignUpPage}"
   Route="SignUpPage"/>
-    <ShellContent
- ContentTemplate="{DataTemplate local:CodeVerificationSignUpPage}"
- Route="CodeVerificationSignUpPage"/>
-    <ShellContent
-ContentTemplate="{DataTemplate local:CartPage}"
-Route="CartPage"/>
+    <ShellContent  ContentTemplate="{DataTemplate local:CodeVerificationSignUpPage}" Route="CodeVerificationSignUpPage" />
+    <ShellContent ContentTemplate="{DataTemplate local:CartPage}" Route="CartPage"/>
     <ShellContent
     ContentTemplate="{DataTemplate local:AccountPage}"
     Route="AccountPage"/>

@@ -808,10 +808,10 @@
     <AppxPackagedFile Include="C:\Users\user\OneDrive\Documents\MobileApps\Grabby_Two\bin\Deploy\net8.0-windows10.0.19041.0\win10-x64\Grabby_Two.deps.json">
       <PackagePath>Grabby_Two.deps.json</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\Microsoft.Windows.SDK.NET.dll">
       <PackagePath>Microsoft.Windows.SDK.NET.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.31\lib\net6.0\WinRT.Runtime.dll">
+    <AppxPackagedFile Include="C:\Users\user\.nuget\packages\microsoft.windows.sdk.net.ref\10.0.19041.34\lib\net6.0\WinRT.Runtime.dll">
       <PackagePath>WinRT.Runtime.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\user\.nuget\packages\communitytoolkit.maui\9.0.2\lib\net8.0-windows10.0.19041\CommunityToolkit.Maui.dll">

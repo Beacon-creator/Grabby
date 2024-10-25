@@ -1,25 +1,54 @@
-﻿using Grabby_Two.Model;
+﻿using System.Net.Http;
 using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Grabby_Two.Model;
+using Grabby_Two.Services;
 
-namespace Grabby_Two.Services
-{
-
-    //adding api, this is the action when method is called
-    public class LoginService : ILoginService
+public class LoginService : ILoginService
     {
-        public async Task<User> Login(string email, string password)
+    private readonly HttpClient _httpClient;
+
+    public LoginService(HttpClient httpClient)
         {
-            _ = new User();
-            var client = new HttpClient();
-            string url = "http://localhost:5240/api/User/" + email + "/" + password;
-            client.BaseAddress = new Uri(url);
-            HttpResponseMessage response = await client.GetAsync(client.BaseAddress);
-            if (response.IsSuccessStatusCode)
+        _httpClient = httpClient;
+
+        // Set base URL for your API if not already set
+        if (_httpClient.BaseAddress == null)
             {
-                User user = await response.Content.ReadFromJsonAsync<User>();
-                return await Task.FromResult(user!);
+            _httpClient.BaseAddress = new Uri("https://grabbyfanalapi.onrender.com/"); // Adjust base URL if necessary
             }
-            return null!;
+        }
+
+    public async Task<User?> Login(string email, string password)
+        {
+        var loginModel = new
+            {
+            Email = email,
+            Password = password
+            };
+
+        try
+            {
+            var response = await _httpClient.PostAsJsonAsync("api/login", loginModel);
+
+            if (response.IsSuccessStatusCode)
+                {
+                // Deserialize the response content into a User object
+                var user = await response.Content.ReadFromJsonAsync<User>();
+                return user;
+                }
+            else
+                {
+                // Handle login failure
+                var error = await response.Content.ReadAsStringAsync();
+                Console.WriteLine($"Login failed: {error}");
+                return null;
+                }
+            }
+        catch (HttpRequestException ex)
+            {
+            Console.WriteLine($"Request error: {ex.Message}");
+            return null;
+            }
         }
     }
-}
