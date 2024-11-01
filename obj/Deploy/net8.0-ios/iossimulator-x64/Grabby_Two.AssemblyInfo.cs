@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("copyright@2024")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("...up for grab")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+2dd905e8920c9ba2f82fe114589d44964b8271a3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+40b6078838fb3ba4f4c74ded4cddf6cb1f30475b")]
 [assembly: System.Reflection.AssemblyProductAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Grabby_Two")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

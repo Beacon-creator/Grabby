@@ -88,7 +88,7 @@ namespace Grabby_Two.ViewModel
                         Console.WriteLine($"Sign up succeeded. Verification code: {result.VerificationCode}");
 
                         // Optionally, navigate to another page for verification
-                        await Shell.Current.GoToAsync("///CodeVerificationSignUpPage");
+                        await Shell.Current.GoToAsync("///SignInPage");
                         }
                     else
                         {

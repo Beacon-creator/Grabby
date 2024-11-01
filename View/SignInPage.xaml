@@ -84,7 +84,7 @@
                          HorizontalOptions="End" Margin="0,12,0,0"
                         TextColor="{DynamicResource PrimaryBrandColor}" >
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_ForgotPassword"/>
+                            <TapGestureRecognizer Command="{Binding NavigateToForgotPasswordCommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
                 </Grid>
@@ -97,14 +97,15 @@
 
                 <Button x:Name="SignInBut" 
                       Text="Sign In" FontSize="Medium" Style="{DynamicResource entranceButtons}"
-                      Clicked="SignInBut_Clicked" Margin="0,10,0,10" />
+                       Command="{Binding SignInCommand}"  Margin="0,10,0,10" />
+                <ActivityIndicator IsRunning="{Binding IsBusy}" HeightRequest="30" WidthRequest="30" IsVisible="{Binding IsBusy}" />
 
                 <Button x:Name="googlebut" ImageSource="googleicon.png" 
                    Text="Continue with Google" Style="{DynamicResource HoverButtonStyle}"
-               Clicked="googlebut_Clicked" Margin="0,10,0,0" />
+              Command="{Binding SignInWithGoogleCommand}"  Margin="0,10,0,0" />
 
                 <Button x:Name="Facebooksignup" Style="{DynamicResource HoverButtonStyle}" 
-                      Clicked="Facebooksignup_Clicked" Text="Continue with Facebook" ImageSource="facebookicon.png" 
+                      Command="{Binding SignInWithFacebookCommand}" Text="Continue with Facebook" ImageSource="facebookicon.png" 
                 Margin="0,20,0,0" />
 
 
@@ -116,7 +117,7 @@
                     <Label Text="Create an Account" FontSize="16" Margin="0,5,0,0"
                       TextColor="{DynamicResource PrimaryBrandColor}" >
                         <Label.GestureRecognizers>
-                            <TapGestureRecognizer Tapped="TapGestureRecognizer_Signup"/>
+                            <TapGestureRecognizer Command="{Binding NavigateToSignUpCommand}"/>
                         </Label.GestureRecognizers>
                     </Label>
 
@@ -128,6 +129,3 @@
         </Grid>
     </ContentPage.Content>
 </ContentPage>
-
-
-<!--Command="{Binding SignInCommand}"-->

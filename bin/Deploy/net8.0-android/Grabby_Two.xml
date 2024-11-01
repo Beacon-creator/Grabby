@@ -4,7 +4,45 @@
         <name>Grabby_Two</name>
     </assembly>
     <members>
+        <member name="T:Grabby_Two.ViewModel.EmailVerificationPageVM">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.IsBusy">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.isBusy"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.Email">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.email"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntryOne">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntryOne"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntryTwo">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntryTwo"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntryThree">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntryThree"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntryFour">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntryFour"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntryFive">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntryFive"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.CodeEntrySix">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.EmailVerificationPageVM.codeEntrySix"/>
+        </member>
+        <member name="F:Grabby_Two.ViewModel.EmailVerificationPageVM.verifyCodeCommandCommand">
+            <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.EmailVerificationPageVM.VerifyCodeCommandCommand"/>.</summary>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.EmailVerificationPageVM.VerifyCodeCommandCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.EmailVerificationPageVM.VerifyCodeCommand"/>.</summary>
+        </member>
         <member name="T:Grabby_Two.ViewModel.SignInPageVM">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
         </member>
@@ -14,11 +52,41 @@
         <member name="P:Grabby_Two.ViewModel.SignInPageVM.Password">
             <inheritdoc cref="F:Grabby_Two.ViewModel.SignInPageVM.password"/>
         </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.IsBusy">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.SignInPageVM.isBusy"/>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.RememberMe">
+            <inheritdoc cref="F:Grabby_Two.ViewModel.SignInPageVM.rememberMe"/>
+        </member>
         <member name="F:Grabby_Two.ViewModel.SignInPageVM.signInCommand">
             <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.SignInPageVM.SignInCommand"/>.</summary>
         </member>
         <member name="P:Grabby_Two.ViewModel.SignInPageVM.SignInCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.SignInPageVM.SignInAsync"/>.</summary>
+        </member>
+        <member name="F:Grabby_Two.ViewModel.SignInPageVM.signInWithGoogleCommand">
+            <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.SignInPageVM.SignInWithGoogleCommand"/>.</summary>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.SignInWithGoogleCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.SignInPageVM.SignInWithGoogleAsync"/>.</summary>
+        </member>
+        <member name="F:Grabby_Two.ViewModel.SignInPageVM.signInWithFacebookCommand">
+            <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.SignInPageVM.SignInWithFacebookCommand"/>.</summary>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.SignInWithFacebookCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.SignInPageVM.SignInWithFacebookAsync"/>.</summary>
+        </member>
+        <member name="F:Grabby_Two.ViewModel.SignInPageVM.navigateToForgotPasswordCommand">
+            <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.SignInPageVM.NavigateToForgotPasswordCommand"/>.</summary>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.NavigateToForgotPasswordCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.SignInPageVM.NavigateToForgotPasswordAsync"/>.</summary>
+        </member>
+        <member name="F:Grabby_Two.ViewModel.SignInPageVM.navigateToSignUpCommand">
+            <summary>The backing field for <see cref="P:Grabby_Two.ViewModel.SignInPageVM.NavigateToSignUpCommand"/>.</summary>
+        </member>
+        <member name="P:Grabby_Two.ViewModel.SignInPageVM.NavigateToSignUpCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby_Two.ViewModel.SignInPageVM.NavigateToSignUpAsync"/>.</summary>
         </member>
         <member name="T:Grabby_Two.ViewModel.SignUpPageViewModel">
             <inheritdoc/>
@@ -98,35 +166,6 @@
             <summary>Executes the logic for when <see cref="P:Grabby_Two.ViewModels.StartPagesViewModel.CurrentCarouselIndex"/> just changed.</summary>
             <param name="value">The new property value that was set.</param>
             <remarks>This method is invoked right after the value of <see cref="P:Grabby_Two.ViewModels.StartPagesViewModel.CurrentCarouselIndex"/> is changed.</remarks>
-        </member>
-        <member name="T:Grabby.ViewModel.CodeVerificationSignUpPageVM">
-            <inheritdoc/>
-            <inheritdoc/>
-            <inheritdoc/>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.IsBusy">
-            <inheritdoc cref="F:Grabby.ViewModel.CodeVerificationSignUpPageVM.isBusy"/>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.Email">
-            <inheritdoc cref="F:Grabby.ViewModel.CodeVerificationSignUpPageVM._email"/>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.VerificationCode">
-            <inheritdoc cref="F:Grabby.ViewModel.CodeVerificationSignUpPageVM._verificationCode"/>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.IsEmailValid">
-            <inheritdoc cref="F:Grabby.ViewModel.CodeVerificationSignUpPageVM._isEmailValid"/>
-        </member>
-        <member name="F:Grabby.ViewModel.CodeVerificationSignUpPageVM.validateEmailCommand">
-            <summary>The backing field for <see cref="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.ValidateEmailCommand"/>.</summary>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.ValidateEmailCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Grabby.ViewModel.CodeVerificationSignUpPageVM.ValidateEmail(System.String)"/>.</summary>
-        </member>
-        <member name="F:Grabby.ViewModel.CodeVerificationSignUpPageVM.verifyCodeCommand">
-            <summary>The backing field for <see cref="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.VerifyCodeCommand"/>.</summary>
-        </member>
-        <member name="P:Grabby.ViewModel.CodeVerificationSignUpPageVM.VerifyCodeCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Grabby.ViewModel.CodeVerificationSignUpPageVM.VerifyCode"/>.</summary>
         </member>
         <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing,System.Threading.CancellationToken)">
             <summary>
@@ -260,20 +299,38 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.VerificationCode">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "VerificationCode" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntryOne">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntryOne" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmailValid">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmailValid" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntryTwo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntryTwo" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntryThree">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntryThree" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntryFour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntryFour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntryFive">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntryFive" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CodeEntrySix">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CodeEntrySix" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.RememberMe">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "RememberMe" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Fullname">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Fullname" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TermsAccepted">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TermsAccepted" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsEmailValid">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsEmailValid" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.IsPasswordValid">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "IsPasswordValid" generated properties.</summary>
@@ -302,20 +359,38 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.VerificationCode">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "VerificationCode" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntryOne">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntryOne" generated properties.</summary>
         </member>
-        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmailValid">
-            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmailValid" generated properties.</summary>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntryTwo">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntryTwo" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntryThree">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntryThree" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntryFour">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntryFour" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntryFive">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntryFive" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CodeEntrySix">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CodeEntrySix" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.RememberMe">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "RememberMe" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Fullname">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Fullname" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TermsAccepted">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TermsAccepted" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsEmailValid">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsEmailValid" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.IsPasswordValid">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "IsPasswordValid" generated properties.</summary>

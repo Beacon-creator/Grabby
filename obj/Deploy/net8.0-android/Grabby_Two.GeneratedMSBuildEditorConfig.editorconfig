@@ -3,6 +3,7 @@ build_property.EnableAotAnalyzer =
 build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
+build_property.MvvmToolkitEnableINotifyPropertyChangingSupport = true
 build_property.TargetFramework = net8.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -142,11 +143,11 @@ build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.CartPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\CartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CartPage.xaml
 
-[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/CodeVerificationSignUpPage.xaml]
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/EmailVerificationPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.CodeVerificationSignUpPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\CodeVerificationSignUpPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\CodeVerificationSignUpPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.EmailVerificationPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EmailVerificationPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EmailVerificationPage.xaml
 
 [C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/HomeScreen.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -172,17 +173,17 @@ build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.StartPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\StartPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\StartPage.xaml
 
-[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/AccountPage.xaml]
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/AccountPageMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.TabbedPages.AccountPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\AccountPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\AccountPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.TabbedPages.AccountPageMain.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\AccountPageMain.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\AccountPageMain.xaml
 
-[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/CartPage.xaml]
+[C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/CartPageMain.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.TabbedPages.CartPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\CartPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\CartPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = Grabby.View.TabbedPages.CartPageMain.xaml
+build_metadata.AdditionalFiles.TargetPath = View\TabbedPages\CartPageMain.xaml
+build_metadata.AdditionalFiles.RelativePath = View\TabbedPages\CartPageMain.xaml
 
 [C:/Users/user/OneDrive/Documents/MobileApps/Grabby_Two/View/TabbedPages/HomeCrew/FashionPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

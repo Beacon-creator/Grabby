@@ -1,80 +1,140 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Net.Http.Json;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Grabby_Two.Model;
 using Grabby_Two.Services;
-using Grabby_Two.View.TabbedPages;
-using Newtonsoft.Json;
-using Microsoft.Maui.Controls;
-using Microsoft.Maui.Networking;
+
 
 namespace Grabby_Two.ViewModel
     {
     public partial class SignInPageVM : ObservableObject
         {
-        private readonly ILoginService loginService; // Inject the login service
-        private readonly IConnectivity connectivity; // Inject the connectivity service
+        private readonly HttpClient _httpClient;
+        private readonly IAlertService _alertService;
+        
 
-        // Constructor where services like loginService and connectivity are injected
-        public SignInPageVM(ILoginService loginService, IConnectivity connectivity)
+
+        [ObservableProperty]
+        private string email;
+
+        [ObservableProperty]
+        private string password;
+
+        [ObservableProperty]
+        private bool isBusy;
+
+        [ObservableProperty]
+        private bool rememberMe;
+
+        public SignInPageVM(HttpClient httpClient, IAlertService alertService)
             {
-            this.loginService = loginService;
-            this.connectivity = connectivity;
+            _httpClient = httpClient ?? new HttpClient();
+            _alertService = alertService;
+            _httpClient.BaseAddress = new Uri("https://grabbyfanalapi.onrender.com/");
             }
 
-        [ObservableProperty]
-        private string? email;
-
-        [ObservableProperty]
-        private string? password;
-
         [RelayCommand]
-        public async Task SignInAsync()
+        private async Task SignInAsync()
             {
+            if (string.IsNullOrEmpty(Email) || string.IsNullOrEmpty(Password))
+                {
+                await _alertService.ShowAlertAsync("Error", "Please enter both email and password.", "OK");
+                return;
+                }
+
+            IsBusy = true;
+
             try
                 {
-                // Check for internet connection first
-                if (connectivity.NetworkAccess != NetworkAccess.Internet)
+                var loginData = new { email = Email, password = Password };
+                var response = await _httpClient.PostAsJsonAsync("api/login", loginData);
+
+                if (response.IsSuccessStatusCode)
                     {
-                    await Shell.Current.DisplayAlert("Error", "No Internet Access", "Ok");
-                    return;
-                    }
+                    var jsonResponse = await response.Content.ReadAsStringAsync();
+                    var tokenObject = JsonSerializer.Deserialize<TokenResponse>(jsonResponse);
 
-                // Ensure both fields are filled
-                if (string.IsNullOrWhiteSpace(Email) || string.IsNullOrWhiteSpace(Password))
+                    if (tokenObject != null && !string.IsNullOrEmpty(tokenObject.Token))
+                        {
+                        var token = tokenObject.Token;
+
+                        // Save the token securely
+                        await SecureStorage.SetAsync("auth_token", token);
+
+                        // Extract email from token using JwtService
+                        var email = JwtService.GetEmailFromToken(token);
+
+                        if (email != null)
+                            {
+                            await _alertService.ShowAlertAsync("Login Successful", "You have successfully signed in.", "OK");
+
+                            // Navigate to the home screen
+                            var appShell = (AppShell)Application.Current.MainPage;
+                            await appShell.NavigateToHomeScreen(email);
+                            }
+                        else
+                            {
+                            await _alertService.ShowAlertAsync("Login Failed", "Email not found in token.", "OK");
+                            }
+                        }
+                    else
+                        {
+                        await _alertService.ShowAlertAsync("Login Failed", "Invalid token received.", "OK");
+                        }
+                    }
+                else
                     {
-                    await Shell.Current.DisplayAlert("Error", "All fields are required", "Ok");
-                    return;
+                    var errorContent = await response.Content.ReadAsStringAsync();
+                    await _alertService.ShowAlertAsync("Login Failed", "Invalid credentials, please try again.", "OK");
+                    System.Diagnostics.Debug.WriteLine($"Error Response: {errorContent}");
                     }
-
-                // Call the login service to authenticate
-                User user = await loginService.Login(Email, Password);
-
-                if (user == null)
-                    {
-                    await Shell.Current.DisplayAlert("Error", "Username/Password is incorrect", "Ok");
-                    return;
-                    }
-
-                // Save user details to preferences
-                if (Preferences.ContainsKey(nameof(App.user)))
-                    {
-                    Preferences.Remove(nameof(App.user)); // Clear existing user if needed
-                    }
-
-                // Serialize and store user details
-                string userDetails = JsonConvert.SerializeObject(user);
-                Preferences.Set(nameof(App.user), userDetails);
-                App.user = user;
-
-                // Navigate to the HomePage
-                await Shell.Current.GoToAsync(nameof(HomePage));
+                }
+            catch (HttpRequestException)
+                {
+                await _alertService.ShowAlertAsync("Login Failed", "A connection error occurred", "OK");
                 }
             catch (Exception ex)
                 {
-                await Shell.Current.DisplayAlert("Error", ex.Message, "Ok");
+                System.Diagnostics.Debug.WriteLine($"Error: {ex}");
+                await _alertService.ShowAlertAsync("Login Failed", "An unexpected error occurred, please try again.", "OK");
                 }
+            finally
+                {
+                IsBusy = false;
+                }
+            }
+
+
+        [RelayCommand]
+        private async Task SignInWithGoogleAsync()
+            {
+            await _alertService.ShowAlertAsync("Google Sign-In", "Google Sign-In not implemented yet.", "OK");
+            }
+
+        [RelayCommand]
+        private async Task SignInWithFacebookAsync()
+            {
+            await _alertService.ShowAlertAsync("Facebook Sign-In", "Facebook Sign-In not implemented yet.", "OK");
+            }
+
+        [RelayCommand]
+        private async Task NavigateToForgotPasswordAsync()
+            {
+            await Shell.Current.GoToAsync("//ForgotPasswordPage");
+            }
+
+        [RelayCommand]
+        private async Task NavigateToSignUpAsync()
+            {
+            await Shell.Current.GoToAsync("//SignUpPage");
+            }
+
+        private class TokenResponse
+            {
+            [JsonPropertyName("token")]
+            public string? Token { get; set; }
             }
         }
     }

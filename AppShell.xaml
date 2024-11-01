@@ -14,37 +14,20 @@
     Shell.TabBarIsVisible="False"
     Title="Grabby_Two">
 
-
-    <ShellContent
-        ContentTemplate="{DataTemplate local:StartPage}"
-        Route="StartPage"/>
-    <ShellContent
-    ContentTemplate="{DataTemplate local:SignInPage}"
-    Route="SignInPage"/>
-    <ShellContent
-  ContentTemplate="{DataTemplate local:SignUpPage}"
-  Route="SignUpPage"/>
-    <ShellContent  ContentTemplate="{DataTemplate local:CodeVerificationSignUpPage}" Route="CodeVerificationSignUpPage" />
+  
+    <ShellContent ContentTemplate="{DataTemplate local:StartPage}" Route="StartPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local:SignInPage}" Route="SignInPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local:SignUpPage}" Route="SignUpPage"/>
+    <ShellContent  ContentTemplate="{DataTemplate local:EmailVerificationPage}" Route="EmailVerificationPage" />
+    
     <ShellContent ContentTemplate="{DataTemplate local:CartPage}" Route="CartPage"/>
-    <ShellContent
-    ContentTemplate="{DataTemplate local:AccountPage}"
-    Route="AccountPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local:AccountPage}"  Route="AccountPage"/>
 
-    <ShellContent
-    ContentTemplate="{DataTemplate local:HomeScreen}"
-    Route="HomeScreen"/>
-    <ShellContent
-  ContentTemplate="{DataTemplate local1:SearchPage}"
-  Route="SearchPage"/>
-    <ShellContent
- ContentTemplate="{DataTemplate local1:HomePage}"
- Route="HomePage"/>
-    <ShellContent
-ContentTemplate="{DataTemplate local1:AccountPage}"
-Route="ForgotPasswordVerificationPage"/>
-    <ShellContent
-    ContentTemplate="{DataTemplate local1:CartPage}"        
-    Route="CartPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local:HomeScreen}" Route="HomeScreen"/>
+    <ShellContent ContentTemplate="{DataTemplate local1:SearchPage}" Route="SearchPage"/>
+    <ShellContent ContentTemplate="{DataTemplate local1:HomePage}" Route="HomePage"/>
+    <ShellContent ContentTemplate="{DataTemplate local1:AccountPageMain}" Route="AccountPageMain"/>
+    <ShellContent ContentTemplate="{DataTemplate local1:CartPageMain}" Route="CartPageMain"/>
 
     <ShellContent
         ContentTemplate="{DataTemplate local2:FashionPage}"
@@ -58,5 +41,33 @@ Route="ForgotPasswordVerificationPage"/>
     <ShellContent
  ContentTemplate="{DataTemplate local3:ProductDetails1}"
  Route="ProductDetails1"/>
+
+
+    <!-- Define your TabBar -->
+
+    <TabBar  x:Name="MainTabBar" IsVisible="False">
+        <!-- Define each Tab with its respective ContentPage -->
+        <Tab  Icon="chain.svg">
+            <ShellContent  Shell.NavBarIsVisible="False" Route="HomePage" ContentTemplate="{DataTemplate local1:HomePage}" />
+        </Tab>
+        <Tab  Icon="home.svg">
+            <ShellContent Shell.NavBarIsVisible="False" Route="SeachPage" ContentTemplate="{DataTemplate local1:SearchPage}" />
+        </Tab>
+        <Tab  Icon="receipt.svg">
+            <ShellContent  Shell.NavBarIsVisible="False" Route="CartPageMain" ContentTemplate="{DataTemplate local1:CartPageMain}" />
+        </Tab>
+        <Tab Icon="seo_and_web.svg">
+            <ShellContent  Shell.NavBarIsVisible="False" Route="AccountPageMain" ContentTemplate="{DataTemplate local1:AccountPageMain}" />
+        </Tab>
+    </TabBar>
+
+
+    <!-- Define the login route as a global route -->
+    <ShellContent 
+      Route="LoginPage" ContentTemplate="{DataTemplate local:SignInPage}" />
+
+    <ShellContent 
+  Route="LogupPage" ContentTemplate="{DataTemplate local:SignUpPage}" />
+
 
 </Shell>

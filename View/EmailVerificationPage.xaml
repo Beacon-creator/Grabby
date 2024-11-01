@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+               xmlns:vm="clr-namespace:Grabby_Two.ViewModels"
+               xmlns:local1="clr-namespace:Grabby_Two.Custom_Render"
+             x:Class="Grabby_Two.View.EmailVerificationPage"
+             
+             Title="EmailVerificationPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <ImageButton Margin="20,40,0,0" BackgroundColor="{DynamicResource MastersBackgroundColor}"
+                   Source="backarrowicon"/>
+
+                <Label Text="Verification" Margin="0,40,30,0"
+                      Style="{DynamicResource headlabel3}"/>
+            </StackLayout>
+
+            <Label Text="Enter the 6-digit activation code sent to your mail" Margin="20,40,30,0"
+                  Style="{DynamicResource headlabel4}"/>
+
+
+            <StackLayout Orientation="Horizontal" Margin="20,20" Spacing="10" HorizontalOptions="CenterAndExpand">
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntryOne"  Text="{Binding CodeEntryOne}" Style="{DynamicResource verifyE}">
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior NextEntry="{x:Reference CodeEntryTwo}" />
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntryTwo" Text="{Binding CodeEntryTwo}"  Style="{DynamicResource verifyE}">
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior NextEntry="{x:Reference CodeEntryThree}" PreviousEntry="{x:Reference CodeEntryOne}"/>
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntryThree" Text="{Binding CodeEntryThree}"  Style="{DynamicResource verifyE}" >
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior NextEntry="{x:Reference CodeEntryFour}" PreviousEntry="{x:Reference CodeEntryTwo}" />
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntryFour" Text="{Binding CodeEntryFour}"  Style="{DynamicResource verifyE}" >
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior NextEntry="{x:Reference CodeEntryFive}" PreviousEntry="{x:Reference CodeEntryThree}"/>
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntryFive" Text="{Binding CodeEntryFive}"  Style="{DynamicResource verifyE}" >
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior NextEntry="{x:Reference CodeEntrySix}" PreviousEntry="{x:Reference CodeEntryFour}"/>
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+                <Frame Style="{DynamicResource verifyF}">
+                    <local1:BorderlessEntry x:Name="CodeEntrySix" Text="{Binding CodeEntrySix}"  Style="{DynamicResource verifyE}" >
+                        <local1:BorderlessEntry.Behaviors>
+                            <local1:AutoFocusBehavior PreviousEntry="{x:Reference CodeEntryFive}" />
+                        </local1:BorderlessEntry.Behaviors>
+                    </local1:BorderlessEntry>
+                </Frame>
+
+            </StackLayout>
+            <Button x:Name="verifybutton" 
+        Text="Verify" 
+        Command="{Binding TestCommand}" 
+        Margin="20,40,20,0" />
+
+            <Button x:Name="verifybut" Text="Verify" Style="{DynamicResource entranceButtons}" Command="{Binding VerifyCodeCommand}" Margin="20,40,20,0" />
+            <ActivityIndicator IsRunning="{Binding IsBusy}" HeightRequest="30" WidthRequest="30" IsVisible="{Binding IsBusy}" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

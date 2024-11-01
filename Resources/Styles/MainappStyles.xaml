@@ -154,15 +154,21 @@
 
 
     <Style x:Key="verifyE" TargetType="{x:Type Entry}">
-        <Setter Property="FontSize" Value="12"/>
-        <Setter Property="HorizontalTextAlignment" Value="Start"/>
-        <Setter Property="VerticalTextAlignment" Value="Start"/>
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="HorizontalTextAlignment" Value="Center"/>
         <Setter Property="Keyboard" Value="Numeric"/>
         <Setter Property="MaxLength" Value="1"/>
-        <Setter Property="WidthRequest" Value="30"/>
-        <Setter Property="HeightRequest" Value="25"/>
+        <Setter Property="WidthRequest" Value="40"/>
+        <Setter Property="HeightRequest" Value="40"/>
     </Style>
 
+    <Style x:Key="Borderlessentry" TargetType="{x:Type Entry}">
+        <Setter Property="TextColor" Value="{DynamicResource PrimaryTextColor}"/>
+        <Setter Property="FontSize" Value="Medium"/>
+        <Setter Property="PlaceholderColor" Value="{DynamicResource PrimaryTextColor}"/>
+
+
+    </Style>
 
     <!--end entry-->
     
@@ -285,14 +291,15 @@
     <!--end image-->
 
     <Style x:Key="verifyF" TargetType="{x:Type Frame}">
-        <Setter Property="WidthRequest" Value="30"/>
-        <Setter Property="HeightRequest" Value="40"/>
-        <Setter Property="CornerRadius" Value="2"/>
+        <Setter Property="CornerRadius" Value="0"/>
+        <Setter Property="WidthRequest" Value="50"/>
+        <Setter Property="HeightRequest" Value="50"/>
         <Setter Property="BorderColor" Value="{DynamicResource PrimaryBackgroundColor}"/>
     </Style>
 
 
-<!-- imagebutton -->
+
+    <!-- imagebutton -->
 
     <Style x:Key="headbutton" TargetType="{x:Type ImageButton}">
         <Setter Property="WidthRequest" Value="25"/>

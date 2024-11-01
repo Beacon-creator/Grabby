@@ -14,7 +14,7 @@
     <TabbedPage.Children>
         <local:HomePage IconImageSource="home.svg" Title="Home" />
         <local:SearchPage IconImageSource="search.svg" Title="Search" />
-        <local:CartPage IconImageSource="cart.svg" Title="Cart" />
-        <local:AccountPage IconImageSource="account.svg" Title="Account" />
+        <local:CartPageMain IconImageSource="cart.svg" Title="Cart" />
+        <local:AccountPageMain IconImageSource="account.svg" Title="Account" />
     </TabbedPage.Children>
 </TabbedPage>

@@ -1,15 +1,13 @@
 ﻿using Microsoft.IdentityModel.Tokens;
-using System;
 using System.IdentityModel.Tokens.Jwt;
-using System.Linq;
-using System.Security.Claims;
 
 
-namespace Grabby_Two.Model
+
+namespace Grabby_Two.Services
 {
     public class JwtService
         {
-        public string? GetEmailFromToken(string token)
+        public static string? GetEmailFromToken(string token)
             {
             try
                 {

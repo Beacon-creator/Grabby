@@ -200,20 +200,22 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="CommunityToolkit.Maui" Version="9.0.2" />
-		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.2.2" />
-		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
-		<PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.0.1" />
-		<PackageReference Include="Microsoft.IdentityModel.Logging" Version="8.0.1" />
-		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.0.1" />
-		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.71" />
-		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.71" />
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="CommunityToolkit.Maui" Version="9.1.0" />
+		<PackageReference Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+		<PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="6.0.0" />
+		<PackageReference Include="Microsoft.Extensions.Http" Version="8.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.1" />
+		<PackageReference Include="Microsoft.IdentityModel.JsonWebTokens" Version="8.1.2" />
+		<PackageReference Include="Microsoft.IdentityModel.Logging" Version="8.1.2" />
+		<PackageReference Include="Microsoft.IdentityModel.Tokens" Version="8.1.2" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.92" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.92" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.1" />
 		<PackageReference Include="Microsoft.NETCore.Platforms" Version="7.0.4" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="SQLite" Version="3.13.0" />
 		<PackageReference Include="sqlite-net-pcl" Version="1.9.172" />
-		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.0.1" />
+		<PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.1.2" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -265,7 +267,7 @@
 	  <MauiXaml Update="View\CartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\CodeVerificationSignUpPage.xaml">
+	  <MauiXaml Update="View\EmailVerificationPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\HomeScreen.xaml">
@@ -280,10 +282,10 @@
 	  <MauiXaml Update="View\StartPage.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\TabbedPages\AccountPage.xaml">
+	  <MauiXaml Update="View\TabbedPages\AccountPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
-	  <MauiXaml Update="View\TabbedPages\CartPage.xaml">
+	  <MauiXaml Update="View\TabbedPages\CartPageMain.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\TabbedPages\HomeCrew\FashionPage.xaml">
@@ -308,6 +310,15 @@
 
 	<ItemGroup>
 	  <Folder Include="Platforms\Android\Handlers\" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <Compile Update="View\TabbedPages\AccountPageMain.xaml.cs">
+	    <DependentUpon>AccountPageMain.xaml</DependentUpon>
+	  </Compile>
+	  <Compile Update="View\TabbedPages\CartPageMain.xaml.cs">
+	    <DependentUpon>CartPageMain.xaml</DependentUpon>
+	  </Compile>
 	</ItemGroup>
 
 	<ProjectExtensions><VisualStudio><UserProperties XamarinHotReloadDebuggerTimeoutExceptionGrabby_TwoHideInfoBar="True" XamarinHotReloadGenericExceptionInfoBarGrabby_TwoHideInfoBar="True" /></VisualStudio></ProjectExtensions>

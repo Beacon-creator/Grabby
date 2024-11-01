@@ -37,7 +37,7 @@ namespace Grabby_Two
             builder.Services.AddSingleton<SignInPage>();
             builder.Services.AddSingleton<SignUpPage>();
             builder.Services.AddSingleton<HomeScreen>();
-            builder.Services.AddSingleton<CodeVerificationSignUpPage>();
+            builder.Services.AddSingleton<EmailVerificationPage>();
             builder.Services.AddSingleton<SearchPage>();
             builder.Services.AddSingleton<HomePage>();
             builder.Services.AddSingleton<FashionPage>();
@@ -95,7 +95,7 @@ namespace Grabby_Two
             var app = builder.Build();
             ServiceProviderHelper.ServiceProvider = app.Services;
 
-            return builder.Build();
+            return app;
         }
     }
 }
